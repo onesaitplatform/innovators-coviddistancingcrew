@@ -1,0 +1,1 @@
+{"title":"CDC_DigitalTwinType","links":{"actions":"thing/CDC_DigitalTwinType/actions","events":"thing/CDC_DigitalTwinType/events"},"description":"Digital Twin para gestionar las alarmas","actions":{"alert":{"description":"Alert Notification"}},"events":{"ping":{"description":"Ping"},"register":{"description":"Register"}}}
