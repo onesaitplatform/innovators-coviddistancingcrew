@@ -1,2 +1,91 @@
 # innovators-coviddistancingcrew
 Control de distanciamiento social en estaciones de Metro
+
+# 1	Contexto
+En este documento se va a definir el funcional de la idea “Control distanciamiento social en estaciones de Metro” para la iniciativa de Innovators realizada sobre la Onesait Platform.
+Para esta demo vamos a centrarnos en el Metro de la ciudad de Madrid.
+También se identificarán los elementos desarrollados sobre la Onesait Platform.
+# 2 Definición de pantallas
+A continuación, se van a describir las diferentes pantallas que formarán la aplicación.
+## 2.1	Pantalla principal
+2.1.1	Visor GIS
+Aparecerá un visor GIS centrado en la ciudad de Madrid, en el cual aparecerán representados los siguientes elementos:
+Estaciones de Metro: al pinchar sobre cada estación aparecerá la siguiente información
+  *	ID 
+  *	Nombre 
+  *	Líneas de Metro que pasan por dicha estación.
+  *	Botón para ir al detalle de la estación
+Ascensores: al pinchar sobre cada ascensor aparecerá la siguiente información:
+  *	ID
+  *	Nombre de la estación
+  *	Lineas de Metro que pasan por la estación en la que se encuentra el ascensor
+  *	Andenes de cada estación
+Trenes: se representarán los trenes en tiempo real.
+Los elementos del mapa seguirán un código de colores para que de un solo vistazo se puedan identificar los elementos con alertas o avisos.
+*	Rojo: el elemento tiene al menos una alerta activa
+*	Amarillo: el elemento tiene al menos un aviso activo
+*	Verde: el elemento no tiene ni avisos ni alertas
+### 2.1.2	Indicadores
+A continuación, se definen los indicadores que se mostrarán en el dashboard principal:
+*	Número de estaciones controladas
+*	Número de avisos
+*	Número de alertas
+*	Número de viajeros
+Todos los indicadores tendrán un filtro de tiempo, para poder visualizar los datos de:
+*	En tiempo real
+*	Últimas 6 horas
+*	Últimas 12 horas
+*	Últimas 24 horas
+*	Última semana
+### 2.1.3	Interacción entre elementos
+Nada más entrar en la pantalla principal aparecerán todos los datos de manera general, es decir, de todas las estaciones de la ciudad.
+Cuando se seleccione una estación en el visor GIS:
+*	Se filtrarán los indicadores para mostrar sólo los datos de la estación seleccionada.
+*	Aparecerá un botón para poder acceder al detalle de la estación seleccionada, lo que nos redirigirá a la pantalla detalle.
+## 2.2	Pantalla detalle
+A esta pantalla se podrá acceder tanto desde el menú de la aplicación cómo desde el botón de detalle de cada estación.
+### 2.2.1	Interacción ente elementos
+Aparecerá el mapa de la estación seleccionada y sobre el mapa se representarán los siguientes elementos:
+*	Cámaras de seguridad: seleccionando una cámara de seguridad aparecerán las imágenes de dicha cámara y mediante un algoritmo de reconocimiento de imágenes aparecerán marcadas las personas que no estén guardando la distancia de seguridad o que no llevén mascarilla.
+*	Tornos: seleccionando un torno se podrá activar o desactivar, a través de un botón, dicho torno para poder controlar el aforo de la estación.
+Aparecerán los indicadores definidos en la pantalla principal pero filtrados para la estación seleccionada. Además, aparecerá un listado de alertas y avisos de la estación.
+Las alertas seguirán el mismo código de colores que el visor GIS de la pantalla principal y podrá haber los siguientes tipos de alertas:
+*	Distanciamiento social: Cuando no se respeta el distanciamiento social entre los usuarios del metro.
+*	Ausencia de mascarilla: cuando un usuario no lleva mascarilla
+*	Vigilancia de tornos: cuando un usuario se salta un torno, ya sea porque está bloqueado para controlar el aforo o para no pagar el billete.
+*	Aforo: cuando se sobrepase el aforo permitido para poder respetar la distancia de seguridad.
+## 2.3	Pantalla control de megafonía
+Sobre el visor GIS se podrán seleccionar una o varias estaciones y a continuación se elegirá qué tipo de mensaje se quiere reproducir:
+*	Audio en vivo: se podrá reproducir un mensaje en tiempo real en las estaciones seleccionadas
+*	Mensaje pregrabado: se seleccionará de una lista el audio pregrabado que se quiere reproducir.
+# 3	Elementos desarrollados sobre Onesait Platform
+En este apartado se van a identificar todos los elementos desarrollados sobre la Onesait Platform, así como el análisis del código externo proporcionado en Github.
+Los elementos se han creado en el entorno CloudLab ( https://lab.onesaitplatform.com/controlpanel ) con el usuario coviddistancingcrew/Innovators2020!
+## 3.1	Ontologías
+Se han creado las siguientes ontologías:
+*	CDC_alarm: en esta ontología se almacenan las alarmas
+*	CDC_Metro_Elevators: en esta ontología se almacena la información de georreferenciación de los ascensores de cada estación de Metro.
+*	CDC_Metro_Platforms: dónde se almacena la información de georreferenciación de los andenes de cada estación de Metro.
+*	CDC_Metro_Stations: dónde se almacena la información de las estaciones de Metro.
+## 3.2	Datasources
+Se han creado los siguiente datasources que luego serán utilizados en los dashboards:
+*	CDC_Alarms: obtiene todas las alarmas (severity=HIGH) y que estén abiertas.
+*	CDC_Alarms_Table: obtiene todas las alarmas para la representación en formato tabla.
+*	CDC_Avisos: obtiene todas las alarmas (severity=MEDIUM) y que estén abiertas.
+*	CDC_Stations: obtiene el número de estaciones de Metro.
+## 3.3	Dashboard
+Se ha creado el dashboard CDC_Main dónde se representa el Visor GIS con el estado de cada estación de Metro, así como el listado de marcadores y la tabla de alertas.
+## 3.4	Proyecto Web
+Este proyecto se despliega en la Onesait Platform como Proyecto Web. Podemos distinguir 3 partes en la parte de frontend: Plantillas HTML, Mapas GIS (cesiumMap) y sección de librerías javascript y de estilo CSS de la aplicación (assets).
+### 3.4.1	Plantillas HTML
+Las plantillas que usamos en el proyecto, son Index y login, ambas plantillas configurables para que se ajusten en todo momento a las necesidades del proyecto. La plantilla login (login.html) se usa para hacer el login de usuarios contra la aplicación realizando un proceso de autenticación para el acceso a la plantilla Index.
+La plantilla Index (index.html), es el Home web del proyecto, desde allí, con una visualización y un sistema de menús configurable (que veremos luego más detalladamente en la sección de librerías de frontend de la aplicación) se puede acceder a todos los elementos de gestión del frontend.
+Cada una de estas pantallas o visualizaciones están encapsuladas en dashboards, estos dashboards, son elementos de visualización dinámicos compuestos de gadgets/widgets que interactúan entre sí y cargan datos de forma óptima.
+### 3.4.2	Librerías JavaScript y CSS
+En el proyecto además de las librerías de estilos básicas y de las librerías de JavaScript básicas que se usan en los dashboards para sus gadgets genéricos, es necesario para algunas de las funcionalidades desarrolladas una serie de librerías open-source adicionales, a continuación, se describen todas ellas.
+Las vamos a dividir en archivos de aplicación “app” y archivos de terceros, “vendors” que son plugins o librerías open-source que se utilizan para generar gadgets livehtml o funcionalidades específicas en algunos de ellos.
+Vemos a continuación la estructura y contenido de las carpetas:
+
+
+## 3.5	Simulador 
+Se ha creado un proyecto maven para simular los datos de las alertas y el visor GIS, para ello se ha utilizado la librería iotclient4springboot proporcionada por Onesait Platform para poder interactuar con las Ontologías desde el propio proyecto.

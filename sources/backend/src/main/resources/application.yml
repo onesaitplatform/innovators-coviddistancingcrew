@@ -1,0 +1,35 @@
+server:
+   port: 10000
+   contextPath: /cdc
+   ip: localhost
+
+spring:
+   application.name: CDC_DigitalTwin
+
+api.key: 236521e8791b4a02836d32834a746abe
+
+device:
+   id: CDC_DigitalTwin
+   rest:
+     local:
+        schema: http
+        network:
+           interface: 
+           ipv6: false
+     basepath: /cdc
+   register.fail.retry.seconds: 60
+   ping.interval.seconds: 10
+   logic.main.loop.delay.seconds: 5
+
+onesaitplatform:
+   basePath: https://lab.onesaitplatform.com/controlpanel
+   iotclient:
+    urlRestIoTBroker: https://lab.onesaitplatform.com/iot-broker
+    sslverify: true
+    token: d4e36d8655a34488a05bc19e23c0bc7d
+    deviceTemplate: CDCIotClient
+    device: CDCIotClient
+    connectTimeoutInSec: 60
+    writeTimeoutInSec: 30
+    readTimeoutInSec: 60
+   digitaltwin.broker.rest: https://lab.onesaitplatform.com/digitaltwinbroker

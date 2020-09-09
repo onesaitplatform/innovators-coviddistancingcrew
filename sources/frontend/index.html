@@ -1,0 +1,2110 @@
+<!DOCTYPE html>
+<html lang="en" >
+    <!-- begin::Head -->
+    <head>
+        <meta charset="utf-8" />
+        
+        <title>FRONTEND</title>
+        <meta name="description" content="FRONTEND DESCRIPTION"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
+				
+		<!-- FRONTEND STYLES -->
+        <link href="assets/app/css/style.bundle.css" rel="stylesheet" type="text/css" />
+		<link href="assets/vendors/base/vendors.bundle.css" rel="stylesheet" type="text/css" />		
+		<link href="assets/vendors/base/soho.css" rel="stylesheet" type="text/css" />
+		<link href="assets/app/css/jquery-confirm.min.css" rel="stylesheet" type="text/css"/>		
+		<link href="assets/app/css/style.override.css" rel="stylesheet" type="text/css" />
+		<link href="assets/vendors/x-editable/bootstrap-editable.css" rel="stylesheet"/>
+
+		
+		<!-- OPTIONAL PLUGIN STYLES -->
+		<!-- <link href="assets/vendors/datatables/datatables.bundle.css" rel="stylesheet" type="text/css" /> -->
+	</head>
+    <!-- end::Head -->
+	
+    
+    <!-- begin::Body -->
+	<body class="m-page--fluid m--skin- m-content--skin-light m-header--fixed m-header--fixed-mobile m-aside-left--enabled m-aside-left--skin-light m-aside-left--fixed m-aside-left--offcanvas m-footer--sticky m-aside--offcanvas-default m-brand--minimize m-aside-left--minimize">
+		
+	<!-- begin::Loading -->
+	<div class="loading">
+		<img id="app-loading" alt="" src="assets/app/media/img/bg/app-loading-metro.png" style="position: absolute;top: 85px;left: 50%;height: 15%;">
+	</div>	
+    <!-- end::Loading -->
+		
+	<!-- CARD SYSTEM: 00 SPLASH CARD -->
+	<!-- CARD SYSTEM: 01 LOGIN CARD	-->
+	<!-- CARD SYSTEM: 02 INDEX CONTENT CARD	-->
+    
+	<!-- begin::Page -->
+	<div class="m-grid m-grid--hor m-grid--root m-page">
+    
+		<!-- begin::Header -->
+		<header id="m_header" class="m-grid_item m-header " m-minimize-offset="200" m-minimize-mobile-offset="200">
+				<div class="m-container m-container--fluid m-container--full-height">
+					<div class="m-stack m-stack--ver m-stack--desktop">
+					<!-- BEGIN: Brand -->
+					<div class="m-stack__item m-brand  m-brand--skin-light ">
+							<div class="m-stack m-stack--ver m-stack--general">
+								<div class="m-stack__item m-stack__item--middle m-brand__logo">
+									<a href="index.html" class="m-brand__logo-wrapper">
+										<img id="app-logo" alt="" src="assets/app/media/img/logos/platform_logo.png" style="width: auto; max-height: 60px">
+									</a>
+								</div>
+								<div class="m-stack__item m-stack__item--middle m-brand__tools">
+
+									<!-- BEGIN: Left Aside Minimize Toggle -->
+									<a href="javascript:;" id="m_aside_left_minimize_toggle" class="m-brand__icon m-brand__toggler m-brand__toggler--left m--visible-desktop-inline-block  ">
+										<span></span>
+									</a>
+
+									<!-- END -->
+
+									<!-- BEGIN: Responsive Aside Left Menu Toggler -->
+									<a href="javascript:;" id="m_aside_left_offcanvas_toggle" class="m-brand__icon m-brand__toggler m-brand__toggler--left m--visible-tablet-and-mobile-inline-block">
+										<span></span>
+									</a>
+
+									<!-- END -->
+
+									<!-- BEGIN: Responsive Header Menu Toggler -->
+									<a id="m_aside_header_menu_mobile_toggle" href="javascript:;" class="m-brand__icon m-brand__toggler m--visible-tablet-and-mobile-inline-block">
+										<span></span>
+									</a>
+
+									<!-- END -->
+
+									<!-- BEGIN: Topbar Toggler -->
+									<a id="m_aside_header_topbar_mobile_toggle" href="javascript:;" class="m-brand__icon m--visible-tablet-and-mobile-inline-block">
+										<i class="flaticon-more"></i>
+									</a>
+
+									<!-- BEGIN: Topbar Toggler -->
+								</div>
+							</div>
+						</div>
+					<!-- END: Brand -->
+					
+					<div class="m-stack__item m-stack__item--fluid m-header-head" id="m_header_nav">
+						<!-- header title as breadcrum in ds -->
+						<div class="m-header__title">
+							<h3 id="app-home" onclick="javascript:location.href='index.html'" style="cursor: pointer" class="m-header__title-text">FRONTEND</h3>
+						</div>
+						<!-- BEGIN: Horizontal Menu -->
+						<button class="m-aside-header-menu-mobile-close  m-aside-header-menu-mobile-close--skin-light " id="m_aside_header_menu_mobile_close_btn"><i class="la la-close"></i></button>
+						<!-- REPORTS AND DASHBOARDS -->
+						<div id="m_header_menu" class="m-header-menu m-aside-header-menu-mobile m-aside-header-menu-mobile--offcanvas  m-header-menu--skin-light m-header-menu--submenu-skin-light m-aside-header-menu-mobile--skin-light m-aside-header-menu-mobile--submenu-skin-light">	
+							<ul class="m-menu__nav  m-menu__nav--submenu-arrow ">
+								<!-- m-menu__item--active para activar uno de los items.. -->
+								<li id="header-dashboards" class="m-menu__item m-menu__item--submenu m-menu__item--rel m-menu__item--open-dropdown m--hide" m-menu-submenu-toggle="click" aria-haspopup="true"><a href="javascript:;" class="m-menu__link m-menu__toggle"><span class="m-menu__item-here"></span><span class="m-menu__link-text">Dashboard</span><i class="m-menu__hor-arrow la la-angle-down"></i><i class="m-menu__ver-arrow la la-angle-right"></i></a><div class="m-menu__submenu m-menu__submenu--classic m-menu__submenu--left"><span class="m-menu__arrow m-menu__arrow--adjust" style="left: 61.5px;"></span>
+									<ul class="m-menu__subnav">
+										<li class="m-menu__item" aria-haspopup="true"><a href="#" onclick="loadDashboardFromMenu(this); return false;" data-type="qualityGlobal" data-loaded="false" data-producer="GLOBAL" data-zone="#dasboardZone"  class="m-menu__link "><i class="m-menu__link-icon flaticon-dashboard"></i><span class="m-menu__link-title"><span class="m-menu__link-wrap"><span class="m-menu__link-text">Global QA Dashboard</span></span></span></a></li>
+										
+										<!--PRODUCER ID DASHBOARDS -->
+										<li class="m-menu__item m-menu__item--submenu" m-menu-submenu-toggle="hover" m-menu-link-redirect="1" aria-haspopup="true"><a href="javascript:;" class="m-menu__link m-menu__toggle"><i class="m-menu__link-icon flaticon-map"></i><span class="m-menu__link-text">Tuuliwatti</span><i class="m-menu__hor-arrow la la-angle-right"></i><i class="m-menu__ver-arrow la la-angle-right"></i></a><div class="m-menu__submenu m-menu__submenu--classic m-menu__submenu--right"><span class="m-menu__arrow "></span>
+											<ul class="m-menu__subnav">
+												<li class="m-menu__item " m-menu-link-redirect="1" aria-haspopup="true"><a href="#"  onclick="loadDashboardFromMenu(this); return false;" data-type="quality" data-loaded="false" data-producer="TUULIWATTI" data-zone="#dasboardZone" class="m-menu__link producer-dashboard"><i class="m-menu__link-icon flaticon-graphic-2"></i><span class="m-menu__link-text">Quality Dashboard </span></a></li>									
+											</ul>
+											</div>
+										</li>
+										<li class="m-menu__item m-menu__item--submenu" m-menu-submenu-toggle="hover" m-menu-link-redirect="1" aria-haspopup="true"><a href="javascript:;" class="m-menu__link m-menu__toggle"><i class="m-menu__link-icon flaticon-map"></i><span class="m-menu__link-text">E.on Poland</span><i class="m-menu__hor-arrow la la-angle-right"></i><i class="m-menu__ver-arrow la la-angle-right"></i></a><div class="m-menu__submenu m-menu__submenu--classic m-menu__submenu--right"><span class="m-menu__arrow "></span>
+											<ul class="m-menu__subnav">
+												<li class="m-menu__item " m-menu-link-redirect="1" aria-haspopup="true"><a href="#"  onclick="loadDashboardFromMenu(this); return false;" data-type="quality" data-loaded="false" data-producer="E.ON POLAND" data-zone="#dasboardZone" class="m-menu__link producer-dashboard"><i class="m-menu__link-icon flaticon-graphic-2"></i><span class="m-menu__link-text">Quality Dashboard </span></a></li>												
+											</ul>
+											</div>
+										</li>
+									</ul>
+									</div>
+								</li>
+								<li id="header-reports" class="m-menu__item m-menu__item--submenu m-menu__item--rel m-menu__item--open-dropdown m--hide" m-menu-submenu-toggle="click" m-menu-link-redirect="1" aria-haspopup="true"><a href="javascript:;" class="m-menu__link m-menu__toggle"><span class="m-menu__item-here"></span><span class="m-menu__link-text">Reports</span><i class="m-menu__hor-arrow la la-angle-down"></i><i class="m-menu__ver-arrow la la-angle-right"></i></a><div class="m-menu__submenu  m-menu__submenu--fixed m-menu__submenu--left" style="width:600px"><span class="m-menu__arrow m-menu__arrow--adjust" style="left: 50.5px;"></span><div class="m-menu__subnav">
+									<ul class="m-menu__content">
+										<li class="m-menu__item"><h3 class="m-menu__heading m-menu__toggle"><span class="m-menu__link-text">Finance Reports</span><i class="m-menu__ver-arrow la la-angle-right"></i></h3>
+											<ul class="m-menu__inner">
+												<li class="m-menu__item " m-menu-link-redirect="1" aria-haspopup="true"><a href="index.html" class="m-menu__link "><i class="m-menu__link-icon flaticon-map"></i><span class="m-menu__link-text">Annual Reports</span></a></li>
+												<li class="m-menu__item " m-menu-link-redirect="1" aria-haspopup="true"><a href="index.html" class="m-menu__link "><i class="m-menu__link-icon flaticon-user"></i><span class="m-menu__link-text">Site Reports</span></a></li>
+												<li class="m-menu__item " m-menu-link-redirect="1" aria-haspopup="true"><a href="index.html" class="m-menu__link "><i class="m-menu__link-icon flaticon-clipboard"></i><span class="m-menu__link-text">IPO Reports</span></a></li>
+												<li class="m-menu__item " m-menu-link-redirect="1" aria-haspopup="true"><a href="index.html" class="m-menu__link "><i class="m-menu__link-icon flaticon-graphic-1"></i><span class="m-menu__link-text">Finance Margins</span></a></li>
+												<li class="m-menu__item " m-menu-link-redirect="1" aria-haspopup="true"><a href="index.html" class="m-menu__link "><i class="m-menu__link-icon flaticon-graphic-2"></i><span class="m-menu__link-text">Revenue Reports</span></a></li>
+											</ul>
+										</li>
+										<li class="m-menu__item"><h3 class="m-menu__heading m-menu__toggle"><span class="m-menu__link-text">Project Reports</span><i class="m-menu__ver-arrow la la-angle-right"></i></h3>
+											<ul class="m-menu__inner">
+												<li class="m-menu__item " m-menu-link-redirect="1" aria-haspopup="true"><a href="index.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--line"><span></span></i><span class="m-menu__link-text">Leipio II</span></a></li>										
+												<li class="m-menu__item " m-menu-link-redirect="1" aria-haspopup="true"><a href="index.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--line"><span></span></i><span class="m-menu__link-text">Wysoka</span></a></li>
+												
+											</ul>
+										</li>
+									</ul>
+									</div>
+									</div>
+								</li>								
+							</ul>
+						</div>
+						<!-- END: Horizontal Menu -->				
+				
+						<!-- BEGIN: Topbar -->
+						<div id="m_header_topbar" class="m-topbar  m-stack m-stack--ver m-stack--general">
+							
+							<!-- SEARCH -->
+							<div id="m_quicksearch" class="m-stack__item m-stack__item--middle m-dropdown m-dropdown--arrow m-dropdown--large m-dropdown--mobile-full-width m-dropdown--align-right m-dropdown--skin-light m-header-search m-header-search--expandable m-header-search--skin-light m--hide"  m-quicksearch-mode="default">
+								<!--BEGIN: Search Form -->
+								<form class="m-header-search__form">
+									<div class="m-header-search__wrapper">
+										<span class="m-header-search__icon-search" id="m_quicksearch_search">
+											<i class="flaticon-search"></i>
+										</span>
+										<span class="m-header-search__input-wrapper">
+											<input autocomplete="off" type="text" name="q" class="m-header-search__input" value="" placeholder="Search..." id="m_quicksearch_input">
+										</span>
+										<span class="m-header-search__icon-close" id="m_quicksearch_close">
+											<i class="la la-remove"></i> 
+										</span>
+										<span class="m-header-search__icon-cancel" id="m_quicksearch_cancel">
+											<i class="la la-remove"></i>
+										</span>
+									</div>
+								</form>  
+								<!--END: Search Form -->
+								<!--BEGIN: Search Results -->
+								<div class="m-dropdown__wrapper">
+									<div class="m-dropdown__arrow m-dropdown__arrow--center"></div>
+									<div class="m-dropdown__inner">	
+										<div class="m-dropdown__body">
+											<div class="m-dropdown__scrollable m-scrollable" data-scrollable="true"  data-height="300" data-mobile-height="200">
+												<div class="m-dropdown__content m-list-search m-list-search--skin-light">
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!--BEGIN: END Results -->
+							</div>	
+							
+							<!-- HEADER RIGHT TOOLBAR -->
+							<div class="m-stack__item m-topbar__nav-wrapper">
+								<ul class="m-topbar__nav m-nav m-nav--inline">			
+									<li id="header-notifications" class="m-nav__item m-topbar__notifications m-dropdown m-dropdown--large m-dropdown--arrow m-dropdown--align-center m-dropdown--mobile-full-width m--hide" m-dropdown-toggle="click" m-dropdown-persistent="1">
+										<a href="#" class="m-nav__link m-dropdown__toggle" id="m_topbar_notification_icon">
+											<span class="m-nav__link-badge m-badge m-badge--dot m-badge--dot-small m-badge--danger"></span>
+											<span class="m-nav__link-icon"><span class="m-nav__link-icon-wrapper"><i class="flaticon-music-2"></i></span></span>
+										</a>
+										<div class="m-dropdown__wrapper">
+											<span class="m-dropdown__arrow m-dropdown__arrow--center"></span>
+											<div class="m-dropdown__inner">
+												<div class="m-dropdown__header m--align-center">
+													<span class="m-dropdown__header-title">9 New</span>
+													<span class="m-dropdown__header-subtitle">User Notifications</span>
+												</div>
+												<div class="m-dropdown__body">				
+													<div class="m-dropdown__content">
+														<ul class="nav nav-tabs m-tabs m-tabs-line m-tabs-line--brand" role="tablist">
+															<li class="nav-item m-tabs__item">
+																<a class="nav-link m-tabs__link active" data-toggle="tab" href="#topbar_notifications_notifications" role="tab">
+																Alerts
+																</a>
+															</li>
+															<li class="nav-item m-tabs__item">
+																<a class="nav-link m-tabs__link" data-toggle="tab" href="#topbar_notifications_events" role="tab">Events</a>
+															</li>
+															<li class="nav-item m-tabs__item">
+																<a class="nav-link m-tabs__link" data-toggle="tab" href="#topbar_notifications_logs" role="tab">Logs</a>
+															</li>
+														</ul>
+														<div class="tab-content">
+															<div class="tab-pane active" id="topbar_notifications_notifications" role="tabpanel">
+																<div class="m-scrollable" data-scrollable="true" data-height="250" data-mobile-height="200">
+																	<div class="m-list-timeline m-list-timeline--skin-light">
+																		<div class="m-list-timeline__items">
+																			<div class="m-list-timeline__item">
+																				<span class="m-list-timeline__badge -m-list-timeline__badge--state-success"></span>
+																				<span class="m-list-timeline__text">12 new users registered</span>
+																				<span class="m-list-timeline__time">Just now</span>
+																			</div>
+																			<div class="m-list-timeline__item">
+																				<span class="m-list-timeline__badge"></span>
+																				<span class="m-list-timeline__text">System shutdown <span class="m-badge m-badge--success m-badge--wide">pending</span></span>
+																				<span class="m-list-timeline__time">14 mins</span>
+																			</div>
+																			<div class="m-list-timeline__item">
+																				<span class="m-list-timeline__badge"></span>
+																				<span class="m-list-timeline__text">New invoice received</span>
+																				<span class="m-list-timeline__time">20 mins</span>
+																			</div>
+																			<div class="m-list-timeline__item">
+																				<span class="m-list-timeline__badge"></span>
+																				<span class="m-list-timeline__text">DB overloaded 80% <span class="m-badge m-badge--info m-badge--wide">settled</span></span>
+																				<span class="m-list-timeline__time">1 hr</span>
+																			</div>
+																			<div class="m-list-timeline__item">
+																				<span class="m-list-timeline__badge"></span>
+																				<span class="m-list-timeline__text">System error - <a href="#" class="m-link">Check</a></span>
+																				<span class="m-list-timeline__time">2 hrs</span>
+																			</div>
+																			<div class="m-list-timeline__item m-list-timeline__item--read">
+																				<span class="m-list-timeline__badge"></span>
+																				<span href="" class="m-list-timeline__text">New order received <span class="m-badge m-badge--danger m-badge--wide">urgent</span></span>
+																				<span class="m-list-timeline__time">7 hrs</span>
+																			</div>
+																			<div class="m-list-timeline__item m-list-timeline__item--read">
+																				<span class="m-list-timeline__badge"></span>
+																				<span class="m-list-timeline__text">Production server down</span>
+																				<span class="m-list-timeline__time">3 hrs</span>
+																			</div>
+																			<div class="m-list-timeline__item">
+																				<span class="m-list-timeline__badge"></span>
+																				<span class="m-list-timeline__text">Production server up</span>
+																				<span class="m-list-timeline__time">5 hrs</span>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<div class="tab-pane" id="topbar_notifications_events" role="tabpanel">
+																<div class="m-scrollable" data-scrollable="true" data-height="250" data-mobile-height="200">
+																	<div class="m-list-timeline m-list-timeline--skin-light">
+																		<div class="m-list-timeline__items">
+																			<div class="m-list-timeline__item">
+																				<span class="m-list-timeline__badge m-list-timeline__badge--state1-success"></span>
+																				<a href="" class="m-list-timeline__text">Windturbine WYS103 Stopped</a>
+																				<span class="m-list-timeline__time">Just now</span>
+																			</div>
+																			<div class="m-list-timeline__item">
+																				<span class="m-list-timeline__badge m-list-timeline__badge--state1-danger"></span>
+																				<a href="" class="m-list-timeline__text">New user created</a>
+																				<span class="m-list-timeline__time">20 mins</span>
+																			</div>
+																			<div class="m-list-timeline__item">
+																				<span class="m-list-timeline__badge m-list-timeline__badge--state1-success"></span>
+																				<a href="" class="m-list-timeline__text">New Winturbine WYS103</a>
+																				<span class="m-list-timeline__time">5 hrs</span>
+																			</div>																			
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<div class="tab-pane" id="topbar_notifications_logs" role="tabpanel">
+																<div class="m-stack m-stack--ver m-stack--general" style="min-height: 180px;">
+																	<div class="m-stack__item m-stack__item--center m-stack__item--middle">
+																		<span class="">All caught up!<br>No new logs.</span>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</li>
+									<li id="header-quickactions"  class="m-nav__item m-topbar__quick-actions m-dropdown m-dropdown--skin-light m-dropdown--large m-dropdown--arrow m-dropdown--align-right m-dropdown--align-push m-dropdown--mobile-full-width m-dropdown--skin-light m--hide"  m-dropdown-toggle="click">
+										<a href="#" class="m-nav__link m-dropdown__toggle">
+											<span class="m-nav__link-badge m-badge m-badge--dot m-badge--info m--hide"></span>
+											<span class="m-nav__link-icon"><span class="m-nav__link-icon-wrapper"><i class="flaticon-share"></i></span></span>	
+										</a>
+										<div class="m-dropdown__wrapper">
+											<span class="m-dropdown__arrow m-dropdown__arrow--right m-dropdown__arrow--adjust"></span>
+											<div class="m-dropdown__inner">
+												<div class="m-dropdown__header m--align-center">
+													<span class="m-dropdown__header-title">Quick Actions</span>
+													<span class="m-dropdown__header-subtitle">Shortcuts</span>
+												</div>
+												<div class="m-dropdown__body m-dropdown__body--paddingless">
+													<div class="m-dropdown__content">
+														<div class="m-scrollable" data-scrollable="false" data-height="380" data-mobile-height="200">
+															<div class="m-nav-grid m-nav-grid--skin-light">
+																<div class="m-nav-grid__row">
+																	<a href="#" class="m-nav-grid__item">
+																		<i class="m-nav-grid__icon flaticon-file"></i>
+																		<span class="m-nav-grid__text">Generate Site</span>
+																	</a>
+																	<a href="#" class="m-nav-grid__item">
+																		<i class="m-nav-grid__icon flaticon-time"></i>
+																		<span class="m-nav-grid__text">Real-Time Data</span>
+																	</a>
+																</div>
+																<div class="m-nav-grid__row">
+																	<a href="#" class="m-nav-grid__item">
+																		<i class="m-nav-grid__icon flaticon-folder"></i>
+																		<span class="m-nav-grid__text">Create New Task</span>
+																	</a>
+																	<a href="#" class="m-nav-grid__item">
+																		<i class="m-nav-grid__icon flaticon-clipboard"></i>
+																		<span class="m-nav-grid__text">Onboarding Summary</span>
+																	</a>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</li>
+									<li id="header-user" class="m-nav__item m-topbar__user-profile  m-dropdown m-dropdown--medium m-dropdown--arrow  m-dropdown--align-right m-dropdown--mobile-full-width m-dropdown--skin-light m--hide" m-dropdown-toggle="click">
+										<a href="#" class="m-nav__link m-dropdown__toggle">
+											<span class="m-topbar__userpic m--hide">
+												<img src="assets/app/media/img/users/user.png" class="m--img-rounded m--marginless m--img-centered" alt=""/>
+											</span>
+											<span class="m-nav__link-icon m-topbar__usericon">
+												<span class="m-nav__link-icon-wrapper"><i class="flaticon-user-ok"></i></span>
+											</span>
+											<span class="m-topbar__username m--hide">Nick</span>					
+										</a>
+										<div class="m-dropdown__wrapper">
+											<span class="m-dropdown__arrow m-dropdown__arrow--right m-dropdown__arrow--adjust"></span>
+											<div class="m-dropdown__inner">
+												<div class="m-dropdown__header m--align-center">
+													<div class="m-card-user m-card-user--skin-light">
+														<div class="m-card-user__pic">
+															<img src="assets/app/media/img/users/user.png" class="m--img-rounded m--marginless" alt=""/>
+														</div>
+														<div class="m-card-user__details">
+															<span class="m-card-user__name m--font-weight-500">user</span>
+															<a href="" class="m-card-user__email m--font-weight-300 m-link">email</a>
+														</div>
+													</div>
+												</div>
+												<div class="m-dropdown__body">
+													<div class="m-dropdown__content">
+														<ul class="m-nav m-nav--skin-light">
+															<li class="m-nav__section m--hide">
+																<span class="m-nav__section-text">Section</span>
+															</li>
+															<li id="user-profile" class="m-nav__item">
+																<a href="profile.html" class="m-nav__link">
+																	<i class="m-nav__link-icon flaticon-profile-1"></i>
+																	<span class="m-nav__link-title">  
+																		<span class="m-nav__link-wrap">      
+																			<span class="m-nav__link-text">My Profile</span>      																			
+																		</span>
+																	</span>
+																</a>
+															</li>
+															<li id="user-activity" class="m-nav__item m--hide">
+																<a href="profile.html" class="m-nav__link">
+																	<i class="m-nav__link-icon flaticon-share"></i>
+																	<span class="m-nav__link-text">Activity</span>
+																</a>
+															</li>
+															<li id="user-messages" class="m-nav__item m--hide">
+																<a href="profile.html" class="m-nav__link">
+																	<i class="m-nav__link-icon flaticon-chat-1"></i>
+																	<span class="m-nav__link-text">Messages</span>
+																</a>
+															</li>
+															<li id="user-faq" class="m-nav__item m--hide">
+																<a href="profile.html" class="m-nav__link">
+																	<i class="m-nav__link-icon flaticon-info"></i>
+																	<span class="m-nav__link-text">FAQ</span>
+																</a>
+															</li>
+															<li class="m-nav__separator m-nav__separator--fit"></li>
+															<li id="user-support" class="m-nav__item">
+																<a href="profile.html" class="m-nav__link">
+																	<i class="m-nav__link-icon flaticon-lifebuoy"></i>
+																	<span class="m-nav__link-text">Support</span>
+																</a>
+															</li>
+															<li class="m-nav__separator m-nav__separator--fit"></li>															
+															<li id="user-logout" class="m-nav__item">
+																<a href="#" class="btn m-btn--pill btn-secondary m-btn m-btn--custom m-btn--label-brand m-btn--bolder" onclick="FrontendController.close()">Logout</a>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+									</li>
+									<li id="header-configuration" class="m-nav__item m--hide">
+										<a href="#" onclick="FrontendController.sessionConfiguration()" class="m-nav__link ">
+											<span class="m-nav__link-icon m-nav__link-icon-alt"><span class="m-nav__link-icon-wrapper"><i class="flaticon-cogwheel-2"></i></span></span>
+										</a>
+									</li>
+									<li id="m_quick_sidebar_toggle" class="m-nav__item m--hide">
+										<a href="#" class="m-nav__link m-dropdown__toggle">
+											<span class="m-nav__link-icon m-nav__link-icon-alt"><span class="m-nav__link-icon-wrapper"><i class="flaticon-grid-menu"></i></span></span>
+										</a>
+									</li>			
+								</ul>
+							</div>
+						</div>
+						<!-- END: Topbar -->			
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- end::Header -->
+		
+	<!-- begin::Body -->
+	<div class="m-grid__item m-grid__item--fluid m-grid m-grid--ver-desktop m-grid--desktop m-body">
+		
+		<!-- BEGIN: Left Aside -->
+		<button class="m-aside-left-close  m-aside-left-close--skin-light" id="m_aside_left_close_btn"><i class="la la-close"></i></button>
+		<div id="m_aside_left" class="m-grid__item	m-aside-left  m-aside-left--skin-light  ">	
+			<!-- BEGIN: Aside Menu -->
+			<div id="m_ver_menu" class="m-aside-menu  m-aside-menu--skin-light m-aside-menu--submenu-skin-light  " 	data-menu-vertical="true"  m-menu-scrollable="1" m-menu-dropdown-timeout="500">						
+				<!-- BEGIN MENU -->		
+				<ul id="app-asideMenu" class="m-menu__nav  m-menu__nav--dropdown-submenu-arrow ">
+					<li class="m-menu__item start" aria-haspopup="true" m-menu-link-redirect="1">
+						<a href="index.html" class="m-menu__link "><i class="m-menu__link-icon flaticon-dashboard"></i><span class="m-menu__link-text">Home</span></a>
+					</li>
+					<!-- carga de menu dinámica... -->
+					
+				</ul><!-- END MENU -->
+			</div>
+			<!-- END: Aside Menu -->
+		</div>
+		<!-- END: Left Aside -->
+		
+		<div class="m-grid__item m-grid__item--fluid m-wrapper">
+		
+			<!-- BEGIN M-CONTENT -->
+			<div id="app-content" class="m-content" style="padding: 30px 30px;">	
+			
+				<!-- BASE CARD OPTIONAL FULL-HEIGHT m-portlet--full-height -->
+				<div class="m-portlet m-portlet--bordered m-portlet--bordered-semi m-portlet--rounded " id="list-portlet">
+					<div class="m-portlet__head" id="content-head">
+						<div class="m-portlet__head-caption">
+							<div class="m-portlet__head-title">					
+								<h3 id="content-title" class="m-portlet__head-text main-title">FRONTEND CARD</h3>
+							</div>
+						</div>
+						<div id="content-tools" class="m-portlet__head-tools">
+							<ul class="m-portlet__nav">
+								<!-- <li class="m-portlet__nav-item">
+									<a href="#" onclick="" class="btn btn-outline-info m-btn btn-sm m-btn--icon">
+									<span>
+										<i class="la la-plus"></i>
+										<span>New Item</span>
+									</span>
+								</a>
+								</li> -->
+								<li class="m-portlet__nav-item">
+									<a href="#" m-portlet-tool="toggle" class="m-portlet__nav-link m-portlet__nav-link--icon">
+										<i class="la la-angle-down"></i>
+									</a>
+								</li>					
+								<li class="m-portlet__nav-item">
+									<a href="#" m-portlet-tool="fullscreen" class="m-portlet__nav-link m-portlet__nav-link--icon">
+										<i class="la la-expand"></i>
+									</a>
+								</li>					
+							</ul>
+						</div>
+					</div>
+					<div id="content-body" class="m-portlet__body m--margin-top-10">
+						
+						<div class="lds-ellipsis"><div></div><div></div><div></div><div></div></div><!-- loader -->
+						
+						<div id="main-dashboard-container" class="m--hide" style="overflow-y: auto; background: transparent;  padding: 0px;">		
+							<iframe data-loaded="0" id="main-dashboard-iframe" src="" frameborder="0" width="100%" height="800px" ></iframe>		
+						</div>
+						<!-- loading info ERROR. -->
+						<div id="loading-info-error" class="alert alert-danger alert-dismissible fade show m--hide  m-alert m-alert--air" role="alert">
+							<button type="button" class="close" data-dismiss="alert" aria-label="Close"></button>
+							<strong>Error!</strong> The dashboard can´t be loaded, try again or contact admin.
+						</div>	
+								
+					</div>
+				</div><!-- END BASE CARD -->
+				
+				
+				
+				<!-- CONFIGURATIN CARD OPTIONAL FULL-HEIGHT m-portlet--full-height -->
+				<div class="m-portlet m-portlet--bordered m-portlet--bordered-semi m-portlet--rounded m--hide" id="configuration-portlet">
+					<div class="m-portlet__head" id="content-head">
+						<div class="m-portlet__head-caption">
+							<div class="m-portlet__head-title">					
+								<h3 id="content-title" class="m-portlet__head-text main-title">TEMPLATE CONFIGURATION SYSTEM</h3>
+							</div>
+						</div>
+						<div id="content-tools" class="m-portlet__head-tools">
+							<ul class="m-portlet__nav">								
+								<li class="m-portlet__nav-item">
+									<a href="#" m-portlet-tool="toggle" class="m-portlet__nav-link m-portlet__nav-link--icon">
+										<i class="la la-angle-down"></i>
+									</a>
+								</li>					
+								<li class="m-portlet__nav-item">
+									<a href="#" m-portlet-tool="fullscreen" class="m-portlet__nav-link m-portlet__nav-link--icon">
+										<i class="la la-expand"></i>
+									</a>
+								</li>					
+							</ul>
+						</div>
+					</div>
+					<div id="configuration-body" class="m-portlet__body m--margin-top-10">
+						<div class="row">
+							<div class="col-xl-12">
+
+								<!-- FORM SITE-->
+								<form id="configurationForm" class="m-form m-form--fit m-form--label-align-right m-form--group-seperator-dashed" method="post" action="">
+									<input id="configurationID" type="hidden" name="configurationId" value="">
+									
+									<div class="m-portlet__body">
+									
+										<!-- SITE TABS -->
+										<ul role="tablist" class="nav nav-tabs  m-tabs-line m-tabs-line--2x m-tabs-line--info">
+											<li class="nav-item m-tabs__item">
+												<a class="nav-link m-tabs__link active show" 		data-toggle="tab" href="#tab-main" role="tab" aria-selected="true">Main Data</a>
+											</li>								
+											<li class="nav-item m-tabs__item">
+												<a id="conf-app" class="nav-link m-tabs__link"		data-toggle="tab" href="#tab-application"	role="tab" aria-selected="false">Application</a>
+											</li>											
+											<li class="nav-item m-tabs__item">
+												<a id="conf-login" class="nav-link m-tabs__link"	data-toggle="tab" href="#tab-login"			role="tab" aria-selected="false">Login</a>
+											</li>
+											<li class="nav-item m-tabs__item">
+												<a id="conf-header" class="nav-link m-tabs__link"	data-toggle="tab" href="#tab-header"		role="tab" aria-selected="false">Header</a>
+											</li>
+											<li class="nav-item m-tabs__item">
+												<a id="conf-user" class="nav-link m-tabs__link"		data-toggle="tab" href="#tab-user"			role="tab" aria-selected="false">User</a>
+											</li>
+											<li class="nav-item m-tabs__item">
+												<a id="conf-login" class="nav-link m-tabs__link"	data-toggle="tab" href="#tab-menu"				role="tab" aria-selected="false">Menu</a>
+											</li>
+											<li class="nav-item m-tabs__item">
+												<a id="conf-content" class="nav-link m-tabs__link"	data-toggle="tab" href="#tab-content"		role="tab" aria-selected="false">Content</a>												
+											</li>
+											<li class="nav-item m-tabs__item">
+												<a id="conf-footer" class="nav-link m-tabs__link"	data-toggle="tab" href="#tab-footer"		role="tab" aria-selected="false">Footer</a>												
+											</li>
+											<li class="nav-item m-tabs__item">
+												<a id="conf-themes" class="nav-link m-tabs__link"	data-toggle="tab" href="#tab-themes"			role="tab" aria-selected="false">Themes</a>												
+											</li>
+										</ul>
+										
+										<!-- SITE TABS CONTENT -->
+										<div class="tab-content">
+										
+											<!-- TAB MAIN CONFIGURATION -->
+											<div class="tab-pane active show" id="tab-main" role="tabpanel">
+												<div class="form-group m-form__group row">
+													<div class="col-lg-3">
+														<label>Main Title:</label>
+														<div class="m-input-icon m-input-icon--left">
+															<input id="mainTitle" data-node="title" class="form-control m-input data-node" name="title" placeholder="Enter Title" type="text">														
+															<span class="m-input-icon__icon m-input-icon__icon--left">
+																<span>
+																	<i class="la la-pencil"></i>
+																</span>
+															</span>
+														</div>
+														<span class="m-form__help">E.j:  onesait platform Arkanoid</span>
+													</div>
+													<div class="col-lg-3">
+														<label>Description:</label>
+														<div class="m-input-icon m-input-icon--left">
+															<input id="mainDescription" data-node="description" class="form-control m-input data-node" name="description" placeholder="Enter Description" type="text">
+															<span class="m-input-icon__icon m-input-icon__icon--left">
+																<span>
+																	<i class="la la-pencil"></i>
+																</span>
+															</span>
+														</div>
+														<span class="m-form__help">E.j:  Arkanoid Boiler template</span>
+													</div>
+													<div class="col-lg-3">
+														<label class="">Current Skin:</label>
+														<input id="mainCurrentSkin"  data-node="currentSkin" class="form-control m-input data-node" readonly name="currentSkin" placeholder="Current Skin" value='skin-light'  type="text">
+													</div>
+													<div class="col-lg-3">
+														<label>Access Mode:</label>
+														<div>
+															<select id="mainAccess" name="access" data-node="access.entry" class="form-control m-bootstrap-select m_selectpicker data-node" data-size="2" title="Choose Access Mode" data-live-search="true">
+																<option value="PUBLIC">PUBLIC</option>
+																<option value="PRIVATE">PRIVATE</option>																
+															</select>
+															<span class="m-form__help">Free Access or Login Access</span>															
+														</div>
+													</div>													
+												</div>
+												<div class="form-group m-form__group row">
+													<div class="col-lg-3">
+														<label>Basepath:</label>
+														<div class="m-input-icon m-input-icon--right">
+															<input id="mainUrlBasePath" data-node="access.urlBasePath" class="form-control m-input data-node" name="urlBasePath" placeholder="Enter Basepath" type="text">																												
+															<span class="m-input-icon__icon m-input-icon__icon--right">
+																<span>
+																	<i class="la la-laptop"></i>
+																</span>
+															</span>
+														</div>
+													</div>										
+													<div class="col-lg-3">
+														<label>Images Basepath:</label>
+														<div class="m-input-icon m-input-icon--right">
+															<input id="mainImgBasePath" data-node="access.imgBasePath" class="form-control m-input data-node" name="imgBasePath" placeholder="Enter image path" type="text">
+															<span class="m-input-icon__icon m-input-icon__icon--right">
+																<span>
+																	<i class="la la-photo"></i>
+																</span>
+															</span>
+														</div>
+														<span class="m-form__help">E.j:  assets/app/media/img/</span>
+													</div>
+													<div class="col-lg-3">
+														<label> URL Base:</label>
+														<div class="m-input-icon m-input-icon--right">
+															<input id="mainUrlBase" data-node="access.urlBase" class="form-control m-input data-node" name="urlBase" placeholder="Enter URL Base" type="text">
+															<span class="m-input-icon__icon m-input-icon__icon--right">
+																<span>
+																	<i class="la la-laptop"></i>
+																</span>
+															</span>
+														</div>
+														<span class="m-form__help">onesait enviroment</span>
+													</div>
+													<div class="col-lg-3">
+														<label>URL API:</label>
+														<div class="m-input-icon m-input-icon--right">
+															<input id="mainUrlAPI" data-node="access.urlApi" class="form-control m-input data-node" name="urlApi" placeholder="Enter API endpoint" type="text">
+															<span class="m-input-icon__icon m-input-icon__icon--right">
+																<span>
+																	<i class="la la-code-fork"></i>
+																</span>
+															</span>														
+														</div>
+														<span class="m-form__help">onesait API Endpoint</span>
+													</div>
+												</div>
+											</div>
+											
+											<!-- TAB APPLICATION CONFIGURATION -->
+											<div class="tab-pane" id="tab-application" role="tabpanel">
+												<div class="form-group m-form__group row">
+													<div class="col-lg-4">
+														<label>App Home:</label>
+														<div class="m-input-icon m-input-icon--left">
+															<input id="appAppHome" data-node="app.appHome" class="form-control m-input data-node" name="appHome" placeholder="Enter App Home" type="text">
+															<span class="m-input-icon__icon m-input-icon__icon--left">
+																<span>
+																	<i class="la la-pencil"></i>
+																</span>
+															</span>
+														</div>
+													</div>														
+													<div class="col-lg-2">
+														<label style="position: absolute;">Show App Footer?</label>													
+														<span class="m-switch m-switch--outline m-switch--icon-check m-switch--primary" style="margin-top: 2.2rem">
+															<label> 
+															<input id="appAppFooter" class="data-node m_switch" data-node="app.appFooter" type="checkbox" checked="false" name="appFooter">
+															<span></span> 
+															</label> 
+														</span>
+													</div>
+													<div class="col-lg-2">
+														<label style="position: absolute;">Show App Welcome?</label>													
+														<span class="m-switch m-switch--outline m-switch--icon-check m-switch--primary" style="margin-top: 2.2rem">
+															<label> 
+															<input id="appAppWelcome" class="data-node m_switch" data-node="app.appWelcome" type="checkbox" checked="false" name="appWelcome">
+															<span></span> 
+															</label>
+														</span>
+													</div>
+													<div class="col-lg-4">
+														<label style="position: absolute;">Show App Support Menu?</label>													
+														<span class="m-switch m-switch--outline m-switch--icon-check m-switch--primary" style="margin-top: 2.2rem">
+															<label> 
+															<input id="appAppStickymenu" class="data-node m_switch" data-node="app.appStickymenu" type="checkbox" checked="false" name="appStickymenu">
+															<span></span> 
+															</label>
+														</span>
+													</div>														
+												</div>
+												<div class="form-group m-form__group row">																																					
+													<div class="col-lg-4">
+														<label>App Logo:</label>
+														<div class="m-input-icon m-input-icon--right">
+															<input id="appAppLogo" class="form-control m-input data-node" data-node="app.appLogo" name="appLogo" placeholder="App Logo" type="text">
+															<span class="m-input-icon__icon m-input-icon__icon--right">
+																<span>
+																	<i class="la la-photo"></i>
+																</span>
+															</span>
+														</div>
+														<span class="m-form__help">E.j:  assets/app/media/img/logos/arkanoid.png </span>
+													</div>										
+													<div class="col-lg-4">
+														<label class=""> Logo CSS:</label>
+														<div class="m-input-icon m-input-icon--right">
+															<input id="appAppLogoCss" data-node="app.appLogoCss" class="form-control m-input data-node" name="appLogoCss" placeholder="Enter Logo img CSS" type="text">
+															<span class="m-input-icon__icon m-input-icon__icon--right">
+																<span>
+																	<i class="la la-photo"></i>
+																</span>
+															</span>
+														</div>
+														<span class="m-form__help">E.j: width: auto; max-height: 20px;</span>
+													</div>
+													<div class="col-lg-4">
+														<label> Logo Background:</label>
+														<div class="m-input-icon m-input-icon--right">
+															<input id="appAppLogoBackground" data-node="app.appLogoBackground" class="form-control m-input data-node" name="appLogoBackground" placeholder="Enter Logo Background CSS" type="text">
+															<span class="m-input-icon__icon m-input-icon__icon--right">
+																<span>
+																	<i class="la la-photo"></i>
+																</span>
+															</span>
+														</div>
+													</div>													
+												</div>
+												
+											</div>
+											
+											<!-- TAB LOGIN CONFIGURATION -->
+											<div class="tab-pane" id="tab-login" role="tabpanel">
+												<div class="form-group m-form__group row">
+													<div class="col-lg-3">
+														<label>Login Logo:</label>
+														<div class="m-input-icon m-input-icon--right">
+															<input id="loginLoginLogo" class="form-control m-input data-node" data-node="login.loginLogo" name="loginLogo" placeholder="Login Logo" type="text">
+															<span class="m-input-icon__icon m-input-icon__icon--right">
+																<span>
+																	<i class="la la-photo"></i>
+																</span>
+															</span>
+														</div>
+														<span class="m-form__help">E.j:  assets/app/media/img/logos/login.png  or leave for default</span>
+													</div>										
+													<div class="col-lg-3">
+														<label class=""> Logo CSS:</label>
+														<div class="m-input-icon m-input-icon--right">
+															<input id="loginLoginLogoStyle" data-node="login.loginLogoStyle" class="form-control m-input data-node" name="loginLogoStyle" placeholder="Enter Login img CSS" type="text">
+															<span class="m-input-icon__icon m-input-icon__icon--right">
+																<span>
+																	<i class="la la-photo"></i>
+																</span>
+															</span>
+														</div>
+														<span class="m-form__help">E.j: width: auto; max-height: 20px; or leave blank</span>
+													</div>
+													<div class="col-lg-3">
+														<label> Login Background:</label>
+														<div class="m-input-icon m-input-icon--right">
+															<input id="loginLoginBackground" data-node="login.loginBackground" class="form-control m-input data-node" name="loginBackground" placeholder="Enter Login Background CSS" type="text">
+															<span class="m-input-icon__icon m-input-icon__icon--right">
+																<span>
+																	<i class="la la-photo"></i>
+																</span>
+															</span>
+														</div>
+													</div>
+													<div class="col-lg-3">
+														<label>Login Description:</label>
+														<div class="m-input-icon m-input-icon--left">														
+															<input id="loginLoginDescription" data-node="login.loginDescription" class="form-control m-input data-node" name="loginDescription" placeholder="Enter Login Message" type="text">
+															<span class="m-input-icon__icon m-input-icon__icon--left">
+																<span>
+																	<i class="la la-pencil"></i>
+																</span>
+															</span>
+														</div>
+													</div>													
+												</div>												
+												<div class="form-group m-form__group row">
+													<div class="col-lg-3">
+														<label>Login Sign in Title:</label>
+														<div class="m-input-icon m-input-icon--left">														
+															<input id="loginSignInTitle" data-node="login.signInTitle" class="form-control m-input data-node" name="signInTitle" placeholder="Enter Sign In title" type="text">
+															<span class="m-input-icon__icon m-input-icon__icon--left">
+																<span>
+																	<i class="la la-pencil"></i>
+																</span>
+															</span>
+														</div>
+														<span class="m-form__help">E.j: onesait Platform, please sign In:</span>
+													</div>
+													<div class="col-lg-2">
+														<label style="position: absolute;">Show Sign Up?</label>													
+														<span class="m-switch m-switch--outline m-switch--icon-check m-switch--primary" style="margin-top: 2.2rem">
+															<label> 
+															<input id="loginSignUp" class="data-node m_switch" data-node="login.signUp" type="checkbox" checked="false" name="signUp">
+															<span></span> 
+															</label> 
+														</span>
+													</div>
+													<div class="col-lg-2">
+														<label style="position: absolute;">Show Forgot Password?</label>													
+														<span class="m-switch m-switch--outline m-switch--icon-check m-switch--primary" style="margin-top: 2.2rem">
+															<label> 
+															<input id="loginForgotPassword" class="data-node m_switch" data-node="login.forgotPassword" type="checkbox" checked="false" name="forgotPassword">
+															<span></span> 
+															</label>
+														</span>
+													</div>
+													<div class="col-lg-5">
+														<label style="position: absolute;">Show Remember me?</label>													
+														<span class="m-switch m-switch--outline m-switch--icon-check m-switch--primary" style="margin-top: 2.2rem">
+															<label> 
+															<input id="loginRememberMe" class="data-node m_switch" data-node="login.rememberMe" type="checkbox" checked="false" name="rememberMe">
+															<span></span> 
+															</label>
+														</span>
+													</div>													
+												</div>						
+											</div>
+											
+											<!-- TAB HEADER CONFIGURATION -->
+											<div class="tab-pane" id="tab-header" role="tabpanel">													
+												<div class="form-group m-form__group row">	
+													<div class="col-lg-3">
+														<label style="position: absolute;">Show Dashboards?</label>													
+														<span class="m-switch m-switch--outline m-switch--icon-check m-switch--primary" style="margin-top: 2.2rem">
+															<label> 
+															<input id="headerHeaderDashboads" class="data-node m_switch" data-node="header.headerDashboads" type="checkbox" checked="false" name="headerDashboads">
+															<span></span> 
+															</label> 
+														</span>
+													</div>
+													<div class="col-lg-3">
+														<label style="position: absolute;">Show Reports?</label>													
+														<span class="m-switch m-switch--outline m-switch--icon-check m-switch--primary" style="margin-top: 2.2rem">
+															<label> 
+															<input id="headerHeaderReports" class="data-node m_switch" data-node="header.headerReports" type="checkbox" checked="false" name="headerReports">
+															<span></span> 
+															</label>
+														</span>
+													</div>
+													<div class="col-lg-3">
+														<label style="position: absolute;">Show Search?</label>													
+														<span class="m-switch m-switch--outline m-switch--icon-check m-switch--primary" style="margin-top: 2.2rem">
+															<label> 
+															<input id="headerHeaderSearch" class="data-node m_switch" data-node="header.headerSearch" type="checkbox" checked="false" name="headerSearch">
+															<span></span> 
+															</label>
+														</span>
+													</div>
+													<div class="col-lg-3">
+														<label style="position: absolute;">Show Notifications?</label>													
+														<span class="m-switch m-switch--outline m-switch--icon-check m-switch--primary" style="margin-top: 2.2rem">
+															<label> 
+															<input id="headerHeaderNotifications" class="data-node m_switch" data-node="header.headerNotifications" type="checkbox" checked="false" name="headerNotifications">
+															<span></span> 
+															</label>
+														</span>
+													</div>
+												</div>												
+												<div class="form-group m-form__group row">	
+													<div class="col-lg-3">
+														<label style="position: absolute;">Show Quick Actions?</label>													
+														<span class="m-switch m-switch--outline m-switch--icon-check m-switch--primary" style="margin-top: 2.2rem">
+															<label> 
+															<input id="headerHeaderQuickactions" class="data-node m_switch" data-node="header.headerQuickactions" type="checkbox" checked="false" name="headerQuickactions">
+															<span></span> 
+															</label> 
+														</span>
+													</div>
+													<div class="col-lg-3">
+														<label style="position: absolute;">Show User profile?</label>													
+														<span class="m-switch m-switch--outline m-switch--icon-check m-switch--primary" style="margin-top: 2.2rem">
+															<label> 
+															<input id="headerHeaderUser" class="data-node m_switch" data-node="header.headerUser" type="checkbox" checked="false" name="headerUser">
+															<span></span> 
+															</label>
+														</span>
+													</div>
+													<div class="col-lg-3">
+														<label style="position: absolute;">Show Sidebar Menu?</label>													
+														<span class="m-switch m-switch--outline m-switch--icon-check m-switch--primary" style="margin-top: 2.2rem">
+															<label> 
+															<input id="headerHeaderSidebarToggle" class="data-node m_switch" data-node="header.headerSidebarToggle" type="checkbox" checked="false" name="headerSidebarToggle">
+															<span></span> 
+															</label>
+														</span>
+													</div>
+													<div class="col-lg-3">
+														<label style="position: absolute;">Show Session Configuration?</label>													
+														<span class="m-switch m-switch--outline m-switch--icon-check m-switch--primary" style="margin-top: 2.2rem">
+															<label> 
+															<input id="headerHeaderSessionConfiguration" class="data-node m_switch" data-node="header.headerSessionConfiguration" type="checkbox" checked="false" name="headerSessionConfiguration">
+															<span></span> 
+															</label>
+														</span>
+														<span class="m-form__help" style="padding: 0px;position: absolute;top: 36px;left: 80px;">Enable or disable this configuration</span>
+													</div>
+												</div>
+												
+											</div>				
+												
+											<!-- TAB USER CONFIGURATION -->
+											<div class="tab-pane" id="tab-user" role="tabpanel">
+												
+												<div id="user-alert" style="display: ''" role="alert" class="alert alert-danger alert-dismissible fade show m-alert m-alert--air m-alert--outline m--hide">										
+												<button type="button" class="close" data-dismiss="alert" aria-label="Close"></button>
+													<i class="la la-warning" style="font-size: 24px;top: 3px;position: relative;"></i>&nbsp;<strong>INFORMATION:</strong> If you want to configure user dropdown elements, please enable header user in Header Tab.
+												</div>
+											
+												<div id="user-elements" class="">													
+													<div class="form-group m-form__group row">	
+														<div class="col-lg-2">
+															<label style="position: absolute;">Show Avatar?</label>													
+															<span class="m-switch m-switch--outline m-switch--icon-check m-switch--primary" style="margin-top: 2.2rem">
+																<label> 
+																<input id="userShowAvatar" class="data-node m_switch" data-node="user.showAvatar" type="checkbox" checked="false" name="showAvatar">
+																<span></span> 
+																</label> 
+															</span>
+														</div>
+														<div class="col-lg-4">
+															<label>Avatar:</label>													
+															<div class="m-input-icon m-input-icon--right">
+																<input id="usersAvatar" data-node="user.avatar" class="form-control m-input data-node" name="avatar" placeholder="Enter image" type="text">
+																<span class="m-input-icon__icon m-input-icon__icon--right">
+																	<span>
+																		<i class="la la-photo"></i>
+																	</span>
+																</span>
+															</div>
+															<span class="m-form__help">E.j:  assets/app/media/img/users/rebel.png</span>
+														</div>
+													</div>
+													<div class="form-group m-form__group row">
+														<label>User Sections:</label>	
+														<div class="col-lg-12">
+														<table class="table m-table m-table--head-separator-primary">
+																<thead>
+																	<tr>
+																		<th>Show / Hide </th>
+																		<th>Section</th>
+																		<th>Text</th>
+																		<th>Link <small>(just the template, e.j: usersocial.html)</small></th>
+																	</tr>
+																</thead>
+																<tbody>
+																	<tr><!-- profile -->
+																		<th scope="row">
+																			<span class="m-switch m-switch--outline m-switch--icon-check m-switch--primary" style="margin-top: 0rem">
+																				<label> 
+																				<input id="userProfileVisible" class="data-node m_switch" data-node="user.profile.visible" type="checkbox" checked="false" name="userProfileVisible">
+																				<span></span> 
+																				</label> 
+																			</span>
+																		</th>
+																		<td>Profile</td>
+																		<td class="user-text"><input id="userProfileText" data-node="user.profile.text" class="form-control m-input data-node" name="userProfileText" placeholder="Enter text" type="text"></td>
+																		<td class="user-link"><input id="usersSupportLink" data-node="user.profile.link" class="form-control m-input data-node" name="userProfileLink" placeholder="Enter link" type="text"></td>
+																	</tr>
+																	<tr><!-- support -->
+																		<th scope="row">
+																			<span class="m-switch m-switch--outline m-switch--icon-check m-switch--primary" style="margin-top: 0rem">
+																				<label> 
+																				<input id="userSupportVisible" class="data-node m_switch" data-node="user.support.visible" type="checkbox" checked="false" name="userSupportVisible">
+																				<span></span> 
+																				</label> 
+																			</span>
+																		</th>
+																		<td>Support</td>
+																		<td class="user-text"><input id="userSupportText" data-node="user.support.text" class="form-control m-input data-node" name="userSupportText" placeholder="Enter text" type="text"></td>
+																		<td class="user-link"><input id="userSupportLink" data-node="user.support.link" class="form-control m-input data-node" name="userSupportLink" placeholder="Enter link" type="text"></td>
+																	</tr>
+																	<tr><!-- activity -->
+																		<th scope="row">
+																			<span class="m-switch m-switch--outline m-switch--icon-check m-switch--primary" style="margin-top: 0rem">
+																				<label> 
+																				<input id="userActivityVisible" class="data-node m_switch" data-node="user.activity.visible" type="checkbox" checked="false" name="userActivityVisible">
+																				<span></span> 
+																				</label> 
+																			</span>
+																		</th>
+																		<td>Activity</td>
+																		<td class="user-text"><input id="userActivityText" data-node="user.activity.text" class="form-control m-input data-node" name="userActivityText" placeholder="Enter text" type="text"></td>
+																		<td class="user-link"><input id="userActivityLink" data-node="user.activity.link" class="form-control m-input data-node" name="userActivityLink" placeholder="Enter link" type="text"></td>
+																	</tr>
+																	<tr><!-- messages -->
+																		<th scope="row">
+																			<span class="m-switch m-switch--outline m-switch--icon-check m-switch--primary" style="margin-top: 0rem">
+																				<label> 
+																				<input id="userMessagesVisible" class="data-node m_switch" data-node="user.messages.visible" type="checkbox" checked="false" name="userMessagesVisible">
+																				<span></span> 
+																				</label> 
+																			</span>
+																		</th>
+																		<td>Messages</td>
+																		<td class="user-text"><input id="userMessagesText" data-node="user.messages.text" class="form-control m-input data-node" name="userMessagesText" placeholder="Enter text" type="text"></td>
+																		<td class="user-link"><input id="userMessagesLink" data-node="user.messages.link" class="form-control m-input data-node" name="userMessagesLink" placeholder="Enter link" type="text"></td>
+																	</tr>
+																	<tr><!-- faq -->
+																		<th scope="row">
+																			<span class="m-switch m-switch--outline m-switch--icon-check m-switch--primary" style="margin-top: 0rem">
+																				<label> 
+																				<input id="userFaqVisible" class="data-node m_switch" data-node="user.faq.visible" type="checkbox" checked="false" name="userFaqVisible">
+																				<span></span> 
+																				</label> 
+																			</span>
+																		</th>
+																		<td>FAQ</td>
+																		<td class="user-text"><input id="userFaqText" data-node="user.faq.text" class="form-control m-input data-node" name="userFaqText" placeholder="Enter text" type="text"></td>
+																		<td class="user-link"><input id="userFaqLink" data-node="user.faq.link" class="form-control m-input data-node" name="userFaqLink" placeholder="Enter link" type="text"></td>
+																	</tr>
+																	<tr><!-- logout -->
+																		<th scope="row">
+																			<span class="m-switch m-switch--outline m-switch--icon-check m-switch--primary" style="margin-top: 0rem">
+																				<label> 
+																				<input id="userLogoutVisible" class="data-node m_switch" data-node="user.logout.visible" type="checkbox" checked="false" name="userLogoutVisible">
+																				<span></span> 
+																				</label> 
+																			</span>
+																		</th>
+																		<td>Log Out</td>
+																		<td class="user-text"><input id="userLogoutText" data-node="user.logout.text" class="form-control m-input data-node" name="userLogoutText" placeholder="Enter text" type="text"></td>
+																		<td class="user-link"><input id="userLogoutLink" data-node="user.logout.link" class="form-control m-input data-node" name="userLogoutLink" placeholder="Enter link" type="text"></td>
+																	</tr>
+																	
+																</tbody>
+															</table>
+														</div>
+													</div>
+													
+												</div>
+											</div>
+											
+											<!-- TAB MENU CONFIGURATION -->
+											<div class="tab-pane" id="tab-menu" role="tabpanel">
+												<div class="form-group m-form__group row">													
+													<div class="col-lg-5 col-xs-12">
+														
+														<!-- JSTREE TOOLBAR -->
+														<div class="row" style="padding: 0 20px 0 0;">
+															<div class="col-lg-9">																
+																<div style="float: right">
+																	<select id="newitem-type" name="newItemType" class="form-control m-bootstrap-select m_selectpicker " data-size="3" data-width="175px" title="Choose node type" data-live-search="false">
+																		<option value="menu">menu</option>
+																		<option value="submenu">link</option>																
+																		<option value="dashboard">dashboard</option>
+																	</select>																	
+																</div>
+															</div>
+															<div class="col-lg-3">															
+																<button id="newItem-Btn" type="button" class="btn btn-sm btn-info btn-menu-new">New Item</button>
+															</div>
+														</div>
+														
+														<!-- SESSION TREE -->
+														<div class="jstree m--margin-bottom-20" id="publicAccessSystem"></div>
+														
+													</div>
+													
+													<!-- SESSION TREE MENU ITEM FORMS -->
+													<div id="menu-edit" class="col-lg-7 col-xs-12">
+														
+														<div id="menu-edit-alert" class="alert alert-dismissible fade show   m-alert m-alert--outline m-alert--air" role="alert">
+															<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+															</button>
+															<strong>information:</strong> Click New item or any Menu items to update content.
+														</div>
+														
+														<!-- DYNAMIC FORM TO EDIT MENU LINK ITEMS -->
+														<div id="menuItem" class="form-group m-form__group row m--hide menus" style="padding-top: 0px;">
+															<div class="col-lg-12">
+																<label>Title:</label>
+																<div class="m-input-icon m-input-icon--left">
+																	<input id="menuitem-title" class="form-control m-input" name="menuItemTitle" placeholder="Enter title" type="text">														
+																	<span class="m-input-icon__icon m-input-icon__icon--left">
+																		<span>
+																			<i class="la la-pencil"></i>
+																		</span>
+																	</span>
+																</div>																
+															</div>
+															<!-- ONLY IN INSERT MODE -->
+															<div class="col-lg-6 menuitem insert m--hide">
+																<label>Parent:</label>
+																<div class="m-input-icon m-input-icon--left">
+																	<input id="menuitem-parent" class="form-control m-input" name="menuItemParent" placeholder="Enter parent" value="#" type="text">														
+																	<span class="m-input-icon__icon m-input-icon__icon--left">
+																		<span>
+																			<i class="la la-pencil"></i>
+																		</span>
+																	</span>
+																</div>
+															</div>
+															<div class="col-lg-6 menuitem insert m--hide">
+																<label>Position:</label>
+																<div class="m-input-icon m-input-icon--left">
+																	<input id="menuitem-position" class="form-control m-input" name="menuItemPosition" placeholder="Enter Position" value="first" type="text">														
+																	<span class="m-input-icon__icon m-input-icon__icon--left">
+																		<span>
+																			<i class="la la-pencil"></i>
+																		</span>
+																	</span>
+																</div>
+																<span class="m-form__help">E.j:  first, last or position to insert</span>
+															</div>
+															<!-- ONLY IN INSERT MODE -->
+														</div>
+														
+														
+														<!-- DYNAMIC FORM TO EDIT MENU LINK ITEMS -->
+														<div id="linkItem" class="form-group m-form__group row m--hide menus" style="padding-top: 0px;">
+															<div class="col-lg-6">
+																<label>Title:</label>
+																<div class="m-input-icon m-input-icon--left">
+																	<input id="linkitem-title" class="form-control m-input" name="linkItemTitle" placeholder="Enter title" type="text">														
+																	<span class="m-input-icon__icon m-input-icon__icon--left">
+																		<span>
+																			<i class="la la-pencil"></i>
+																		</span>
+																	</span>
+																</div>																
+															</div>
+															<div class="col-lg-6">
+																<label>Url:</label>
+																<div class="m-input-icon m-input-icon--left">
+																	<input id="linkitem-url" class="form-control m-input" name="linkItemUrl" placeholder="Enter relative URL" type="text">
+																	<span class="m-input-icon__icon m-input-icon__icon--left">
+																		<span>
+																			<i class="la la-pencil"></i>
+																		</span>
+																	</span>
+																</div>
+																<span class="m-form__help">E.j:  aboutUs.html </span>
+															</div>
+															<!-- ONLY IN INSERT MODE -->
+															<div class="col-lg-6 linkitem insert m--hide">
+																<label>Parent:</label>
+																<div class="m-input-icon m-input-icon--left">
+																	<input id="linkitem-parent" class="form-control m-input" name="linkItemParent" placeholder="Enter parent" value="#" type="text">														
+																	<span class="m-input-icon__icon m-input-icon__icon--left">
+																		<span>
+																			<i class="la la-pencil"></i>
+																		</span>
+																	</span>
+																</div>																
+															</div>
+															<div class="col-lg-6 linkitem insert m--hide">
+																<label>Position:</label>
+																<div class="m-input-icon m-input-icon--left">
+																	<input id="linkitem-position" class="form-control m-input" name="linkItemPosition" placeholder="Enter Position" value="first" type="text">														
+																	<span class="m-input-icon__icon m-input-icon__icon--left">
+																		<span>
+																			<i class="la la-pencil"></i>
+																		</span>
+																	</span>
+																</div>
+																<span class="m-form__help">E.j:  first, last or position to insert</span>
+															</div>
+															<!-- ONLY IN INSERT MODE -->															
+														</div>
+														
+														<!-- DYNAMIC FORM TO EDIT MENU DASHBOARD ITEMS -->
+														<div id="dashboardItem" class="m--hide menus" style="padding-top: 0px;">
+															<div class="form-group m-form__group row">
+																<div class="col-lg-3">
+																	<label>Title:</label>
+																	<div class="m-input-icon m-input-icon--left">
+																		<input id="dashboard-title" class="form-control m-input" name="dashboardItemTitle" placeholder="Enter title" type="text">														
+																		<span class="m-input-icon__icon m-input-icon__icon--left">
+																			<span>
+																				<i class="la la-pencil"></i>
+																			</span>
+																		</span>
+																	</div>																
+																</div>
+																<div class="col-lg-8">
+																	<label>SRC:</label>
+																	<div class="m-input-icon m-input-icon--left">
+																		<input id="dashboard-src" class="form-control m-input" name="dashboardItemSrc" placeholder="Enter URL" type="text">
+																		<span class="m-input-icon__icon m-input-icon__icon--left">
+																			<span>
+																				<i class="la la-pencil"></i>
+																			</span>
+																		</span>
+																	</div>																
+																</div>
+															</div>
+															<div class="form-group m-form__group row">
+																<div class="col-lg-3">
+																	<label class="">Height(px):</label>
+																	<div class="m-input-icon m-input-icon--left">
+																		<input id="dashboard-height" class="form-control m-input " name="dashboardItemHeight" placeholder="Height Css" type="text">
+																		<span class="m-input-icon__icon m-input-icon__icon--left">
+																			<span>
+																				<i class="la la-pencil"></i>
+																			</span>
+																		</span>
+																	</div>
+																</div>
+																<div class="col-lg-8">
+																	<label class="">Background:</label>
+																	<div class="m-input-icon m-input-icon--left">
+																		<input id="dashboard-background" class="form-control m-input " name="dashboardItemBackground" placeholder="Background Css" type="text">
+																		<span class="m-input-icon__icon m-input-icon__icon--left">
+																			<span>
+																				<i class="la la-pencil"></i>
+																			</span>
+																		</span>
+																	</div>
+																</div>
+																<!-- ONLY IN INSERT MODE -->
+																<div class="col-lg-6 dashboarditem insert m--hide">
+																	<label>Parent:</label>
+																	<div class="m-input-icon m-input-icon--left">
+																		<input id="dashboarditem-parent" class="form-control m-input" name="dashboardItemParent" placeholder="Enter parent" value="#" type="text">														
+																		<span class="m-input-icon__icon m-input-icon__icon--left">
+																			<span>
+																				<i class="la la-pencil"></i>
+																			</span>
+																		</span>
+																	</div>																
+																</div>
+																<div class="col-lg-6 dashboarditem insert m--hide">
+																	<label>Position:</label>
+																	<div class="m-input-icon m-input-icon--left">
+																		<input id="dashboarditem-position" class="form-control m-input" name="dashboardItemPosition" placeholder="Enter Position" value="first" type="text">														
+																		<span class="m-input-icon__icon m-input-icon__icon--left">
+																			<span>
+																				<i class="la la-pencil"></i>
+																			</span>
+																		</span>
+																	</div>
+																	<span class="m-form__help">E.j:  first, last or position to insert</span>
+																</div>
+																<!-- ONLY IN INSERT MODE -->
+															</div>
+														</div>
+														<div class="m-form__actions m-form__actions--right col-md-12">
+															<button id="updateItem-Btn" type="button" data-mode="link" class="btn btn-sm btn-primary btn-menu-edit m--hide">Update Menu </button>
+															<button id="insertItem-Btn" type="button" data-mode="link" class="btn btn-sm btn-primary btn-menu-insert m--hide">Insert Menu </button>
+														</div>
+													</div>
+												</div>
+											</div>
+											
+											<!-- TAB CONTENT CONFIGURATION -->
+											<div class="tab-pane" id="tab-content" role="tabpanel">											
+												<div class="form-group m-form__group row">
+													<div class="col-lg-4">
+														<label style="position: absolute;">Show initial Content?</label>													
+														<span class="m-switch m-switch--outline m-switch--icon-check m-switch--primary" style="margin-top: 2.2rem">
+															<label> 
+															<input id="contentContentDashboardEnabled" class="data-node m_switch" data-node="content.contentDashboard.enable" type="checkbox" checked="false" name="contentDashboardEnabled">
+															<span></span> 
+															</label> 
+														</span>
+														<span class="m-form__help" style="padding: 0px;position: absolute;top: 36px;left: 80px;">Disable, hide Content Card.</span>
+													</div>
+													<div class="col-lg-4">
+														<label style="position: absolute;">Show Card Head?</label>													
+														<span class="m-switch m-switch--outline m-switch--icon-check m-switch--primary" style="margin-top: 2.2rem">
+															<label> 
+															<input id="contentContentHead" class="data-node m_switch" data-node="content.contentHead" type="checkbox" checked="false" name="contentHead">
+															<span></span> 
+															</label> 
+														</span>
+														<span class="m-form__help" style="padding: 0px;position: absolute;top: 36px;left: 80px;">Show title on card, or just the content of dashboard</span>
+													</div>
+													<div class="col-lg-4 m--margin-bottom-20">
+														<label style="position: absolute;">Show Card Tools?</label>													
+														<span class="m-switch m-switch--outline m-switch--icon-check m-switch--primary" style="margin-top: 2.2rem">
+															<label> 
+															<input id="contentContentTools" class="data-node m_switch" data-node="content.contentTools" type="checkbox" checked="false" name="contentTools">
+															<span></span> 
+															</label> 
+														</span>
+														<span class="m-form__help" style="padding: 0px;position: absolute;top: 36px;left: 80px;">Show or not the collapse and fullscreen on card.</span>
+													</div>
+													<div class="clearfix"></div>
+													<div class="col-lg-4">
+														<label>Content Title:</label>
+														<div class="m-input-icon m-input-icon--left">
+															<input id="contentContentTitle" data-node="content.contentTitle" class="form-control m-input data-node" name="contentTitle" placeholder="Enter Title" type="text">														
+															<span class="m-input-icon__icon m-input-icon__icon--left">
+																<span>
+																	<i class="la la-pencil"></i>
+																</span>
+															</span>
+														</div>
+														<span class="m-form__help">E.j:  Main dashboard</span>
+													</div>
+													<div class="col-lg-4">
+														<label>Content title CSS:</label>
+														<div class="m-input-icon m-input-icon--left">
+															<input id="contentContentTitleCss" data-node="content.contentTitleCss" class="form-control m-input data-node" name="contentTitleCss" placeholder="Enter title css" type="text">
+															<span class="m-input-icon__icon m-input-icon__icon--left">
+																<span>
+																	<i class="la la-pencil"></i>
+																</span>
+															</span>
+														</div>
+														<span class="m-form__help">E.j:  font-weight:400; font-color: red; </span>
+													</div>
+													<div class="col-lg-4">
+														<label class="">Content Head Css:</label>
+														<div class="m-input-icon m-input-icon--left">
+															<input id="contentContentHeadCss"  data-node="content.contentHeadCss" class="form-control m-input data-node"  name="contentHeadCss" placeholder="Head Css"  type="text">
+															<span class="m-input-icon__icon m-input-icon__icon--left">
+																<span>
+																	<i class="la la-pencil"></i>
+																</span>
+															</span>
+														</div>
+													</div>																									
+												</div>
+												
+												<div id="dashboard-content" class="form-group m-form__group row">													
+													<div class="col-lg-4">
+														<label>Title:</label>
+														<div class="m-input-icon m-input-icon--left">
+															<input id="contentContentDashboardDashboardName" data-node="content.contentDashboard.dashboardName" class="form-control m-input data-node" name="dashboardName" placeholder="Enter Title" type="text">														
+															<span class="m-input-icon__icon m-input-icon__icon--left">
+																<span>
+																	<i class="la la-pencil"></i>
+																</span>
+															</span>
+														</div>
+														<span class="m-form__help">E.j:  Main Analytics Dashboard</span>
+													</div>
+													<div class="col-lg-4">
+														<label>src:</label>
+														<div class="m-input-icon m-input-icon--left">
+															<input id="contentContentDashboardSrc" data-node="content.contentDashboard.src" class="form-control m-input data-node" name="src" placeholder="Enter dashboard URL " type="text">
+															<span class="m-input-icon__icon m-input-icon__icon--left">
+																<span>
+																	<i class="la la-laptop"></i>
+																</span>
+															</span>
+														</div>														
+													</div>
+													<div class="col-lg-2">
+														<label class="">Background:</label>
+														<div class="m-input-icon m-input-icon--left">
+															<input id="contentContentDashboardBackground"  data-node="content.contentDashboard.background" class="form-control m-input data-node"  name="dashboardBackground" placeholder="Background Css"  type="text">
+															<span class="m-input-icon__icon m-input-icon__icon--left">
+																<span>
+																	<i class="la la-pencil"></i>
+																</span>
+															</span>
+														</div>
+													</div>
+													<div class="col-lg-2 m--margin-bottom-20">
+														<label class="">Height(px):</label>
+														<div class="m-input-icon m-input-icon--left">
+															<input id="contentContentDashboardBackgorund"  data-node="content.contentDashboard.height" class="form-control m-input data-node"  name="dashboardHeight" placeholder="Height Css"  type="text">
+															<span class="m-input-icon__icon m-input-icon__icon--left">
+																<span>
+																	<i class="la la-pencil"></i>
+																</span>
+															</span>
+														</div>
+													</div>
+													<div class="clearfix"></div>
+													<div class="col-lg-4">
+														<label>Mode:</label>
+														<div class="m-input-icon m-input-icon--left">
+															<input id="contentContentDashboardMode" data-node="content.contentDashboard.mode" class="form-control m-input data-node" name="dashboardMode" placeholder="Enter mode" type="text"  readonly value="INSERT">		
+															<span class="m-input-icon__icon m-input-icon__icon--left">
+																<span>
+																	<i class="la la-pencil"></i>
+																</span>
+															</span>
+														</div>
+														<span class="m-form__help">E.j:  INSERT (default)</span>
+													</div>
+													<div class="col-lg-4">
+														<label style="position: absolute;">Change Title?</label>													
+														<span class="m-switch m-switch--outline m-switch--icon-check m-switch--primary" style="margin-top: 2.2rem">
+															<label> 
+															<input id="contentContentDashboardChangeTitle" class="data-node m_switch" data-node="content.contentDashboard.changeTitle" type="checkbox" checked="false" name="contentDashboardChangeTitle">
+															<span></span> 
+															</label> 
+														</span>
+														<span class="m-form__help" style="padding: 0px;position: absolute;top: 36px;left: 80px;">Change dashboard title on card.</span>
+													</div>
+													<div class="col-lg-4">
+														<label style="position: absolute;">Show Notification?</label>													
+														<span class="m-switch m-switch--outline m-switch--icon-check m-switch--primary" style="margin-top: 2.2rem">
+															<label> 
+															<input id="contentContentDashboardNotification" class="data-node m_switch" data-node="content.contentDashboard.notification" type="checkbox" checked="false" name="contentDashboardNotification">
+															<span></span> 
+															</label> 
+														</span>
+														<span class="m-form__help" style="padding: 0px;position: absolute;top: 36px;left: 80px;">Show notification when dashboard is loading or not.</span>
+													</div>													
+												</div>
+											</div>
+											
+											<!-- TAB FOOTER CONFIGURATION -->
+											<div class="tab-pane" id="tab-footer" role="tabpanel">
+												<div id="footer-alert" style="display: ''" role="alert" class="alert alert-danger alert-dismissible fade show m-alert m-alert--air m-alert--outline m--hide">										
+												<button type="button" class="close" data-dismiss="alert" aria-label="Close"></button>
+													<i class="la la-warning" style="font-size: 24px;top: 3px;position: relative;"></i>&nbsp;<strong>INFORMATION:</strong> If you want to configure footer elements, please enable header footer in App Tab.
+												</div>
+											
+												<div id="footer-elements" class="">	
+													<div class="form-group m-form__group row">	
+														<div class="col-lg-2">
+															<label style="position: absolute;">Show Footer Links?</label>													
+															<span class="m-switch m-switch--outline m-switch--icon-check m-switch--primary" style="margin-top: 2.2rem">
+																<label> 
+																<input id="footerFooterLinks" class="data-node m_switch" data-node="footer.footerLinks" type="checkbox" checked="false" name="footerLinks">
+																<span></span> 
+																</label> 
+															</span>
+														</div>
+														<div class="col-lg-4">
+															<label>Footer Copyright:</label>													
+															<div class="m-input-icon m-input-icon--left">
+																<input id="footerFooterCopyright" data-node="footer.footerCopyright" class="form-control m-input data-node" name="footerCopyright" placeholder="Enter Copyright" type="text">
+																<span class="m-input-icon__icon m-input-icon__icon--left">
+																	<span>
+																		<i class="la la-pencil"></i>
+																	</span>
+																</span>
+															</div>
+															<span class="m-form__help">E.j:  2019 &copy; onesait Platform</span>
+														</div>
+													</div>
+													<div id="footer-links" class="form-group m-form__group row">
+														<label>Footer Links:</label>	
+														<div class="col-lg-12">
+															<table class="table m-table m-table--head-separator-primary">
+																<thead>
+																	<tr>
+																		<th>Show / Hide </th>
+																		<th>Link</th>
+																		<th>Text</th>
+																		<th>URL</th>
+																	</tr>
+																</thead>
+																<tbody>
+																	<tr><!-- about -->
+																		<th scope="row">
+																			<span class="m-switch m-switch--outline m-switch--icon-check m-switch--primary" style="margin-top: 0rem">
+																				<label> 
+																				<input id="footerLinkAboutVisible" class="data-node m_switch" data-node="footer.footerLinkAbout.visible" type="checkbox" checked="false" name="footerLinkAbout">
+																				<span></span> 
+																				</label> 
+																			</span>
+																		</th>
+																		<td>About</td>
+																		<td class="user-text"><input id="footerFooterLinkAboutText" data-node="footer.footerLinkAbout.text" class="form-control m-input data-node" name="footerLinkAbout" placeholder="Enter text" type="text"></td>
+																		<td class="user-link"><input id="footerfooterLinkAboutLink" data-node="footer.footerLinkAbout.link" class="form-control m-input data-node" name="footerLinkAbout" placeholder="Enter link" type="text"></td>
+																	</tr>
+																	<tr><!-- privacy -->
+																		<th scope="row">
+																			<span class="m-switch m-switch--outline m-switch--icon-check m-switch--primary" style="margin-top: 0rem">
+																				<label> 
+																				<input id="footerLinkPrivacyVisible" class="data-node m_switch" data-node="footer.footerLinkPrivacy.visible" type="checkbox" checked="false" name="footerLinkPrivacy">
+																				<span></span> 
+																				</label> 
+																			</span>
+																		</th>
+																		<td>Privacy</td>
+																		<td class="user-text"><input id="footerFooterLinkPrivacyText" data-node="footer.footerLinkPrivacy.text" class="form-control m-input data-node" name="footerLinkPrivacy" placeholder="Enter text" type="text"></td>
+																		<td class="user-link"><input id="footerfooterLinkPrivacyLink" data-node="footer.footerLinkPrivacy.link" class="form-control m-input data-node" name="footerLinkPrivacy" placeholder="Enter link" type="text"></td>
+																	</tr>
+																	<tr><!-- terms -->
+																		<th scope="row">
+																			<span class="m-switch m-switch--outline m-switch--icon-check m-switch--primary" style="margin-top: 0rem">
+																				<label> 
+																				<input id="footerLinkTermsVisible" class="data-node m_switch" data-node="footer.footerLinkTerms.visible" type="checkbox" checked="false" name="footerLinkTerms">
+																				<span></span> 
+																				</label> 
+																			</span>
+																		</th>
+																		<td>Terms and Conditions</td>
+																		<td class="user-text"><input id="footerFooterLinkTermsText" data-node="footer.footerLinkTerms.text" class="form-control m-input data-node" name="footerLinkTerms" placeholder="Enter text" type="text"></td>
+																		<td class="user-link"><input id="footerfooterLinkTermsLink" data-node="footer.footerLinkTerms.link" class="form-control m-input data-node" name="footerLinkTerms" placeholder="Enter link" type="text"></td>
+																	</tr>
+																	<tr><!-- company -->
+																		<th scope="row">
+																			<span class="m-switch m-switch--outline m-switch--icon-check m-switch--primary" style="margin-top: 0rem">
+																				<label> 
+																				<input id="footerLinkCompanyVisible" class="data-node m_switch" data-node="footer.footerLinkCompany.visible" type="checkbox" checked="false" name="footerLinkCompany">
+																				<span></span> 
+																				</label> 
+																			</span>
+																		</th>
+																		<td>Company</td>
+																		<td class="user-text"><input id="footerFooterLinkCompanyText" data-node="footer.footerLinkCompany.text" class="form-control m-input data-node" name="footerLinkCompany" placeholder="Enter text" type="text"></td>
+																		<td class="user-link"><input id="footerfooterLinkCompanyLink" data-node="footer.footerLinkCompany.link" class="form-control m-input data-node" name="footerLinkCompany" placeholder="Enter link" type="text"></td>
+																	</tr>
+																	<tr><!-- support -->
+																		<th scope="row">
+																			<span class="m-switch m-switch--outline m-switch--icon-check m-switch--primary" style="margin-top: 0rem">
+																				<label> 
+																				<input id="footerLinkSupportVisible" class="data-node m_switch" data-node="footer.footerLinkSupport.visible" type="checkbox" checked="false" name="footerLinkSupport">
+																				<span></span> 
+																				</label> 
+																			</span>
+																		</th>
+																		<td>Support</td>
+																		<td class="user-text"><input id="footerFooterLinkSupportText" data-node="footer.footerLinkSupport.text" class="form-control m-input data-node" name="footerLinkSupport" placeholder="Enter text" type="text"></td>
+																		<td class="user-link"><input id="footerfooterLinkSupportLink" data-node="footer.footerLinkSupport.link" class="form-control m-input data-node" name="footerLinkSupport" placeholder="Enter link" type="text"></td>
+																	</tr>																	
+																</tbody>
+															</table>
+														</div>
+													</div>
+												</div>
+											</div>
+											
+											
+											<!-- TAB THEMES CONFIGURATION -->
+											<div class="tab-pane" id="tab-themes" role="tabpanel">												
+												<!--changeSkin: 'skin-dark',
+													contentBackground : '#f5e2b3;',
+													contentPadding: '0px 0px', // 30px 30px; 
+													menu: ''-->
+												<div class="form-group m-form__group row">
+													<div class="col-lg-3">
+														<label>Skin theme:</label>
+														<div class="m-input-icon m-input-icon--left">
+															<input id="themesChangeSkin" data-node="themes.changeSkin" class="form-control m-input data-node" name="themesChangeSkin" placeholder="Enter Skin" type="text">														
+															<span class="m-input-icon__icon m-input-icon__icon--left">
+																<span>
+																	<i class="la la-pencil"></i>
+																</span>
+															</span>
+														</div>
+														<span class="m-form__help">E.j:  skin-dark or '' for default</span>
+													</div>
+													<div class="col-lg-3">
+														<label>Content Background:</label>
+														<div class="m-input-icon m-input-icon--left">
+															<input id="themesContentBackground" data-node="themes.contentBackground" class="form-control m-input data-node" name="themesContentBackground" placeholder="Enter Background" type="text">
+															<span class="m-input-icon__icon m-input-icon__icon--left">
+																<span>
+																	<i class="la la-pencil"></i>
+																</span>
+															</span>
+														</div>
+														<span class="m-form__help">E.j:  #f5e2b3; </span>
+													</div>
+													<div class="col-lg-3">
+														<label class="">Content padding:</label>
+														<div class="m-input-icon m-input-icon--left">
+															<input id="themesContentPadding"  data-node="themes.contentPadding" class="form-control m-input data-node" name="themesContentPadding" placeholder="Content paddding"  type="text">
+															<span class="m-input-icon__icon m-input-icon__icon--left">
+																<span>
+																	<i class="la la-pencil"></i>
+																</span>
+															</span>
+														</div>
+														<span class="m-form__help">E.j:  30px 30px; </span>
+													</div>
+													<div class="col-lg-3">
+														<label>Skin Menu:</label>
+														<div class="m-input-icon m-input-icon--left">
+															<input id="themesMenu" data-node="themes.menu" class="form-control m-input data-node" name="themesMenu" placeholder="Enter Skin menu" type="text">														
+															<span class="m-input-icon__icon m-input-icon__icon--left">
+																<span>
+																	<i class="la la-pencil"></i>
+																</span>
+															</span>
+														</div>
+														<span class="m-form__help">E.j:  skin-dark or skin-light</span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>						
+									
+									<div class="m-portlet__foot m-portlet__foot--fit">
+										<div class="m-form__actions m-form__actions--right">
+											<button type="button" class="btn btn-sm btn-primary btn-configuration-insert " onclick="FrontendController.updateConfiguration('update')" >Update Configuration</button>											
+											<button type="button" class="btn btn-sm  btn-success btn-configuration-restore" onclick="FrontendController.updateConfiguration('save')">Save</button>
+											<button type="button" class="btn btn-sm  btn-warning btn-configuration-restore" onclick="FrontendController.updateConfiguration('restore')">Restore</button>											
+											
+											<span class="m--margin-left-10 btn-configuration-cancel ">or
+												<span class="m-link m--font-bold m-cursor--pointer" onclick="$('#list-portlet').removeClass('m--hide'); $('#configuration-portlet').addClass('m--hide');">Cancel</span>
+											</span>
+										</div>
+									</div>
+								</form>
+								<!-- END FORM configuration -->
+							</div>
+						</div>
+					</div>
+				</div><!-- END CONFIGURATION CARD -->
+			</div><!-- END M-CONTENT -->
+		</div><!-- END M-GRID ITEM -->
+	</div><!-- end:: Body -->
+	
+	
+	<!--begin::Modal-->
+	<div class="modal fade" id="modalSaveConfiguration" tabindex="-1" role="dialog" aria-labelledby="modalSaveConfiguration" aria-hidden="true">
+		<div class="modal-dialog modal-lg" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="modalSaveConfiguration">Save Configuration </h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<form>
+						<div class="form-group">
+							<label for="recipient-name" class="form-control-label">Current Configuration:</label>
+							<textarea id="configurationArea" rows="25" style="padding:12px; background-color: #f5f5f5;border: 1px dashed #CCC;" cols="93%"></textarea>
+						</div>						
+					</form>					
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-sm btn-secondary " data-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-sm btn-primary ">Save Configuration</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--end::Modal-->
+	
+
+	<!-- begin::Footer -->
+	<footer id="app-footer" class="m-grid__item	m-footer">
+		<div class="m-container m-container--fluid m-container--full-height m-page__container">
+			<div class="m-stack m-stack--flex-tablet-and-mobile m-stack--ver m-stack--desktop">
+				<div class="m-stack__item m-stack__item--left m-stack__item--middle m-stack__item--last">
+					<span id="footer-copyright" class="m-footer__copyright" style="padding-left: 100px ">
+						2019 &copy; FRONTEND
+					</span>
+				</div>
+				<div class="m-stack__item m-stack__item--right m-stack__item--middle m-stack__item--first">
+					<ul id="footer-links" class="m-footer__nav m-nav m-nav--inline m--pull-right">
+						<li id="footer-link-about" class="m-nav__item">
+							<a href="#" class="m-nav__link">
+								<span class="m-nav__link-text">About</span>
+							</a>
+						</li>
+						<li id="footer-link-privacy" class="m-nav__item">
+							<a href="#"  class="m-nav__link">
+								<span class="m-nav__link-text">Privacy</span>
+							</a>
+						</li>
+						<li id="footer-link-terms" class="m-nav__item">
+							<a href="#"  class="m-nav__link">
+								<span class="m-nav__link-text">Terms and Conditions</span>
+							</a>
+						</li>						
+						<li id="footer-link-company" class="m-nav__item">
+							<a href="#" class="m-nav__link">
+								<span class="m-nav__link-text">&copy 2019 Company</span>
+							</a>
+						</li>
+						<li id="footer-link-support" class="m-nav__item m-nav__item">
+							<a href="#" class="m-nav__link" data-toggle="m-tooltip" title="Support Center" data-placement="left">
+								<i class="m-nav__link-icon flaticon-info m--icon-font-size-lg3"></i>
+							</a>
+						</li>
+					</ul>
+				</div>	
+			</div>
+		</div>
+	</footer>
+	<!-- end::Footer -->	
+		
+	</div>
+	<!-- end:: Page -->
+
+	<!-- begin::Quick Sidebar -->
+	<div id="m_quick_sidebar" class="m-quick-sidebar m-quick-sidebar--tabbed m-quick-sidebar--skin-light">
+		<div class="m-quick-sidebar__content m--hide">
+			<span id="m_quick_sidebar_close" class="m-quick-sidebar__close"><i class="la la-close"></i></span>
+			<!-- QUICKSIDEBAR TABS -->
+			<ul id="m_quick_sidebar_tabs" class="nav nav-tabs m-tabs m-tabs-line m-tabs-line--brand" role="tablist">			
+				<li class="nav-item m-tabs__item">
+					<a class="nav-link m-tabs__link m-tabs__link active" data-toggle="tab" href="#m_quick_sidebar_tabs_settings" role="tab">Settings</a>
+				</li>
+				<li class="nav-item m-tabs__item">
+					<a class="nav-link m-tabs__link" data-toggle="tab" href="#m_quick_sidebar_tabs_logs" role="tab">Logs</a>
+				</li>
+			</ul>			
+			<div class="tab-content">
+				<div class="tab-pane active" id="m_quick_sidebar_tabs_settings" role="tabpanel">
+					<div class="m-list-settings m-scrollable">
+						<div class="m-list-settings__group">
+							<div class="m-list-settings__heading">General Settings</div>
+							<div class="m-list-settings__item">
+							<span class="m-list-settings__item-label">X-editable</span>
+							<a href="#" id="username" data-type="text" data-pk="1" data-title="Enter username">superuser</a>
+							</div>
+							<div class="m-list-settings__item">
+								<span class="m-list-settings__item-label">Email Notifications</span>
+								<span class="m-list-settings__item-control">
+								<span class="m-switch m-switch--outline m-switch--icon-check m-switch--brand">
+								<label>
+								<input type="checkbox" checked="checked" name="">
+								<span></span> 
+								</label>
+								</span>	 
+								</span>
+							</div>
+							<div class="m-list-settings__item">
+								<span class="m-list-settings__item-label">Site Tracking</span>
+								<span class="m-list-settings__item-control">
+								<span class="m-switch m-switch--outline m-switch--icon-check m-switch--brand">
+								<label>
+								<input type="checkbox" name="">
+								<span></span> 
+								</label>
+								</span>	 
+								</span>
+							</div>
+							<div class="m-list-settings__item">
+								<span class="m-list-settings__item-label">SMS Alerts</span>
+								<span class="m-list-settings__item-control">
+								<span class="m-switch m-switch--outline m-switch--icon-check m-switch--brand">
+								<label>
+								<input type="checkbox" name="">
+								<span></span> 
+								</label>
+								</span>	 
+								</span>
+							</div>
+							<div class="m-list-settings__item">
+								<span class="m-list-settings__item-label">Backup Storage</span>
+								<span class="m-list-settings__item-control">
+								<span class="m-switch m-switch--outline m-switch--icon-check m-switch--brand">
+								<label>
+								<input type="checkbox" name="">
+								<span></span> 
+								</label>
+								</span>	 
+								</span>
+							</div>
+							<div class="m-list-settings__item">
+								<span class="m-list-settings__item-label">Audit Logs</span>
+								<span class="m-list-settings__item-control">
+								<span class="m-switch m-switch--outline m-switch--icon-check m-switch--brand">
+								<label>
+								<input type="checkbox" checked="checked" name="">
+								<span></span> 
+								</label>
+								</span>	 
+								</span>
+							</div>
+						</div>
+						<div class="m-list-settings__group">
+							<div class="m-list-settings__heading">System Settings</div>
+							<div class="m-list-settings__item">
+								<span class="m-list-settings__item-label">System Logs</span>
+								<span class="m-list-settings__item-control">
+								<span class="m-switch m-switch--outline m-switch--icon-check m-switch--brand">
+								<label>
+								<input type="checkbox" name="">
+								<span></span> 
+								</label>
+								</span>	 
+								</span>
+							</div>
+							<div class="m-list-settings__item">
+								<span class="m-list-settings__item-label">Error Reporting</span>
+								<span class="m-list-settings__item-control">
+								<span class="m-switch m-switch--outline m-switch--icon-check m-switch--brand">
+								<label>
+								<input type="checkbox" name="">
+								<span></span> 
+								</label>
+								</span>	 
+								</span>
+							</div>
+							<div class="m-list-settings__item">
+								<span class="m-list-settings__item-label">Applications Logs</span>
+								<span class="m-list-settings__item-control">
+								<span class="m-switch m-switch--outline m-switch--icon-check m-switch--brand">
+								<label>
+								<input type="checkbox" name="">
+								<span></span> 
+								</label>
+								</span>	 
+								</span>
+							</div>
+							<div class="m-list-settings__item">
+								<span class="m-list-settings__item-label">Backup Servers</span>
+								<span class="m-list-settings__item-control">
+								<span class="m-switch m-switch--outline m-switch--icon-check m-switch--brand">
+								<label>
+								<input type="checkbox" checked="checked" name="">
+								<span></span> 
+								</label>
+								</span>	 
+								</span>
+							</div>
+							<div class="m-list-settings__item">
+								<span class="m-list-settings__item-label">Audit Logs</span>
+								<span class="m-list-settings__item-control">
+								<span class="m-switch m-switch--outline m-switch--icon-check m-switch--brand">
+								<label>
+								<input type="checkbox" name="">
+								<span></span> 
+								</label>
+								</span>	 
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="tab-pane" id="m_quick_sidebar_tabs_logs" role="tabpanel">
+					<div class="m-list-timeline m-scrollable">
+						
+						<div class="m-list-timeline__group">
+							<div class="m-list-timeline__heading">
+								Applications Logs
+							</div>
+							<div class="m-list-timeline__items">
+								<div class="m-list-timeline__item">
+									<span class="m-list-timeline__badge m-list-timeline__badge--state-info"></span>
+									<a href="" class="m-list-timeline__text">WindTurbine Stopped. <span class="m-badge m-badge--danger m-badge--wide">urgent</span></a>
+									<span class="m-list-timeline__time">7 hrs</span>
+								</div>
+								<div class="m-list-timeline__item">
+									<span class="m-list-timeline__badge m-list-timeline__badge--state-success"></span>
+									<a href="" class="m-list-timeline__text">2 new sites registered</a>
+									<span class="m-list-timeline__time">Just now</span>
+								</div>
+								
+								<div class="m-list-timeline__item">
+									<span class="m-list-timeline__badge m-list-timeline__badge--state-danger"></span>
+									<a href="" class="m-list-timeline__text">New Windturbines created</a>
+									<span class="m-list-timeline__time">20 mins</span>
+								</div>	
+								<div class="m-list-timeline__item">
+									<span class="m-list-timeline__badge m-list-timeline__badge--state-info"></span>
+									<a href="" class="m-list-timeline__text">Production Report Done</a>
+									<span class="m-list-timeline__time">3 hrs</span>
+								</div>
+							</div>
+						</div>
+						
+						
+						<div class="m-list-timeline__group">
+							<div class="m-list-timeline__heading">
+								System Logs
+							</div>
+							<div class="m-list-timeline__items">
+								<div class="m-list-timeline__item">
+									<span class="m-list-timeline__badge m-list-timeline__badge--state-success"></span>
+									<a href="" class="m-list-timeline__text">12 new users registered <span class="m-badge m-badge--warning m-badge--wide">important</span></a>
+									<span class="m-list-timeline__time">Just now</span>
+								</div>							
+								<div class="m-list-timeline__item">
+									<span class="m-list-timeline__badge m-list-timeline__badge--state-warning"></span>
+									<a href="" class="m-list-timeline__text">Database loaded 9% <span class="m-badge m-badge--success m-badge--wide">resolved</span></a>
+									<span class="m-list-timeline__time">1 hr</span>
+								</div>
+								<div class="m-list-timeline__item">
+									<span class="m-list-timeline__badge m-list-timeline__badge--state-success"></span>
+									<a href="" class="m-list-timeline__text">System error</a>
+									<span class="m-list-timeline__time">2 hrs</span>
+								</div>
+								<div class="m-list-timeline__item">
+									<span class="m-list-timeline__badge m-list-timeline__badge--state-info"></span>
+									<a href="" class="m-list-timeline__text">Production server down <span class="m-badge m-badge--danger m-badge--wide">pending</span></a>
+									<span class="m-list-timeline__time">3 hrs</span>
+								</div>
+								<div class="m-list-timeline__item">
+									<span class="m-list-timeline__badge m-list-timeline__badge--state-success"></span>
+									<a href="" class="m-list-timeline__text">Production server up</a>
+									<span class="m-list-timeline__time">5 hrs</span>
+								</div>
+							</div>
+						</div>
+						
+						<div class="m-list-timeline__group">
+							<div class="m-list-timeline__heading">
+								Server Logs
+							</div>
+							<div class="m-list-timeline__items">
+								<div class="m-list-timeline__item">
+									<span class="m-list-timeline__badge m-list-timeline__badge--state-success"></span>
+									<a href="" class="m-list-timeline__text">Production server up</a>
+									<span class="m-list-timeline__time">5 hrs</span>
+								</div>
+								<div class="m-list-timeline__item">
+									<span class="m-list-timeline__badge m-list-timeline__badge--state-info"></span>
+									<a href="" class="m-list-timeline__text">New order received</a>
+									<span class="m-list-timeline__time">7 hrs</span>
+								</div>
+								<div class="m-list-timeline__item">
+									<span class="m-list-timeline__badge m-list-timeline__badge--state-success"></span>
+									<a href="" class="m-list-timeline__text">12 new users registered</a>
+									<span class="m-list-timeline__time">Just now</span>
+								</div>
+								<div class="m-list-timeline__item">
+									<span class="m-list-timeline__badge m-list-timeline__badge--state-info"></span>
+									<a href="" class="m-list-timeline__text">System shutdown</a>
+									<span class="m-list-timeline__time">11 mins</span>
+								</div>
+								<div class="m-list-timeline__item">
+									<span class="m-list-timeline__badge m-list-timeline__badge--state-danger"></span>
+									<a href="" class="m-list-timeline__text">New invoice received</a>
+									<span class="m-list-timeline__time">20 mins</span>
+								</div>							
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end::Quick Sidebar -->	
+	    
+	<!-- begin::Scroll Top -->
+	<div id="m_scroll_top" class="m-scroll-top">
+		<i class="la la-arrow-up"></i>
+	</div>
+	<!-- end::Scroll Top -->
+
+	<!-- begin::Quick Nav -->
+	<ul id="app-stickymenu" class="m-nav-sticky m--hide" style="margin-top: 30px;">		
+		<li class="m-nav-sticky__item" data-toggle="m-tooltip" title="Documentation" data-placement="left">
+			<a href="documentation.html" target="_blank"><i class="la la-code-fork"></i></a>
+		</li>
+		<li class="m-nav-sticky__item" data-toggle="m-tooltip" title="Support" data-placement="left">
+			<a href="support.html" target="_blank"><i class="la la-life-ring"></i></a>
+		</li>
+	</ul>
+	<!-- end::Quick Nav -->	
+	
+	<!--begin::Base Scripts -->        
+	<script src="assets/vendors/base/vendors.bundle.js" type="text/javascript"></script>
+	<script src="assets/app/js/scripts.bundle.js" type="text/javascript"></script>
+	<script src="assets/app/js/portlet.js" type="text/javascript"></script>
+
+
+	<!-- APPLICATION CONFIGURATION -->
+	<!-- LOAD JSON TO CONFIGURE MENU AND PAGE MAIN ELEMENTS -->
+	<script src="assets/app/js/application-config.js" type="text/javascript"></script>
+	  
+	<!--begin::Page Snippets -->
+	<script src="assets/app/js/menu.js" type="text/javascript"></script>
+	<script src="assets/app/js/frontend.js" type="text/javascript"></script>	
+	<script src="assets/app/js/jquery-confirm.min.js"></script> 
+	<script src="assets/vendors/x-editable/bootstrap-editable.min.js"></script>	
+	<script src="assets/app/js/bootstrap-select.js" type="text/javascript"></script>
+	
+	<!-- dashboard js -->
+	<script src="https://lab.onesaitplatform.com/controlpanel/static/dashboards/scripts/vendor.js" type="text/javascript"></script>
+	
+ 
+	<script>
+		
+	// PORTLET CARD OPTIONS
+	var options = { bodyToggleSpeed: 500, tooltips: true, tools: { toggle: {collapse: 'Colapsar',expand: 'Expandir'},	reload: 'Recargar',remove: 'Borrar',fullscreen: {	on: 'Pantalla Completa',off: 'Salir Pantalla Completa'}}};
+	
+	// CONTAINER CONFIGURATION 
+	var portlet = new mPortlet('list-portlet', options);
+	var configuration = new mPortlet('configuration-portlet', options);
+	
+	// LANGUAGE CONFIGURATION 
+	var currentLanguage = document.getElementsByTagName("html")[0].getAttribute("lang");
+	
+	// X-EDITABLE 
+	    //turn to inline mode
+		$.fn.editable.defaults.mode = 'inline';
+									
+		$.fn.editableform.template = '<form class="m-form m-form--fit form-inline editableform">'+
+		'<div class="control-group input-group-sm">' + 
+		'<div class="editable-input"><div class="input-group-append editable-buttons pull-right" style="margin-left: -1px"></div></div>'+
+		'<div class="editable-error-block"></div>' + 
+		'</div>' + 
+		'</form>';
+		
+		$.fn.editableform.buttons = '<button class="btn btn-primary btn-square btn-sm btn-editable editable-submit" type="submit"><i class="fa fa-fw fa-check"></i></button>'+
+		'<button type="button" class="btn btn-danger btn-square btn-sm btn-editable editable-cancel"><i class="fa fa-fw fa-times"></i></button>';
+			
+		
+		$(document).ready(function() {
+			$('#username').editable({inputclass: 'form-control form-control-sm m-input input-sm'});
+			
+			// USER CONF.
+			$('#headerHeaderUser').on('change.bootstrapSwitch', function(e) { 
+				
+				console.log(e.target.checked);
+				if ( e.target.checked ){
+					// show user elements and hide alert
+					$('#user-elements').removeClass('m--hide');
+					$('#user-alert').addClass('m--hide');
+				}
+				else {
+					// hide user elements and show alert.
+					$('#user-elements').addClass('m--hide');
+					$('#user-alert').removeClass('m--hide');
+				}
+			});
+			
+			// FOOTER CONF.			
+			$('#appAppFooter').on('change.bootstrapSwitch', function(e) { 
+				
+				console.log(e.target.checked);
+				if ( e.target.checked ){
+					// show user elements and hide alert
+					$('#footer-elements').removeClass('m--hide');
+					$('#footer-alert').addClass('m--hide');
+				}
+				else {
+					// hide user elements and show alert.
+					$('#footer-elements').addClass('m--hide');
+					$('#footer-alert').removeClass('m--hide');
+				}
+			});
+			
+			// FOOTER LINKS.			
+			$('#footerFooterLinks').on('change.bootstrapSwitch', function(e) { 
+				
+				console.log(e.target.checked);
+				if ( e.target.checked ){
+					// show user elements and hide alert
+					$('#footer-links').removeClass('m--hide');					
+				}
+				else {
+					// hide user elements and show alert.
+					$('#footer-links').addClass('m--hide');					
+				}
+			});				
+			
+			// CONTENT CONF.			
+			$('#contentContentDashboardEnabled').on('change.bootstrapSwitch', function(e) { 
+				
+				console.log(e.target.checked);
+				if ( e.target.checked ){					
+					$('#dashboard-content').removeClass('m--hide');					
+				}
+				else {					
+					$('#dashboard-content').addClass('m--hide');					
+				}
+			});
+			
+			$('#publicAccessSystem').on('changed.jstree', function (e, data) {
+				var i, j, r = [];
+				var item = {};
+				for(i = 0, j = data.selected.length; i < j; i++) {					
+					item = data.instance.get_node(data.selected[i]);
+					FrontendController.editMenu(item,'update');
+				}				
+			});
+			
+			
+			// UPDATE ITEM IN SESSION MENU 			
+			$('#updateItem-Btn').on('click', function (){
+				// updating menu on session.
+				MenuController.itemMenu('update');
+			
+			});
+			// btn to show INSERT item session form
+			var currentNode = {};
+			$('#newItem-Btn').on('click', function (){
+				// insert menu on session.
+				FrontendController.editMenu('','insert');
+				
+				// TO-Do:
+				// PARA RECUPERAR EL NODO QUE ESCRIBAN PARA HACER EL INSERT:
+				// var miArr = Object.values($('#publicAccessSystem').jstree()._model.data);
+				// miArr.find(o => o.text === 'submenu1').id
+				// o a lo bestia, 
+				// Object.values($('#publicAccessSystem').jstree()._model.data).find(o => o.text === 'menu1').id
+			});
+			
+			$('#insertItem-Btn').on('click', function (){
+				// updating menu on session.
+				MenuController.itemMenu('insert');
+			
+			});
+			
+		});
+	
+	</script>
+	
+	</body>
+    <!-- end::Body -->
+</html>
