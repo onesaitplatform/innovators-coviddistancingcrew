@@ -1,0 +1,2480 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6456422329999327, 40.38996655700004]
+      },
+      "properties": {
+        "id": 1,
+        "type": "external",
+        "address": "Avda. Albufera, 246",
+        "postalCode": "28038",
+        "municipality": "Madrid",
+        "station_id": 123
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.639708048999978, 40.387363255000025]
+      },
+      "properties": {
+        "id": 2,
+        "type": "external",
+        "address": "Avda. Albufera, 285",
+        "postalCode": "28038",
+        "municipality": "Madrid",
+        "station_id": 124
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.624611952999942, 40.38192373000004]
+      },
+      "properties": {
+        "id": 3,
+        "type": "external",
+        "address": "Avda. de la Democracia, 3",
+        "postalCode": "28031",
+        "municipality": "Madrid",
+        "station_id": 125
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6212966669999673, 40.379605008000055]
+      },
+      "properties": {
+        "id": 4,
+        "type": "external",
+        "address": "Pº. Federico García Lorca, 1",
+        "postalCode": "28031",
+        "municipality": "Madrid",
+        "station_id": 126
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6186763669999777, 40.37215249800005]
+      },
+      "properties": {
+        "id": 5,
+        "type": "external",
+        "address": "Congosto, 50",
+        "postalCode": "28031",
+        "municipality": "Madrid",
+        "station_id": 127
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6126232539999705, 40.36920835900003]
+      },
+      "properties": {
+        "id": 6,
+        "type": "external",
+        "address": "Avda. Ensan. de Vallecas esq C/ Alto de la Sartenilla, 2",
+        "postalCode": "28031",
+        "municipality": "Madrid",
+        "station_id": 128
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.5995572659999766, 40.36320623800003]
+      },
+      "properties": {
+        "id": 7,
+        "type": "external",
+        "address": "C/ Cañada del Santísimo esquina Avda. Ensanche de Vallecas, 80",
+        "postalCode": "28051",
+        "municipality": "Madrid",
+        "station_id": 129
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.593203551999977, 40.36004612000005]
+      },
+      "properties": {
+        "id": 8,
+        "type": "external",
+        "address": "Avda. Ensanche de Vallecas 120A esq. Avda. Gran Vía del Sureste",
+        "postalCode": "28051",
+        "municipality": "Madrid",
+        "station_id": 130
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.7043996949999496, 40.43851473800004]
+      },
+      "properties": {
+        "id": 9,
+        "type": "external",
+        "address": "Bravo Murillo, impares",
+        "postalCode": "28003",
+        "municipality": "Madrid",
+        "station_id": 214
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.70910489299996, 40.42453592000004]
+      },
+      "properties": {
+        "id": 10,
+        "type": "external",
+        "address": "Pza. Conde de Toreno",
+        "postalCode": "28015",
+        "municipality": "Madrid",
+        "station_id": 308
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6984182849999456, 40.38392374700004]
+      },
+      "properties": {
+        "id": 11,
+        "type": "external",
+        "address": "Avda. Cordoba, 21",
+        "postalCode": "28026",
+        "municipality": "Madrid",
+        "station_id": 351
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.695751707999932, 40.37520222100005]
+      },
+      "properties": {
+        "id": 12,
+        "type": "external",
+        "address": "Avda. de Córdoba s/n en la Glorieta de Málaga",
+        "postalCode": "28041",
+        "municipality": "Madrid",
+        "station_id": 352
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6941037079999433, 40.36960932000005]
+      },
+      "properties": {
+        "id": 13,
+        "type": "external",
+        "address": "Avenida Perla frente al nº 29",
+        "postalCode": "28041",
+        "municipality": "Madrid",
+        "station_id": 353
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.693659517999947, 40.35972202600004]
+      },
+      "properties": {
+        "id": 14,
+        "type": "external",
+        "address": "Paseo Gigantes y Cabezudos, frente al nº 12",
+        "postalCode": "28041",
+        "municipality": "Madrid",
+        "station_id": 354
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6925639159999264, 40.350800304000074]
+      },
+      "properties": {
+        "id": 15,
+        "type": "external",
+        "address": "C/ Santa Petronila, 3",
+        "postalCode": "28021",
+        "municipality": "Madrid",
+        "station_id": 355
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6924537689999397, 40.341445270000065]
+      },
+      "properties": {
+        "id": 16,
+        "type": "external",
+        "address": "C/ Moncada, 13",
+        "postalCode": "28021",
+        "municipality": "Madrid",
+        "station_id": 356
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.712668120999979, 40.341047239000034]
+      },
+      "properties": {
+        "id": 17,
+        "type": "external",
+        "address": "C/ Valle de Tobalina, frente al nº 42",
+        "postalCode": "28021",
+        "municipality": "Madrid",
+        "station_id": 357
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6356024719999596, 40.46376037400006]
+      },
+      "properties": {
+        "id": 18,
+        "type": "external",
+        "address": "Avda. Machupichu, impares",
+        "postalCode": "28043",
+        "municipality": "Madrid",
+        "station_id": 417
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.638877943999944, 40.46940739400003]
+      },
+      "properties": {
+        "id": 19,
+        "type": "external",
+        "address": "Emigrantes (Esq. Arequipa)",
+        "postalCode": "28043",
+        "municipality": "Madrid",
+        "station_id": 418
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.639427879999971, 40.47427501100003]
+      },
+      "properties": {
+        "id": 20,
+        "type": "external",
+        "address": "Frente Avda. Baranquilla, 9",
+        "postalCode": "28033",
+        "municipality": "Madrid",
+        "station_id": 419
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6449926659999505, 40.47697358000005]
+      },
+      "properties": {
+        "id": 21,
+        "type": "external",
+        "address": "Santa Virgilia s/n",
+        "postalCode": "28033",
+        "municipality": "Madrid",
+        "station_id": 420
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.662689721999925, 40.47641237200003]
+      },
+      "properties": {
+        "id": 22,
+        "type": "external",
+        "address": "C/ Vélez Rubio esquina C/ Bacares 11",
+        "postalCode": "28033",
+        "municipality": "Madrid",
+        "station_id": 422
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.666826321999963, 40.480120172000056]
+      },
+      "properties": {
+        "id": 23,
+        "type": "external",
+        "address": "C/ Arturo Soria, 330",
+        "postalCode": "28033",
+        "municipality": "Madrid",
+        "station_id": 153
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.711363601999949, 40.40254166300008]
+      },
+      "properties": {
+        "id": 24,
+        "type": "external",
+        "address": "Plaza Ortega y Munilla",
+        "postalCode": "28005",
+        "municipality": "Madrid",
+        "station_id": 520
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.5943770649999465, 40.45330971200008]
+      },
+      "properties": {
+        "id": 25,
+        "type": "external",
+        "address": "C/ del Velero, 15",
+        "postalCode": "28042",
+        "municipality": "Madrid",
+        "station_id": 551
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.5877499439999383, 40.45753140200003]
+      },
+      "properties": {
+        "id": 26,
+        "type": "external",
+        "address": "C/ de la Corbeta,14 (esquina calle de La Rioja)",
+        "postalCode": "28042",
+        "municipality": "Madrid",
+        "station_id": 552
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.693213696999976, 40.44688055900008]
+      },
+      "properties": {
+        "id": 27,
+        "type": "external",
+        "address": "Entrada Corte Inglés",
+        "postalCode": "28046",
+        "municipality": "Madrid",
+        "station_id": 618
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6909243969999466, 40.44456383000005]
+      },
+      "properties": {
+        "id": 28,
+        "type": "external",
+        "address": "Pº de la Castellana, 100",
+        "postalCode": "28046",
+        "municipality": "Madrid",
+        "station_id": 618
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.7455285349999485, 40.40475481300007]
+      },
+      "properties": {
+        "id": 29,
+        "type": "external",
+        "address": "Cebreros, impares (Esq. Higueras, impares)",
+        "postalCode": "28011",
+        "municipality": "Madrid",
+        "station_id": 628
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.727032657999928, 40.44372009700004]
+      },
+      "properties": {
+        "id": 30,
+        "type": "external",
+        "address": "Avda. Complutense, pares",
+        "postalCode": "28040",
+        "municipality": "Madrid",
+        "station_id": 622
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.7258316529999433, 40.49528279500004]
+      },
+      "properties": {
+        "id": 31,
+        "type": "external",
+        "address": "Camino de Peñagrande",
+        "postalCode": "28035",
+        "municipality": "Madrid",
+        "station_id": 723
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.722832392999976, 40.48483629700007]
+      },
+      "properties": {
+        "id": 32,
+        "type": "external",
+        "address": "Riscos de Polanco, 2",
+        "postalCode": "28035",
+        "municipality": "Madrid",
+        "station_id": 721
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.7183589939999706, 40.480130778000046]
+      },
+      "properties": {
+        "id": 33,
+        "type": "external",
+        "address": "Islas Cíes, 23",
+        "postalCode": "28035",
+        "municipality": "Madrid",
+        "station_id": 720
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.7161342939999713, 40.47585348900003]
+      },
+      "properties": {
+        "id": 34,
+        "type": "external",
+        "address": "Vereda de Ganapanes, impares (esq. Bañeza, 40)",
+        "postalCode": "28035",
+        "municipality": "Madrid",
+        "station_id": 719
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.71787364599993, 40.47026177400005]
+      },
+      "properties": {
+        "id": 35,
+        "type": "external",
+        "address": "Valderrodrigo",
+        "postalCode": "28039",
+        "municipality": "Madrid",
+        "station_id": 718
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.7165746159999458, 40.46499535500004]
+      },
+      "properties": {
+        "id": 36,
+        "type": "external",
+        "address": "San Restituto, 72",
+        "postalCode": "28039",
+        "municipality": "Madrid",
+        "station_id": 717
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.712022248999972, 40.45658202300007]
+      },
+      "properties": {
+        "id": 37,
+        "type": "external",
+        "address": "Pablo Iglesias, 92",
+        "postalCode": "28039",
+        "municipality": "Madrid",
+        "station_id": 716
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6990040939999744, 40.43834893800005]
+      },
+      "properties": {
+        "id": 38,
+        "type": "external",
+        "address": "José Abascal, 20",
+        "postalCode": "28003",
+        "municipality": "Madrid",
+        "station_id": 712
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6919894309999677, 40.437991805000024]
+      },
+      "properties": {
+        "id": 39,
+        "type": "external",
+        "address": "José Abascal, 33",
+        "postalCode": "28003",
+        "municipality": "Madrid",
+        "station_id": 711
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.561983270999974, 40.42382167100004]
+      },
+      "properties": {
+        "id": 40,
+        "type": "external",
+        "address": "C/ Doctor Fleming s/n en el parque Doctor Fleming<br>COSLADA",
+        "postalCode": "28821",
+        "municipality": "Coslada",
+        "station_id": 755
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.5479045399999336, 40.42515356100006]
+      },
+      "properties": {
+        "id": 41,
+        "type": "external",
+        "address": "C/ Honduras s/n semiesquina a C/ Méjico <br>COSLADA",
+        "postalCode": "28822",
+        "municipality": "Coslada",
+        "station_id": 756
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6772261179999646, 40.457204895000075]
+      },
+      "properties": {
+        "id": 42,
+        "type": "external",
+        "address": "Colombia, 3",
+        "postalCode": "28016",
+        "municipality": "Madrid",
+        "station_id": 802
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6160089539999376, 40.46425402500006]
+      },
+      "properties": {
+        "id": 43,
+        "type": "external",
+        "address": "Pabellones, pares",
+        "postalCode": "28042",
+        "municipality": "Madrid",
+        "station_id": 805
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.569416525999941, 40.46846210900003]
+      },
+      "properties": {
+        "id": 44,
+        "type": "external",
+        "address": " ",
+        "postalCode": "28042",
+        "municipality": "Madrid",
+        "station_id": 806
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.582634015999929, 40.47576958500008]
+      },
+      "properties": {
+        "id": 45,
+        "type": "external",
+        "address": "Avda. Logroño, 347",
+        "postalCode": "28042",
+        "municipality": "Madrid",
+        "station_id": 807
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.621338942999955, 40.40079631200007]
+      },
+      "properties": {
+        "id": 46,
+        "type": "external",
+        "address": "Indalecio Prieto (parcela 24) (semiesq. Raya)",
+        "postalCode": "28032",
+        "municipality": "Madrid",
+        "station_id": 919
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.609261321999952, 40.40431894300008]
+      },
+      "properties": {
+        "id": 47,
+        "type": "external",
+        "address": "Pº Artilleros, s/n (Universidad)",
+        "postalCode": "28032",
+        "municipality": "Madrid",
+        "station_id": 920
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6035643579999714, 40.40386715200003]
+      },
+      "properties": {
+        "id": 48,
+        "type": "external",
+        "address": "San Cipriano, 50",
+        "postalCode": "28032",
+        "municipality": "Madrid",
+        "station_id": 921
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.5956374219999248, 40.40138167300006]
+      },
+      "properties": {
+        "id": 49,
+        "type": "external",
+        "address": "En el interior del edificio de acceso- no es exterior, ni un acceso independente",
+        "postalCode": "28032",
+        "municipality": "Madrid",
+        "station_id": 922
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6959887089999484, 40.50530624600003]
+      },
+      "properties": {
+        "id": 50,
+        "type": "external",
+        "address": " ",
+        "postalCode": "28049",
+        "municipality": "Madrid",
+        "station_id": 1052
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6628517749999787, 40.51578970800006]
+      },
+      "properties": {
+        "id": 51,
+        "type": "external",
+        "address": "C/ Maestro Mateo s/n",
+        "postalCode": "28050",
+        "municipality": "Madrid",
+        "station_id": 1054
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6585775099999296, 40.52768502300006]
+      },
+      "properties": {
+        "id": 52,
+        "type": "external",
+        "address": "C/ Sepúlveda 3, esquina C/ La Granja <br>ALCOBENDAS",
+        "postalCode": "28108",
+        "municipality": "Alcobendas",
+        "station_id": 1055
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6354696059999583, 40.531895287000054]
+      },
+      "properties": {
+        "id": 53,
+        "type": "external",
+        "address": "Avda. Bruselas nº14 <br>ALCOBENDAS",
+        "postalCode": "28108",
+        "municipality": "Alcobendas",
+        "station_id": 1056
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6375409359999367, 40.54106346400005]
+      },
+      "properties": {
+        "id": 54,
+        "type": "external",
+        "address": "C/ Marqués de la Valdavia nº21 <br>ALCOBENDAS",
+        "postalCode": "28100",
+        "municipality": "Alcobendas",
+        "station_id": 1057
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6468360699999494, 40.55061616300003]
+      },
+      "properties": {
+        "id": 55,
+        "type": "external",
+        "address": "C/ Manuel de Falla, frente al nº32 <br>ALCOBENDAS",
+        "postalCode": "28100",
+        "municipality": "Alcobendas",
+        "station_id": 1058
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.63538811199993, 40.55443069300003]
+      },
+      "properties": {
+        "id": 56,
+        "type": "external",
+        "address": "Avda. Lomas del Rey nº1, esquina Avda de la Independencia SAN SEBASTIÁN DE LOS REYES",
+        "postalCode": "28701",
+        "municipality": "San Sebastián de los Reyes",
+        "station_id": 1059
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.623535808999975, 40.550335242000074]
+      },
+      "properties": {
+        "id": 57,
+        "type": "external",
+        "address": "Avda. Plaza de Toros, frente nº7 <br>SAN SEBASTIÁN DE LOS REYES",
+        "postalCode": "28701",
+        "municipality": "San Sebastián de los Reyes",
+        "station_id": 1060
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.611013813999932, 40.55976657300005]
+      },
+      "properties": {
+        "id": 58,
+        "type": "external",
+        "address": "Avenida de Europa s/n <br> SAN SEBASTIÁN DE LOS REYES",
+        "postalCode": "28703",
+        "municipality": "San Sebastián de los Reyes",
+        "station_id": 1061
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.734477507999941, 40.37606473400007]
+      },
+      "properties": {
+        "id": 59,
+        "type": "external",
+        "address": "Avda. de Abrantes, 122",
+        "postalCode": "28025",
+        "municipality": "Madrid",
+        "station_id": 1103
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.740265109999939, 40.37343724400006]
+      },
+      "properties": {
+        "id": 60,
+        "type": "external",
+        "address": "Avda. Los Poblados, 102",
+        "postalCode": "28054",
+        "municipality": "Madrid",
+        "station_id": 1104
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6481606869999723, 40.46800371900008]
+      },
+      "properties": {
+        "id": 61,
+        "type": "external",
+        "address": "Gran Vía de Hortaleza, frente 47 y 62",
+        "postalCode": "28043",
+        "municipality": "Madrid",
+        "station_id": 803
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6628303389999246, 40.485651190000056]
+      },
+      "properties": {
+        "id": 62,
+        "type": "external",
+        "address": "Camino Fuente de la Mora, 6",
+        "postalCode": "28050",
+        "municipality": "Madrid",
+        "station_id": 5112
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.669679017999954, 40.508329477000075]
+      },
+      "properties": {
+        "id": 63,
+        "type": "external",
+        "address": "Frente a C/ Palas de Rey, 38 (aprox: entre 30 y 48)",
+        "postalCode": "28050",
+        "municipality": "Madrid",
+        "station_id": 1053
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.774207614999966, 40.39717161500005]
+      },
+      "properties": {
+        "id": 64,
+        "type": "external",
+        "address": "esq. Ctra. Carabanchel-Aravaca, 56",
+        "postalCode": "28024",
+        "municipality": "Madrid",
+        "station_id": 1016
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6833291179999605, 40.47317387800007]
+      },
+      "properties": {
+        "id": 65,
+        "type": "external",
+        "address": "Agustín de Foxa, s/n",
+        "postalCode": "28046",
+        "municipality": "Madrid",
+        "station_id": 151
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6932124609999732, 40.44683795100008]
+      },
+      "properties": {
+        "id": 66,
+        "type": "external",
+        "address": "Entrada Corte Inglés",
+        "postalCode": "28046",
+        "municipality": "Madrid",
+        "station_id": 618
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.69146374099995, 40.44657327400006]
+      },
+      "properties": {
+        "id": 67,
+        "type": "external",
+        "address": "Pº de la Castellana, 67 en el bulevar",
+        "postalCode": "28046",
+        "municipality": "Madrid",
+        "station_id": 618
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.711813867999979, 40.42412717600007]
+      },
+      "properties": {
+        "id": 68,
+        "type": "external",
+        "address": "Plaza de España, 18",
+        "postalCode": "28008",
+        "municipality": "Madrid",
+        "station_id": 308
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.7610310499999287, 40.40329531700007]
+      },
+      "properties": {
+        "id": 69,
+        "type": "external",
+        "address": "Camino de Campamento s/n (esq. Paseo de la Puerta del Batán)",
+        "postalCode": "28011",
+        "municipality": "Madrid",
+        "station_id": 530
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.783841643999949, 40.38376686200007]
+      },
+      "properties": {
+        "id": 70,
+        "type": "external",
+        "address": "C/ Fuente de Lima, 2",
+        "postalCode": "28024",
+        "municipality": "Madrid",
+        "station_id": 1018
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.7927448929999628, 40.37822499200007]
+      },
+      "properties": {
+        "id": 71,
+        "type": "external",
+        "address": "Pº de los Húsares, 46. Colonia Dehesa del Príncipe",
+        "postalCode": "28024",
+        "municipality": "Madrid",
+        "station_id": 1019
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.7920674419999614, 40.37790447900005]
+      },
+      "properties": {
+        "id": 72,
+        "type": "external",
+        "address": "Pº de Extremadura, Km 9,500 dirección Madrid",
+        "postalCode": "28024",
+        "municipality": "Madrid",
+        "station_id": 1019
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.807451710999942, 40.34999540500007]
+      },
+      "properties": {
+        "id": 73,
+        "type": "external",
+        "address": "Alcalde Joaquín Vilumbrales, 29 (esquina c/ Carballino) <br>ALCORCÓN",
+        "postalCode": "28924",
+        "municipality": "Alcorcón",
+        "station_id": 1020
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.811500133999971, 40.345545825000045]
+      },
+      "properties": {
+        "id": 74,
+        "type": "external",
+        "address": "Avda. Alcalde Joaquín Vilumbrales <br>ALCORCÓN",
+        "postalCode": "28924",
+        "municipality": "Alcorcón",
+        "station_id": 1021
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.7759905179999578, 40.336022858000035]
+      },
+      "properties": {
+        "id": 75,
+        "type": "external",
+        "address": "Avda. del Mar Mediterráneo <br>LEGANÉS",
+        "postalCode": "28918",
+        "municipality": "Leganés",
+        "station_id": 1230
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.771890384999949, 40.328883775000065]
+      },
+      "properties": {
+        "id": 76,
+        "type": "external",
+        "address": "Avda. del Cobre (fuera templete) <br>LEGANÉS",
+        "postalCode": "28911",
+        "municipality": "Leganés",
+        "station_id": 1229
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.7686521359999574, 40.32183568000005]
+      },
+      "properties": {
+        "id": 77,
+        "type": "external",
+        "address": "Avda. Orellana <br>LEGANÉS",
+        "postalCode": "28914",
+        "municipality": "Leganés",
+        "station_id": 1228
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.759564847999968, 40.32648858600004]
+      },
+      "properties": {
+        "id": 78,
+        "type": "external",
+        "address": "Avda. de Gibraltar, 2 <br>LEGANÉS",
+        "postalCode": "28914",
+        "municipality": "Leganés",
+        "station_id": 1227
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.752548529999956, 40.33468624900007]
+      },
+      "properties": {
+        "id": 79,
+        "type": "external",
+        "address": "Avda. Rey Juan Carlos I, 25 <br>LEGANÉS",
+        "postalCode": "28915",
+        "municipality": "Leganés",
+        "station_id": 1226
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.740488146999951, 40.33655589400007]
+      },
+      "properties": {
+        "id": 80,
+        "type": "external",
+        "address": "Avda. Rey Juan Carlos I, Bulevar<br>LEGANÉS",
+        "postalCode": "28916",
+        "municipality": "Leganés",
+        "station_id": 1225
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.718008040999962, 40.32414749700007]
+      },
+      "properties": {
+        "id": 81,
+        "type": "external",
+        "address": "Avda. de Rigoberta Menchú, 3 (esquina a C/ Rosa de Luxemburgo) <br>GETAFE",
+        "postalCode": "28903",
+        "municipality": "Getafe",
+        "station_id": 1223
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.7100504759999353, 40.31841052200008]
+      },
+      "properties": {
+        "id": 82,
+        "type": "external",
+        "address": "Avda. del Casar (fuera del templete)<br>GETAFE",
+        "postalCode": "28903",
+        "municipality": "Getafe",
+        "station_id": 1222
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.722406932999945, 40.31210771600007]
+      },
+      "properties": {
+        "id": 83,
+        "type": "external",
+        "address": "Avda. España, 9 <br>GETAFE",
+        "postalCode": "28903",
+        "municipality": "Getafe",
+        "station_id": 1221
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.7337846039999363, 40.309989657000074]
+      },
+      "properties": {
+        "id": 84,
+        "type": "external",
+        "address": "Paseo del Ferrocarril<br>GETAFE",
+        "postalCode": "28902",
+        "municipality": "Getafe",
+        "station_id": 1220
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.7367889439999544, 40.30087413200005]
+      },
+      "properties": {
+        "id": 85,
+        "type": "external",
+        "address": "C/ El Greco, 2 (esquina con C/ Ferrocarril)<br>GETAFE",
+        "postalCode": "28904",
+        "municipality": "Getafe",
+        "station_id": 1219
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.745831629999941, 40.29335171300005]
+      },
+      "properties": {
+        "id": 86,
+        "type": "external",
+        "address": "Avda. de las Arcas del Agua, 9 (esquina a c/ Senda de Mafalda) GETAFE",
+        "postalCode": "28905",
+        "municipality": "Getafe",
+        "station_id": 1218
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.7567575419999457, 40.28858363100005]
+      },
+      "properties": {
+        "id": 87,
+        "type": "external",
+        "address": "Las Ciencias, 14 (esquina C/ Canarias, 143)<br>GETAFE",
+        "postalCode": "28905",
+        "municipality": "Getafe",
+        "station_id": 1217
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.787014258999932, 40.28661011400004]
+      },
+      "properties": {
+        "id": 88,
+        "type": "external",
+        "address": "Venezuela, 2 <br>FUENLABRADA",
+        "postalCode": "28945",
+        "municipality": "Fuenlabrada",
+        "station_id": 1215
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.7988629989999367, 40.28260731200004]
+      },
+      "properties": {
+        "id": 89,
+        "type": "external",
+        "address": "Pº de la Estación s/n (dentro del templete) <br>FUENLABRADA",
+        "postalCode": "28944",
+        "municipality": "Fuenlabrada",
+        "station_id": 1214
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.806445045999965, 40.28529750400003]
+      },
+      "properties": {
+        "id": 90,
+        "type": "external",
+        "address": "C/ Francia, 36 <br>FUENLABRADA",
+        "postalCode": "28943",
+        "municipality": "Fuenlabrada",
+        "station_id": 1213
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.81657088999998, 40.28576529000003]
+      },
+      "properties": {
+        "id": 91,
+        "type": "external",
+        "address": "Cº del Molino, pares s/n <br> FUENLABRADA",
+        "postalCode": "28942",
+        "municipality": "Fuenlabrada",
+        "station_id": 1212
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.8375203329999295, 40.296884712000065]
+      },
+      "properties": {
+        "id": 92,
+        "type": "external",
+        "address": "Plaza de la Concordia <br>FUENLABRADA",
+        "postalCode": "28942",
+        "municipality": "Fuenlabrada",
+        "station_id": 1210
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.86474716999993, 40.30911529000008]
+      },
+      "properties": {
+        "id": 93,
+        "type": "external",
+        "address": "Cº Magdalena <br>MÓTOLES",
+        "postalCode": "28938",
+        "municipality": "Móstoles",
+        "station_id": 1209
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.8745499089999385, 40.31641556900007]
+      },
+      "properties": {
+        "id": 94,
+        "type": "external",
+        "address": "C/ Río Sella <br>MÓSTOLES",
+        "postalCode": "28934",
+        "municipality": "Móstoles",
+        "station_id": 1208
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.864705386999958, 40.321586325000055]
+      },
+      "properties": {
+        "id": 95,
+        "type": "external",
+        "address": "Plaza del Pradillo s/n <br>MÓSTOLES",
+        "postalCode": "28931",
+        "municipality": "Móstoles",
+        "station_id": 1207
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.863364302999969, 40.328745335000065]
+      },
+      "properties": {
+        "id": 96,
+        "type": "external",
+        "address": "Paseo de la Estación, s/n<br>MOSTOLES",
+        "postalCode": "28932",
+        "municipality": "Móstoles",
+        "station_id": 1206
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.8721765579999783, 40.33485601600006]
+      },
+      "properties": {
+        "id": 97,
+        "type": "external",
+        "address": "Avda. Alcalde de Móstoles, 35 <br>MÓSTOLES",
+        "postalCode": "28933",
+        "municipality": "Móstoles",
+        "station_id": 1205
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.8492831749999254, 40.346122026000046]
+      },
+      "properties": {
+        "id": 98,
+        "type": "external",
+        "address": "Estambul, 16 <br>ALCORCÓN",
+        "postalCode": "28922",
+        "municipality": "Alcorcón",
+        "station_id": 1204
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.832261272999972, 40.34973636400008]
+      },
+      "properties": {
+        "id": 99,
+        "type": "external",
+        "address": "Avda. Móstoles<BR>ALCORCÓN",
+        "postalCode": "28922",
+        "municipality": "Alcorcón",
+        "station_id": 1203
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.821054862999972, 40.34957063400003]
+      },
+      "properties": {
+        "id": 100,
+        "type": "external",
+        "address": "Avda. de Leganés, 20 (esquina c/ Porto Lagos, 20) ALCORCÓN",
+        "postalCode": "28924",
+        "municipality": "Alcorcón",
+        "station_id": 1202
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.7575439129999495, 40.363125929000034]
+      },
+      "properties": {
+        "id": 101,
+        "type": "external",
+        "address": "Dentro del templete del acceso Avda. La Peseta, 61",
+        "postalCode": "28054",
+        "municipality": "Madrid",
+        "station_id": 1106
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.751703119999945, 40.37180260100007]
+      },
+      "properties": {
+        "id": 102,
+        "type": "external",
+        "address": "Avda. Carabanchel Alto, 15",
+        "postalCode": "28044",
+        "municipality": "Madrid",
+        "station_id": 1105
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.7281251949999614, 40.38100613100005]
+      },
+      "properties": {
+        "id": 103,
+        "type": "external",
+        "address": "Avda. Abrantes, 52 (esq. Papagayo y A.Mtez)",
+        "postalCode": "28025",
+        "municipality": "Madrid",
+        "station_id": 1102
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.718159962999948, 40.38534499900004]
+      },
+      "properties": {
+        "id": 104,
+        "type": "external",
+        "address": "Pza. F. Ladreda (esq. A. Leyva 89 ,91)",
+        "postalCode": "28019",
+        "municipality": "Madrid",
+        "station_id": 605
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.526288526999963, 40.34115743600006]
+      },
+      "properties": {
+        "id": 105,
+        "type": "external",
+        "address": " ",
+        "postalCode": "28529",
+        "municipality": "Rivas-Vaciamadrid",
+        "station_id": 925
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.56949917999998, 40.46864913700006]
+      },
+      "properties": {
+        "id": 106,
+        "type": "external",
+        "address": " ",
+        "postalCode": "28042",
+        "municipality": "Madrid",
+        "station_id": 806
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.7136777059999417, 40.44569731400003]
+      },
+      "properties": {
+        "id": 107,
+        "type": "external",
+        "address": "Reina Victoria, s/n",
+        "postalCode": "28003",
+        "municipality": "Madrid",
+        "station_id": 620
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.714353965999976, 40.43897067000006]
+      },
+      "properties": {
+        "id": 108,
+        "type": "external",
+        "address": "Cea Bermúdez, 51",
+        "postalCode": "28003",
+        "municipality": "Madrid",
+        "station_id": 714
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6435126509999805, 40.43524087700007]
+      },
+      "properties": {
+        "id": 109,
+        "type": "external",
+        "address": "Alcalá, 366",
+        "postalCode": "28027",
+        "municipality": "Madrid",
+        "station_id": 505
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6015873169999395, 40.43296213600007]
+      },
+      "properties": {
+        "id": 110,
+        "type": "external",
+        "address": "C/ Estocolmo s/n semiesquina C/ Sofía",
+        "postalCode": "28022",
+        "municipality": "Madrid",
+        "station_id": 751
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.569123665999939, 40.422657711000056]
+      },
+      "properties": {
+        "id": 111,
+        "type": "external",
+        "address": "Avda. España s/n junto al parque Avenida España COSLADA",
+        "postalCode": "28821",
+        "municipality": "Coslada",
+        "station_id": 754
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.536093775999973, 40.42459224700008]
+      },
+      "properties": {
+        "id": 112,
+        "type": "external",
+        "address": "Plaza Echebeste s/n frente a C/ Gonzalo de Córdoba, 33 SAN FERNANDO DE HENARES",
+        "postalCode": "28830",
+        "municipality": "San Fernando de Henares",
+        "station_id": 757
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.5253290559999755, 40.422935159000076]
+      },
+      "properties": {
+        "id": 113,
+        "type": "external",
+        "address": "Plaza Guernica, esquina Avda. San Sebastián <br>SAN FERNANDO DE HENARES",
+        "postalCode": "28830",
+        "municipality": "San Fernando de Henares",
+        "station_id": 758
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.5274150029999305, 40.41773095700006]
+      },
+      "properties": {
+        "id": 114,
+        "type": "external",
+        "address": "Avda. Algorta, 12 <br>SAN FERNANDO DE HENARES",
+        "postalCode": "28830",
+        "municipality": "San Fernando de Henares",
+        "station_id": 759
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.5344355939999446, 40.417709253000055]
+      },
+      "properties": {
+        "id": 115,
+        "type": "external",
+        "address": "Camino Labor, s/n (frente al hospital) <br> COSLADA",
+        "postalCode": "28822",
+        "municipality": "Coslada",
+        "station_id": 760
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6704776859999697, 40.40696178200005]
+      },
+      "properties": {
+        "id": 116,
+        "type": "external",
+        "address": "Pza. Conde de Casal, 2",
+        "postalCode": "28007",
+        "municipality": "Madrid",
+        "station_id": 611
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6947970819999796, 40.391380396000045]
+      },
+      "properties": {
+        "id": 117,
+        "type": "external",
+        "address": "Plaza de Legazpi, 3",
+        "postalCode": "28045",
+        "municipality": "Madrid",
+        "station_id": 301
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.7068074699999443, 40.38702255000004]
+      },
+      "properties": {
+        "id": 118,
+        "type": "external",
+        "address": "Amparo Usera, 46",
+        "postalCode": "28026",
+        "municipality": "Madrid",
+        "station_id": 606
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.7448596929999667, 40.39927899400004]
+      },
+      "properties": {
+        "id": 119,
+        "type": "external",
+        "address": "c/ Cuart de Poblet esquina c/ Alhambra 56",
+        "postalCode": "28047",
+        "municipality": "Madrid",
+        "station_id": 601
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.715733291999925, 40.43069271500008]
+      },
+      "properties": {
+        "id": 120,
+        "type": "external",
+        "address": "Alberto Aguilera, pares",
+        "postalCode": "28015",
+        "municipality": "Madrid",
+        "station_id": 310
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.7038226089999284, 40.44647295800007]
+      },
+      "properties": {
+        "id": 121,
+        "type": "external",
+        "address": "Santa Engracia (semiesquina Bravo Murillo)",
+        "postalCode": "28003",
+        "municipality": "Madrid",
+        "station_id": 106
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.70663955699996, 40.42016347500004]
+      },
+      "properties": {
+        "id": 122,
+        "type": "external",
+        "address": "C/ Jacometrezo, impares",
+        "postalCode": "28013",
+        "municipality": "Madrid",
+        "station_id": 307
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.70584149299998, 40.420143825000025]
+      },
+      "properties": {
+        "id": 123,
+        "type": "external",
+        "address": "Plaza de Callao, 1",
+        "postalCode": "28013",
+        "municipality": "Madrid",
+        "station_id": 307
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.661458396999933, 40.487509153000076]
+      },
+      "properties": {
+        "id": 124,
+        "type": "external",
+        "address": "Avda. Manoteras esquina C/ Oña, 185",
+        "postalCode": "28050",
+        "municipality": "Madrid",
+        "station_id": 5113
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6557189619999804, 40.493596370000034]
+      },
+      "properties": {
+        "id": 125,
+        "type": "external",
+        "address": "C/ Príncipe Carlos, frente al nº 19, esquina C/ Vicente Blasco Ibáñez",
+        "postalCode": "28050",
+        "municipality": "Madrid",
+        "station_id": 5116
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6589585569999485, 40.49707964800007]
+      },
+      "properties": {
+        "id": 126,
+        "type": "external",
+        "address": "C/ María Tudor s/n,  frente esquina C/ Leonor de Austria",
+        "postalCode": "28050",
+        "municipality": "Madrid",
+        "station_id": 5117
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.676536326999951, 40.42491251800004]
+      },
+      "properties": {
+        "id": 127,
+        "type": "external",
+        "address": "C/ Goya, 87",
+        "postalCode": "28001",
+        "municipality": "Madrid",
+        "station_id": 203
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6764555579999296, 40.42424370500004]
+      },
+      "properties": {
+        "id": 128,
+        "type": "external",
+        "address": "Avda. Felipe II, 1 (Esq. con c/ Alcalá)",
+        "postalCode": "28009",
+        "municipality": "Madrid",
+        "station_id": 203
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.677314826999975, 40.424416877000056]
+      },
+      "properties": {
+        "id": 129,
+        "type": "external",
+        "address": "General Díaz Porlier, 3",
+        "postalCode": "28001",
+        "municipality": "Madrid",
+        "station_id": 203
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.694183708999958, 40.39998189100004]
+      },
+      "properties": {
+        "id": 130,
+        "type": "external",
+        "address": "Pº de las Delicias, 58",
+        "postalCode": "28045",
+        "municipality": "Madrid",
+        "station_id": 302
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.694143310999948, 40.40313068700004]
+      },
+      "properties": {
+        "id": 131,
+        "type": "external",
+        "address": "Palos de la Frontera, 33",
+        "postalCode": "28045",
+        "municipality": "Madrid",
+        "station_id": 303
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.7028997059999256, 40.404671859000075]
+      },
+      "properties": {
+        "id": 132,
+        "type": "external",
+        "address": "Gta. Embajadores, 7",
+        "postalCode": "28012",
+        "municipality": "Madrid",
+        "station_id": 304
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.7003939379999338, 40.40841988400007]
+      },
+      "properties": {
+        "id": 133,
+        "type": "external",
+        "address": "Argumosa, 3",
+        "postalCode": "28012",
+        "municipality": "Madrid",
+        "station_id": 305
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.7043922729999395, 40.41666311000006]
+      },
+      "properties": {
+        "id": 134,
+        "type": "external",
+        "address": "Puerta del Sol",
+        "postalCode": "28013",
+        "municipality": "Madrid",
+        "station_id": 112
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.713417296999978, 40.42695457600007]
+      },
+      "properties": {
+        "id": 135,
+        "type": "external",
+        "address": "Princesa pares",
+        "postalCode": "28008",
+        "municipality": "Madrid",
+        "station_id": 309
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.650427517999958, 40.426520279000044]
+      },
+      "properties": {
+        "id": 136,
+        "type": "external",
+        "address": "Avda. Marqués de Corbera, 58",
+        "postalCode": "28017",
+        "municipality": "Madrid",
+        "station_id": 251
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.689009329999976, 40.40749395300003]
+      },
+      "properties": {
+        "id": 137,
+        "type": "external",
+        "address": "Pº Infanta Isabel impares",
+        "postalCode": "28014",
+        "municipality": "Madrid",
+        "station_id": 116
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6984501529999534, 40.43506552500003]
+      },
+      "properties": {
+        "id": 138,
+        "type": "external",
+        "address": "General Martínez Campos, 1 (esq C/ Santa Engracia)",
+        "postalCode": "28010",
+        "municipality": "Madrid",
+        "station_id": 108
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6990315049999367, 40.43476158900006]
+      },
+      "properties": {
+        "id": 139,
+        "type": "external",
+        "address": "Glorieta Pintor Sorolla, 1",
+        "postalCode": "28010",
+        "municipality": "Madrid",
+        "station_id": 108
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6764157899999645, 40.476715496000054]
+      },
+      "properties": {
+        "id": 140,
+        "type": "external",
+        "address": "C/ Bambú, frente al nº 14",
+        "postalCode": "28036",
+        "municipality": "Madrid",
+        "station_id": 152
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.7774774929999353, 40.357913911000026]
+      },
+      "properties": {
+        "id": 141,
+        "type": "external",
+        "address": "C/ San José, 44, semiesquina C/ Del Carmen",
+        "postalCode": "28917",
+        "municipality": "Leganés",
+        "station_id": 1107
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.623263632999965, 40.41861429200003]
+      },
+      "properties": {
+        "id": 142,
+        "type": "external",
+        "address": "C/ Hermanos García Noblejas, 133",
+        "postalCode": "28037",
+        "municipality": "Madrid",
+        "station_id": 253
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6231571429999576, 40.417996334000065]
+      },
+      "properties": {
+        "id": 143,
+        "type": "external",
+        "address": "Plaza Alsacia s/n",
+        "postalCode": "28032",
+        "municipality": "Madrid",
+        "station_id": 253
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6391295859999673, 40.42382841300008]
+      },
+      "properties": {
+        "id": 144,
+        "type": "external",
+        "address": "C/ Arriaga esquina C/ Francisco Largo Caballero",
+        "postalCode": "28017",
+        "municipality": "Madrid",
+        "station_id": 252
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6115524009999262, 40.42224750500003]
+      },
+      "properties": {
+        "id": 145,
+        "type": "external",
+        "address": "Avda. de Guadalajara esquina Avda. Canillejas a Vicalvaro",
+        "postalCode": "28032",
+        "municipality": "Madrid",
+        "station_id": 254
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.602511723999953, 40.42356730800003]
+      },
+      "properties": {
+        "id": 146,
+        "type": "external",
+        "address": "Paseo de Ginebra, 35",
+        "postalCode": "28022",
+        "municipality": "Madrid",
+        "station_id": 255
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.716598259999955, 40.49076344400004]
+      },
+      "properties": {
+        "id": 147,
+        "type": "external",
+        "address": "C/ Ventisquero de la Condesa, 28 esquina C/ Mirador de la Reina, 54",
+        "postalCode": "28035",
+        "municipality": "Madrid",
+        "station_id": 951
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.71464293899993, 40.430558689000065]
+      },
+      "properties": {
+        "id": 148,
+        "type": "external",
+        "address": "Alberto Aguilera 62",
+        "postalCode": " ",
+        "municipality": " ",
+        "station_id": 310
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6631962869999484, 40.48472866900005]
+      },
+      "properties": {
+        "id": 149,
+        "type": "external",
+        "address": "Camino Fuente de la Mora, s/n",
+        "postalCode": " ",
+        "municipality": " ",
+        "station_id": 5112
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.7092583569999533, 40.41815895000008]
+      },
+      "properties": {
+        "id": 150,
+        "type": "external",
+        "address": "Plaza de Isabel II, 8",
+        "postalCode": " ",
+        "municipality": " ",
+        "station_id": 209
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6743324869999583, 40.401427084000034]
+      },
+      "properties": {
+        "id": 151,
+        "type": "external",
+        "address": "C/ Doctor Esquerdo, 219",
+        "postalCode": " ",
+        "municipality": " ",
+        "station_id": 118
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.709316565999927, 40.49910247300005]
+      },
+      "properties": {
+        "id": 152,
+        "type": "external",
+        "address": "C/ Costa Brava, 18",
+        "postalCode": " ",
+        "municipality": " ",
+        "station_id": 952
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6890284119999706, 40.46677315300008]
+      },
+      "properties": {
+        "id": 153,
+        "type": "external",
+        "address": "Paseo de la Castellana, bulevar central",
+        "postalCode": " ",
+        "municipality": " ",
+        "station_id": 101
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6886718929999347, 40.46560141300006]
+      },
+      "properties": {
+        "id": 154,
+        "type": "external",
+        "address": "Paseo de la Castellana, bulevar central",
+        "postalCode": " ",
+        "municipality": " ",
+        "station_id": 101
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.7092583039999454, 40.42453176500004]
+      },
+      "properties": {
+        "id": 155,
+        "type": "external",
+        "address": "Pza. Conde de Toreno",
+        "postalCode": " ",
+        "municipality": " ",
+        "station_id": 308
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.7199654959999293, 40.42117072600007]
+      },
+      "properties": {
+        "id": 156,
+        "type": "external",
+        "address": "Plaza Elíptica, esq. Marcelo Usera con Paseo de Santa María de la Cabeza",
+        "postalCode": " ",
+        "municipality": " ",
+        "station_id": 625
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.7407589459999713, 40.393172367000034]
+      },
+      "properties": {
+        "id": 157,
+        "type": "external",
+        "address": "Vía Carpetana s/n frente al nº 139",
+        "postalCode": " ",
+        "municipality": " ",
+        "station_id": 602
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.7408813499999383, 40.392772310000055]
+      },
+      "properties": {
+        "id": 158,
+        "type": "external",
+        "address": "Vía Carpetana s/n frente al nº 139",
+        "postalCode": " ",
+        "municipality": " ",
+        "station_id": 602
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.744854256999929, 40.39917136100007]
+      },
+      "properties": {
+        "id": 159,
+        "type": "external",
+        "address": "c/ Cuart de Poblet esquina c/ Alhambra 56",
+        "postalCode": " ",
+        "municipality": " ",
+        "station_id": 601
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.74484474999997, 40.39905913800004]
+      },
+      "properties": {
+        "id": 160,
+        "type": "external",
+        "address": "c/ Cuart de Poblet esquina c/ Alhambra 56",
+        "postalCode": " ",
+        "municipality": " ",
+        "station_id": 601
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6698157029999265, 40.414824993000025]
+      },
+      "properties": {
+        "id": 161,
+        "type": "external",
+        "address": "C/ Dr. Esquerdo, 66",
+        "postalCode": " ",
+        "municipality": " ",
+        "station_id": 612
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.669825209999942, 40.41457435900003]
+      },
+      "properties": {
+        "id": 162,
+        "type": "external",
+        "address": "C/ Dr. Esquerdo, 66",
+        "postalCode": " ",
+        "municipality": " ",
+        "station_id": 612
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.7095014359999254, 40.31858449400005]
+      },
+      "properties": {
+        "id": 163,
+        "type": "external",
+        "address": "Calle de la Gitanilla (templete)",
+        "postalCode": "28903",
+        "municipality": "Getafe",
+        "station_id": 1222
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.7015862399999264, 40.429064492000066]
+      },
+      "properties": {
+        "id": 164,
+        "type": "external",
+        "address": "Glorieta de Bilbao, 6",
+        "postalCode": "28004",
+        "municipality": "Madrid",
+        "station_id": 109
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.71708487199993, 40.38538793600003]
+      },
+      "properties": {
+        "id": 165,
+        "type": "external",
+        "address": "Plaza Elíptica, esq. Marcelo Usera con Paseo de Santa María de la Cabeza",
+        "postalCode": "28026",
+        "municipality": "Madrid",
+        "station_id": 605
+      }
+    }
+  ]
+}

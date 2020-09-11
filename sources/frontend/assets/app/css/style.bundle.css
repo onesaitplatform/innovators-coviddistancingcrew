@@ -8911,7 +8911,7 @@ body.m-portlet--fullscreen.m-aside-left--fixed .m-aside-left{display:none}
 .m-login.m-login--5 .m-login__wrapper-1 .m-login__wrapper-1-1 .m-login__contanier .m-login__content .m-login__form-action .btn{display:inline-block;text-align:center;padding:1.2rem 3rem;margin-right:2rem}
 .m-login.m-login--5 .m-login__wrapper-1 .m-login__wrapper-1-1 .m-login__contanier .m-login__content .m-login__form-action .btn:last-child{margin-right:0}
 .m-login.m-login--5 .m-login__wrapper-1 .m-login__wrapper-1-1 .m-login__border{display:table-cell;padding-top:7rem}
-.m-login.m-login--5 .m-login__wrapper-1 .m-login__wrapper-1-1 .m-login__border>div{height:500px;background:#fff;width:30px;-webkit-box-shadow:-19px 0 35px -7px #f5f5f5;box-shadow:-19px 0 35px -7px #f5f5f5;margin-top:-100px;position:absolute}
+/* .m-login.m-login--5 .m-login__wrapper-1 .m-login__wrapper-1-1 .m-login__border>div{height:500px;background:#fff;width:30px;-webkit-box-shadow:-19px 0 35px -7px #f5f5f5;box-shadow:-19px 0 35px -7px #f5f5f5;margin-top:-100px;position:absolute} */
 .m-login.m-login--5 .m-login__wrapper-2{padding-top:8%;display:table-cell;width:50%}
 .m-login.m-login--5 .m-login__wrapper-2 .m-login__contanier{width:430px;margin:0 auto;padding:0 1.5rem}
 .m-login.m-login--5 .m-login__wrapper-2 .m-login__contanier .m-login__logo{text-align:center;margin:0 auto 4rem auto}
