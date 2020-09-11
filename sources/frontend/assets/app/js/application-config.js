@@ -36,17 +36,16 @@
 	mode			String (op)				['INSERT','APPEND','AFTER'] defautl INSERT, not operative in V.1.0
 	
 */
-var host = window.location.hostname || 'lab.onesaitplatform.com'; 
+var host = window.location.hostname || 'lab.onesaitplatform.com'
 
 // MENU JSON
 var menuJson = {
-
-	"menu":"OnesaitPlatform",
-	"rol":"ROLE_DEVELOPER",
-	"home": true,
-	"noSession":"login.html",
-	"navigation":[
-		/*{"title":{"EN":"Activity","ES":"Actividad"},"icon":"flaticon-clock-1","url":"", "submenu":[], "dashboard":{"src":"https://" + host +"/controlpanel/dashboards/viewiframe/297b7862-a8ae-4956-8aee-da15168c02c1","title":"Workflows", "background": "#FFF", "height": "850px", "mode": "INSERT"}},								
+  menu: 'OnesaitPlatform',
+  rol: 'ROLE_DEVELOPER',
+  home: true,
+  noSession: 'login.html',
+  navigation: [
+    /*{"title":{"EN":"Activity","ES":"Actividad"},"icon":"flaticon-clock-1","url":"", "submenu":[], "dashboard":{"src":"https://" + host +"/controlpanel/dashboards/viewiframe/297b7862-a8ae-4956-8aee-da15168c02c1","title":"Workflows", "background": "#FFF", "height": "850px", "mode": "INSERT"}},								
 		{"title":{"EN":"Ethnological Museum","ES":"Ethnological Museum"},"icon":"flaticon-layers","url":"",
 		 "submenu":[		
 			{"title":{"EN":"Detail","ES":"Detail"},"icon":"flaticon-desktop","url":"", "dashboard":{"src":"https://" + host +"/controlpanel/dashboards/viewiframe/97e7894d-864f-4b32-a537-562ecfefe07c","title":"Detail Dashboard", "background": "#FFF", "height": "1240px", "mode": "INSERT"}},
@@ -58,12 +57,10 @@ var menuJson = {
 		{"title":{"EN":"Devices","ES":"Dispositivos"},"icon":"la la-desktop","url":"", "submenu":[], "dashboard":{"src":"https://" + host +"/controlpanel/dashboards/viewiframe/3b4eae4e-b45b-49e7-bca5-2e0c80796154","title":"Devices Dashboard", "background": "#FFF", "height": "850px", "mode": "INSERT"}},
 		{"title":{"EN":"Device Configuration","ES":"Configuracion de Dispositivos"},"icon":"flaticon-cogwheel-2","url":"", "submenu":[], "dashboard":{"src":"https://" + host +"/controlpanel/dashboards/viewiframe/0d6baad2-df46-48d6-b879-7c32ecd1e0a5","title":"Device Configuration Dashboard", "background": "#FFF", "height": "850px","mode": "INSERT"}}		
 */
-	]	
-};
+  ]
+}
 
 /*  ############ END MENU CONFIGURATION ############################################################################ */
-
-
 
 /*  ############ PAGE CONFIGURATION ###############################################################################
 	Version 1.0
@@ -193,96 +190,105 @@ var menuJson = {
 	skin					String					skin for the App [skin-light, skin-dark] not enabled in V.1.0
 	contentBackground		String					if defined, backgroundColor of the content zone.
 	
-*/	
+*/
 
 // FRONTEND MAIN CONFIGURATION
 var mainJson = {
-	"title": "onesait Platform | Musei Vaticani",
-	"description": "Musei Vaticani",
-	"currentSkin": "skin-light",
-	"access":{
-		"urlBasePath": "",
-		"imgBasePath": "assets/app/media/img/",
-		"entry": "PRIVATE",
-		"urlBase":"https://" + host +"/",
-		"urlApi": "https://" + host +"/api-manager/server/api"
-	},
-	"app": {
-		"appLogo": "assets/app/media/img/logos/logo.png",
-		"appLogoCss": "width: auto; max-height: 61px;",
-		"appLogoBackground": "",
-		"appHome": "Metro Control Center",
-		"appLoading": "assets/app/media/img/bg/app-loading-metro.svg",
-		"appFooter": true,
-		"appStickymenu": false,
-		"appWelcome": false
-	},
-	"login":{
-			"loginLogo": "assets/app/media/img/bg/app-loading-metro.png",
-			"loginLogoStyle": "width: auto;height: 186px;",
-			"loginBackground": "assets/app/media/img/bg/background.jpg",
-			"loginDescription":"Welcome to Metro",
-			"signInTitle": "Metro, please sign In:",
-			"signInBtnColor": "",							  
-			"signUp": false,
-			"forgotPassword": false,
-			"rememberMe": false,
-			"termsAndConditions": false,
-			"agreeInfoMsg": "Please, check the agree Privacy and Terms to access",
-			"privacyLink": "",
-			"conditionsLink":""
-	},
-	"user":{
-			"showAvatar": true,
-			"avatar": "assets/app/media/img/users/user.png",			
-			"profile":  {"link":"profile.html","text":"ROL","visible": false},
-			"support":  {"link":"support.html","text":"Support","visible": false},
-			"activity": {"link":"activity.html","text":"Activity","visible": false},
-			"messages": {"link":"messages.html","text":"Messages","visible": false},
-			"faq":	  {"link":"faq.html","text":"FAQ","visible": false},			
-			"logout":   {"link":"login.html","text":"Logout","visible": true}
-	},
-	"header": {
-		"headerDashboads": false,
-		"headerReports": false,
-		"headerSearch": false,
-		"headerNotifications": false,
-		"headerQuickactions": false,
-		"headerUser": true,
-		"headerSidebarToggle": false,
-		"headerSessionConfiguration": false
-	},
-	"content": {
-		"contentHead": false,
-		"contentHeadCss": "background-color: #2c2e3e; border: none !important; margin-left: -1px ; margin-top: -1px",
-		"contentTitle": "Musei Vaticani",
-		"contentTitleCss": "color: #ffb822 !important",
-		"contentTools": true,
-		"contentDashboard": {
-			"enabled": true,
-			"dashboardName": "Musei Vaticani Dashboard",
-			"changeTitle": true,
-			"notification": false,
-			"src": "https://" + host +"/controlpanel/dashboards/viewiframe/2f20e58c-f75d-45ee-aee7-bed8119ec2a3",
-			"background": "#FFF",
-			"height": "700px",
-			"mode": "INSERT"
-		}		
-	},
-	"footer": {
-		"footerCopyright": "2019 &copy; Musei Vaticani PoC by Minsait",
-		"footerLinks": true,
-		"footerLinkAbout":  {"link":"about.html","text":"About","visible": true},
-		"footerLinkPrivacy":{"link":"privacy.html","text":"Privacy","visible": true},
-		"footerLinkTerms":  {"link":"terms.html","text":"Terms","visible": true},
-		"footerLinkCompany":{"link":"company.html","text":"Minsait","visible": true},
-		"footerLinkSupport":{"link":"support.html","text":"onesait Support Center","visible": true}		
-	},
-	"themes":{
-		"availableSkin": ["skin-light","skin-dark"],
-		"changeSkin": "skin-dark",
-		"contentBackground ": "#f5e2b3;",
-		"contentPadding": "0px 0px", 
-		"menu": ""
-	}
-};
+  title: 'Innovators 2020 - Covid Distancing',
+  description: 'Metro Control Center',
+  currentSkin: 'skin-light',
+  access: {
+    urlBasePath: '',
+    imgBasePath: 'assets/app/media/img/',
+    entry: 'PRIVATE',
+    urlBase: 'https://' + host + '/',
+    urlApi: 'https://' + host + '/api-manager/server/api'
+  },
+  app: {
+    appLogo: 'assets/app/media/img/logos/logo.png',
+    appLogoCss: 'width: auto; max-height: 61px;',
+    appLogoBackground: '',
+    appHome: 'Metro Control Center',
+    appLoading: 'assets/app/media/img/bg/logo_metro_madrid.png',
+    appFooter: true,
+    appStickymenu: false,
+    appWelcome: false
+  },
+  login: {
+    loginLogo: 'assets/app/media/img/bg/logo_metro_madrid.png',
+    loginLogoStyle: 'width: auto;height: 186px;',
+    loginBackground: 'assets/app/media/img/bg/metro_madrid_login_bg.jpg',
+    loginDescription: 'Welcome to Metro Control Panel',
+    signInTitle: 'Please sign in:',
+    signInBtnColor: '',
+    signUp: false,
+    forgotPassword: false,
+    rememberMe: false,
+    termsAndConditions: false,
+    agreeInfoMsg: 'Please, check the agree Privacy and Terms to access',
+    privacyLink: '',
+    conditionsLink: ''
+  },
+  user: {
+    showAvatar: true,
+    avatar: 'assets/app/media/img/users/user.png',
+    profile: { link: 'profile.html', text: 'ROL', visible: false },
+    support: { link: 'support.html', text: 'Support', visible: false },
+    activity: { link: 'activity.html', text: 'Activity', visible: false },
+    messages: { link: 'messages.html', text: 'Messages', visible: false },
+    faq: { link: 'faq.html', text: 'FAQ', visible: false },
+    logout: { link: 'login.html', text: 'Logout', visible: true }
+  },
+  header: {
+    headerDashboads: false,
+    headerReports: false,
+    headerSearch: false,
+    headerNotifications: false,
+    headerQuickactions: false,
+    headerUser: true,
+    headerSidebarToggle: false,
+    headerSessionConfiguration: false
+  },
+  content: {
+    contentHead: false,
+    contentHeadCss:
+      'background-color: #2c2e3e; border: none !important; margin-left: -1px ; margin-top: -1px',
+    contentTitle: 'Metro Control Panel',
+    contentTitleCss: 'color: #ffb822 !important',
+    contentTools: true,
+    contentDashboard: {
+      enabled: true,
+      dashboardName: 'Metro Control Panel Dashboard',
+      changeTitle: true,
+      notification: false,
+      src:
+        'https://' +
+        host +
+        '/controlpanel/dashboards/viewiframe/2f20e58c-f75d-45ee-aee7-bed8119ec2a3',
+      background: '#FFF',
+      height: '700px',
+      mode: 'INSERT'
+    }
+  },
+  footer: {
+    footerCopyright:
+      '2020 &copy; Innovators 2020 - Metro Control Panel by covidcontrolcrew',
+    footerLinks: true,
+    footerLinkAbout: { link: 'about.html', text: 'About', visible: true },
+    footerLinkPrivacy: { link: 'privacy.html', text: 'Privacy', visible: true },
+    footerLinkTerms: { link: 'terms.html', text: 'Terms', visible: true },
+    footerLinkCompany: { link: 'company.html', text: 'Minsait', visible: true },
+    footerLinkSupport: {
+      link: 'support.html',
+      text: 'onesait Support Center',
+      visible: true
+    }
+  },
+  themes: {
+    availableSkin: ['skin-light', 'skin-dark'],
+    changeSkin: 'skin-dark',
+    'contentBackground ': '#f5e2b3;',
+    contentPadding: '0px 0px',
+    menu: ''
+  }
+}

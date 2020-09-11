@@ -1,0 +1,478 @@
+[
+  [
+    {
+      "id": 118,
+      "status": "ALERT",
+      "elevators": [
+        {
+          "id": 151,
+          "status": "ALERT",
+          "description": "OVERCROWDED"
+        }
+      ],
+      "platforms": [
+        {
+          "id": 11801,
+          "status": "GOOD",
+          "description": null
+        },
+        {
+          "id": 11802,
+          "status": "GOOD",
+          "description": null
+        },
+        {
+          "id": 11803,
+          "status": "GOOD",
+          "description": null
+        },
+        {
+          "id": 11804,
+          "status": "WARNING",
+          "description": "OVERCROWDED"
+        },
+        {
+          "id": 11805,
+          "status": "GOOD",
+          "description": null
+        }
+      ]
+    },
+    {
+      "id": 611,
+      "status": "WARNING",
+      "elevators": [
+        {
+          "id": 116,
+          "status": "GOOD",
+          "description": null
+        }
+      ],
+      "platforms": [
+        {
+          "id": 61101,
+          "status": "GOOD",
+          "description": null
+        },
+        {
+          "id": 61102,
+          "status": "WARNING",
+          "description": "OVERCROWDED"
+        },
+        {
+          "id": 61103,
+          "status": "GOOD",
+          "description": null
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "id": 118,
+      "status": "GOOD",
+      "elevators": [
+        {
+          "id": 151,
+          "status": "GOOD",
+          "description": null
+        }
+      ],
+      "platforms": [
+        {
+          "id": 11801,
+          "status": "GOOD",
+          "description": null
+        },
+        {
+          "id": 11802,
+          "status": "GOOD",
+          "description": null
+        },
+        {
+          "id": 11803,
+          "status": "GOOD",
+          "description": null
+        },
+        {
+          "id": 11804,
+          "status": "GOOD",
+          "description": null
+        },
+        {
+          "id": 11805,
+          "status": "GOOD",
+          "description": null
+        }
+      ]
+    },
+    {
+      "id": 611,
+      "status": "ALERT",
+      "elevators": [
+        {
+          "id": 116,
+          "status": "WARNING",
+          "description": "OVERCROWDED"
+        }
+      ],
+      "platforms": [
+        {
+          "id": 61101,
+          "status": "ALERT",
+          "description": "OVERCROWDED"
+        },
+        {
+          "id": 61102,
+          "status": "GOOD",
+          "description": null
+        },
+        {
+          "id": 61103,
+          "status": "WARNING",
+          "description": "OVERCROWDED"
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "id": 118,
+      "status": "WARNING",
+      "elevators": [
+        {
+          "id": 151,
+          "status": "GOOD",
+          "description": "OVERCROWDED"
+        }
+      ],
+      "platforms": [
+        {
+          "id": 11801,
+          "status": "WARNING",
+          "description": "OVERCROWDED"
+        },
+        {
+          "id": 11802,
+          "status": "GOOD",
+          "description": null
+        },
+        {
+          "id": 11803,
+          "status": "GOOD",
+          "description": null
+        },
+        {
+          "id": 11804,
+          "status": "WARNING",
+          "description": "OVERCROWDED"
+        },
+        {
+          "id": 11805,
+          "status": "GOOD",
+          "description": null
+        }
+      ]
+    },
+    {
+      "id": 611,
+      "status": "WARNING",
+      "elevators": [
+        {
+          "id": 116,
+          "status": "GOOD",
+          "description": null
+        }
+      ],
+      "platforms": [
+        {
+          "id": 61101,
+          "status": "WARNING",
+          "description": "OVERCROWDED"
+        },
+        {
+          "id": 61102,
+          "status": "GOOD",
+          "description": null
+        },
+        {
+          "id": 61103,
+          "status": "GOOD",
+          "description": null
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "id": 118,
+      "status": "GOOD",
+      "elevators": [
+        {
+          "id": 151,
+          "status": "GOOD",
+          "description": null
+        }
+      ],
+      "platforms": [
+        {
+          "id": 11801,
+          "status": "GOOD",
+          "description": null
+        },
+        {
+          "id": 11802,
+          "status": "GOOD",
+          "description": null
+        },
+        {
+          "id": 11803,
+          "status": "GOOD",
+          "description": null
+        },
+        {
+          "id": 11804,
+          "status": "GOOD",
+          "description": null
+        },
+        {
+          "id": 11805,
+          "status": "GOOD",
+          "description": null
+        }
+      ]
+    },
+    {
+      "id": 611,
+      "status": "GOOD",
+      "elevators": [
+        {
+          "id": 116,
+          "status": "GOOD",
+          "description": null
+        }
+      ],
+      "platforms": [
+        {
+          "id": 61101,
+          "status": "GOOD",
+          "description": null
+        },
+        {
+          "id": 61102,
+          "status": "GOOD",
+          "description": null
+        },
+        {
+          "id": 61103,
+          "status": "GOOD",
+          "description": null
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "id": 118,
+      "status": "WARNING",
+      "elevators": [
+        {
+          "id": 151,
+          "status": "WARNING",
+          "description": null
+        }
+      ],
+      "platforms": [
+        {
+          "id": 11801,
+          "status": "GOOD",
+          "description": null
+        },
+        {
+          "id": 11802,
+          "status": "GOOD",
+          "description": null
+        },
+        {
+          "id": 11803,
+          "status": "WARNING",
+          "description": "OVERCROWDED"
+        },
+        {
+          "id": 11804,
+          "status": "WARNING",
+          "description": "OVERCROWDED"
+        },
+        {
+          "id": 11805,
+          "status": "WARNING",
+          "description": "OVERCROWDED"
+        }
+      ]
+    },
+    {
+      "id": 611,
+      "status": "GOOD",
+      "elevators": [
+        {
+          "id": 116,
+          "status": "GOOD",
+          "description": null
+        }
+      ],
+      "platforms": [
+        {
+          "id": 61101,
+          "status": "GOOD",
+          "description": null
+        },
+        {
+          "id": 61102,
+          "status": "GOOD",
+          "description": null
+        },
+        {
+          "id": 61103,
+          "status": "GOOD",
+          "description": null
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "id": 118,
+      "status": "GOOD",
+      "elevators": [
+        {
+          "id": 151,
+          "status": "GOOD",
+          "description": null
+        }
+      ],
+      "platforms": [
+        {
+          "id": 11801,
+          "status": "GOOD",
+          "description": null
+        },
+        {
+          "id": 11802,
+          "status": "GOOD",
+          "description": null
+        },
+        {
+          "id": 11803,
+          "status": "GOOD",
+          "description": null
+        },
+        {
+          "id": 11804,
+          "status": "GOOD",
+          "description": null
+        },
+        {
+          "id": 11805,
+          "status": "GOOD",
+          "description": null
+        }
+      ]
+    },
+    {
+      "id": 611,
+      "status": "ALERT",
+      "elevators": [
+        {
+          "id": 116,
+          "status": "GOOD",
+          "description": null
+        }
+      ],
+      "platforms": [
+        {
+          "id": 61101,
+          "status": "GOOD",
+          "description": null
+        },
+        {
+          "id": 61102,
+          "status": "ALERT",
+          "description": "OVERCROWDED"
+        },
+        {
+          "id": 61103,
+          "status": "ALERT",
+          "description": "OVERCROWDED"
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "id": 118,
+      "status": "ALERT",
+      "elevators": [
+        {
+          "id": 151,
+          "status": "ALERT",
+          "description": "OVERCROWDED"
+        }
+      ],
+      "platforms": [
+        {
+          "id": 11801,
+          "status": "ALERT",
+          "description": "OVERCROWDED"
+        },
+        {
+          "id": 11802,
+          "status": "ALERT",
+          "description": "OVERCROWDED"
+        },
+        {
+          "id": 11803,
+          "status": "GOOD",
+          "description": null
+        },
+        {
+          "id": 11804,
+          "status": "GOOD",
+          "description": null
+        },
+        {
+          "id": 11805,
+          "status": "ALERT",
+          "description": "OVERCROWDED"
+        }
+      ]
+    },
+    {
+      "id": 611,
+      "status": "ALERT",
+      "elevators": [
+        {
+          "id": 116,
+          "status": "GOOD",
+          "description": null
+        }
+      ],
+      "platforms": [
+        {
+          "id": 61101,
+          "status": "GOOD",
+          "description": null
+        },
+        {
+          "id": 61102,
+          "status": "ALERT",
+          "description": "OVERCROWDED"
+        },
+        {
+          "id": 61103,
+          "status": "ALERT",
+          "description": "OVERCROWDED"
+        }
+      ]
+    }
+  ]
+]

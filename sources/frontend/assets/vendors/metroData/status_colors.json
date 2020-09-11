@@ -1,0 +1,18 @@
+{
+  "green": {
+    "color": "rgba(0, 128, 0, 0.85)",
+    "outlineColor": "rgba(0, 100, 0, 0.85)"
+  },
+  "yellow": {
+    "color": "rgba(255, 255, 0, 0.85)",
+    "outlineColor": "rgba(128, 128, 0, 0.85)"
+  },
+  "red": {
+    "color": "rgba(255, 0, 0, 0.85)",
+    "outlineColor": "rgba(139, 0, 0, 0.85)"
+  },
+  "nodata": {
+    "color": "rgba(255, 255, 255, 0.85)",
+    "outlineColor": "rgba(0, 0, 0, 0.85)"
+  }
+}

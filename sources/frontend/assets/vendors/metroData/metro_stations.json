@@ -1,0 +1,3401 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.806837284999972, 40.35039757000004]
+      },
+      "properties": {
+        "id": 1020,
+        "name": "Joaquín Vilumbrales",
+        "lines": "L10"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.8120654029999628, 40.345221622000054]
+      },
+      "properties": {
+        "id": 1021,
+        "name": "Puerta del Sur",
+        "lines": "L10,L12"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.8323785329999396, 40.349466095000025]
+      },
+      "properties": {
+        "id": 1203,
+        "name": "Alcorcón Central",
+        "lines": "L12"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.8485732779999466, 40.34595415100006]
+      },
+      "properties": {
+        "id": 1204,
+        "name": "Parque Oeste",
+        "lines": "L12"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.8205829799999265, 40.349406970000075]
+      },
+      "properties": {
+        "id": 1202,
+        "name": "Parque Lisboa",
+        "lines": "L12"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.447685283999931, 40.30449387600004]
+      },
+      "properties": {
+        "id": 928,
+        "name": "Arganda del Rey",
+        "lines": "L9"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.47744800199996, 40.319009107000056]
+      },
+      "properties": {
+        "id": 927,
+        "name": "La Poveda",
+        "lines": "L9"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.798502578999944, 40.28236773500004]
+      },
+      "properties": {
+        "id": 1214,
+        "name": "Fuenlabrada Central",
+        "lines": "L12"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.816231269999946, 40.28587821800005]
+      },
+      "properties": {
+        "id": 1212,
+        "name": "Hospital de Fuenlabrada",
+        "lines": "L12"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.8369914859999312, 40.296740173000046]
+      },
+      "properties": {
+        "id": 1210,
+        "name": "Loranca",
+        "lines": "L12"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.806981963999931, 40.285206376000076]
+      },
+      "properties": {
+        "id": 1213,
+        "name": "Parque Europa",
+        "lines": "L12"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.7864299389999587, 40.28683687200004]
+      },
+      "properties": {
+        "id": 1215,
+        "name": "Parque de los Estados",
+        "lines": "L12"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.737021095999978, 40.30028713400003]
+      },
+      "properties": {
+        "id": 1219,
+        "name": "Alonso de Mendoza",
+        "lines": "L12"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.755873764999933, 40.28884340600007]
+      },
+      "properties": {
+        "id": 1217,
+        "name": "Arroyo Culebro",
+        "lines": "L12"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.74603037199995, 40.29288131700008]
+      },
+      "properties": {
+        "id": 1218,
+        "name": "Conservatorio",
+        "lines": "L12"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.729629940999928, 40.32907360400003]
+      },
+      "properties": {
+        "id": 1224,
+        "name": "El Bercial",
+        "lines": "L12"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.710341995999954, 40.318712531000074]
+      },
+      "properties": {
+        "id": 1222,
+        "name": "El Casar",
+        "lines": "L12"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.734570339999948, 40.30993261000003]
+      },
+      "properties": {
+        "id": 1220,
+        "name": "Getafe Central",
+        "lines": "L12"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.7219089449999387, 40.312359695000055]
+      },
+      "properties": {
+        "id": 1221,
+        "name": "Juan de la Cierva",
+        "lines": "L12"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.717546494999965, 40.32382349100004]
+      },
+      "properties": {
+        "id": 1223,
+        "name": "Los Espartales",
+        "lines": "L12"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.760090828999978, 40.326112443000056]
+      },
+      "properties": {
+        "id": 1227,
+        "name": "Casa del Reloj",
+        "lines": "L12"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.741130898999927, 40.33634272300003]
+      },
+      "properties": {
+        "id": 1225,
+        "name": "El Carrascal",
+        "lines": "L12"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.753218618999938, 40.33467431500003]
+      },
+      "properties": {
+        "id": 1226,
+        "name": "Julián Besteiro",
+        "lines": "L12"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.7722494589999656, 40.328288830000076]
+      },
+      "properties": {
+        "id": 1229,
+        "name": "Leganés Central",
+        "lines": "L12"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.776487078999935, 40.336503855000046]
+      },
+      "properties": {
+        "id": 1230,
+        "name": "San Nicasio",
+        "lines": "L12"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.7679753619999587, 40.32177044100007]
+      },
+      "properties": {
+        "id": 1228,
+        "name": "Hospital Severo Ochoa",
+        "lines": "L12"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6451631019999695, 40.38988861000007]
+      },
+      "properties": {
+        "id": 123,
+        "name": "Alto del Arenal",
+        "lines": "L1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.70352010299996, 40.44968492000004]
+      },
+      "properties": {
+        "id": 105,
+        "name": "Alvarado",
+        "lines": "L1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.698337123999977, 40.411961516000076]
+      },
+      "properties": {
+        "id": 114,
+        "name": "Antón Martín",
+        "lines": "L1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.691379561999952, 40.408783293000056]
+      },
+      "properties": {
+        "id": 115,
+        "name": "Estación del Arte",
+        "lines": "L1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6886987359999353, 40.407034159000034]
+      },
+      "properties": {
+        "id": 116,
+        "name": "Atocha Renfe",
+        "lines": "L1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6524809659999278, 40.39138005700005]
+      },
+      "properties": {
+        "id": 122,
+        "name": "Buenos Aires",
+        "lines": "L1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.61891247799997, 40.37236858700004]
+      },
+      "properties": {
+        "id": 127,
+        "name": "Congosto",
+        "lines": "L1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.7027781769999706, 40.454465484000025]
+      },
+      "properties": {
+        "id": 104,
+        "name": "Estrecho",
+        "lines": "L1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.698666312999933, 40.43496767900007]
+      },
+      "properties": {
+        "id": 108,
+        "name": "Iglesia",
+        "lines": "L1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6811987599999725, 40.40432719800003]
+      },
+      "properties": {
+        "id": 117,
+        "name": "Menéndez Pelayo",
+        "lines": "L1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6388888619999307, 40.38707035600004]
+      },
+      "properties": {
+        "id": 124,
+        "name": "Miguel Hernández",
+        "lines": "L1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6642761089999567, 40.395714706000035]
+      },
+      "properties": {
+        "id": 120,
+        "name": "Nueva Numancia",
+        "lines": "L1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.658671100999925, 40.39275821600006]
+      },
+      "properties": {
+        "id": 121,
+        "name": "Portazgo",
+        "lines": "L1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6688713239999515, 40.39814862700007]
+      },
+      "properties": {
+        "id": 119,
+        "name": "Puente de Vallecas",
+        "lines": "L1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.701412424999944, 40.44134738200006]
+      },
+      "properties": {
+        "id": 107,
+        "name": "Ríos Rosas",
+        "lines": "L1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.62505416099998, 40.38267952800004]
+      },
+      "properties": {
+        "id": 125,
+        "name": "Sierra de Guadalupe",
+        "lines": "L1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6986047909999797, 40.46037879000005]
+      },
+      "properties": {
+        "id": 103,
+        "name": "Tetuán",
+        "lines": "L1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.704048271999966, 40.412454335000064]
+      },
+      "properties": {
+        "id": 113,
+        "name": "Tirso de Molina",
+        "lines": "L1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6950334489999364, 40.46449907500005]
+      },
+      "properties": {
+        "id": 102,
+        "name": "Valdeacederas",
+        "lines": "L1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.621335492999947, 40.37936241300008]
+      },
+      "properties": {
+        "id": 126,
+        "name": "Villa de Vallecas",
+        "lines": "L1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.701249458999939, 40.42626290100003]
+      },
+      "properties": {
+        "id": 110,
+        "name": "Tribunal",
+        "lines": "L1,L10"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6897059809999746, 40.466134424000074]
+      },
+      "properties": {
+        "id": 101,
+        "name": "Plaza de Castilla",
+        "lines": "L1,L9,L10"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.703573517999928, 40.41708605200006]
+      },
+      "properties": {
+        "id": 112,
+        "name": "Sol",
+        "lines": "L1,L2,L3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.7039596699999606, 40.44685072500005]
+      },
+      "properties": {
+        "id": 106,
+        "name": "Cuatro Caminos",
+        "lines": "L1,L2,L6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.7021137419999377, 40.42890791100007]
+      },
+      "properties": {
+        "id": 109,
+        "name": "Bilbao",
+        "lines": "L1,L4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.701747718999968, 40.41985842100007]
+      },
+      "properties": {
+        "id": 111,
+        "name": "Gran Vía",
+        "lines": "L1,L5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.674850464999963, 40.40121437400006]
+      },
+      "properties": {
+        "id": 118,
+        "name": "Pacífico",
+        "lines": "L1,L6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.7531100429999356, 40.40786218200003]
+      },
+      "properties": {
+        "id": 1014,
+        "name": "Batán",
+        "lines": "L10"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.686208565999948, 40.48261220400008]
+      },
+      "properties": {
+        "id": 1002,
+        "name": "Begoña",
+        "lines": "L10"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.7747249839999313, 40.39679755700007]
+      },
+      "properties": {
+        "id": 1016,
+        "name": "Colonia Jardín",
+        "lines": "L10,ML-2,ML-3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.792972188999954, 40.37712450400005]
+      },
+      "properties": {
+        "id": 1019,
+        "name": "Cuatro Vientos",
+        "lines": "L10"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6899794259999794, 40.459470872000054]
+      },
+      "properties": {
+        "id": 1005,
+        "name": "Cuzco",
+        "lines": "L10"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.691933333999941, 40.49458272100003]
+      },
+      "properties": {
+        "id": 1001,
+        "name": "Fuencarral",
+        "lines": "L10"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.735630359999959, 40.41641594600003]
+      },
+      "properties": {
+        "id": 1013,
+        "name": "Lago",
+        "lines": "L10"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6906785029999583, 40.45230157000003]
+      },
+      "properties": {
+        "id": 1006,
+        "name": "Santiago Bernabéu",
+        "lines": "L10"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.7276461279999467, 40.38113972200006]
+      },
+      "properties": {
+        "id": 1102,
+        "name": "Abrantes",
+        "lines": "L11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.734158782999941, 40.37604569200005]
+      },
+      "properties": {
+        "id": 1103,
+        "name": "Pan Bendito",
+        "lines": "L11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.695015459999979, 40.419037994000064]
+      },
+      "properties": {
+        "id": 206,
+        "name": "Banco de España",
+        "lines": "L2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.7074184859999377, 40.424842211000055]
+      },
+      "properties": {
+        "id": 211,
+        "name": "Noviciado",
+        "lines": "L2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.704625566999937, 40.43268819800005]
+      },
+      "properties": {
+        "id": 213,
+        "name": "Quevedo",
+        "lines": "L2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6863775039999496, 40.42043113400007]
+      },
+      "properties": {
+        "id": 205,
+        "name": "Retiro",
+        "lines": "L2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.70826068599996, 40.42085343000008]
+      },
+      "properties": {
+        "id": 210,
+        "name": "Santo Domingo",
+        "lines": "L2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6999432739999634, 40.41776202700004]
+      },
+      "properties": {
+        "id": 207,
+        "name": "Sevilla",
+        "lines": "L2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6758816079999406, 40.424755084000026]
+      },
+      "properties": {
+        "id": 203,
+        "name": "Goya",
+        "lines": "L2,L4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.7057247239999356, 40.42965107600003]
+      },
+      "properties": {
+        "id": 212,
+        "name": "San Bernardo",
+        "lines": "L2,L4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6626016809999555, 40.43100513700006]
+      },
+      "properties": {
+        "id": 201,
+        "name": "Ventas",
+        "lines": "L2,L5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.709318964999966, 40.41803137800008]
+      },
+      "properties": {
+        "id": 209,
+        "name": "Ópera",
+        "lines": "L2,L5, R"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6688042359999713, 40.428082207000045]
+      },
+      "properties": {
+        "id": 202,
+        "name": "Manuel Becerra",
+        "lines": "L2,L6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.704280452999967, 40.43867826300004]
+      },
+      "properties": {
+        "id": 214,
+        "name": "Canal",
+        "lines": "L2,L7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.68030300099997, 40.422670365000045]
+      },
+      "properties": {
+        "id": 204,
+        "name": "Príncipe de Vergara",
+        "lines": "L2,L9"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6941293069999688, 40.39918364400006]
+      },
+      "properties": {
+        "id": 302,
+        "name": "Delicias",
+        "lines": "L3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.7012036279999734, 40.40874514800004]
+      },
+      "properties": {
+        "id": 305,
+        "name": "Lavapiés",
+        "lines": "L3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6948543099999256, 40.40308818600005]
+      },
+      "properties": {
+        "id": 303,
+        "name": "Palos de la Frontera",
+        "lines": "L3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.7139214869999364, 40.42727943300008]
+      },
+      "properties": {
+        "id": 309,
+        "name": "Ventura Rodríguez",
+        "lines": "L3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.71107307799997, 40.42334559900007]
+      },
+      "properties": {
+        "id": 308,
+        "name": "Plaza de España",
+        "lines": "L3,L10"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.7162105309999447, 40.43060270600006]
+      },
+      "properties": {
+        "id": 310,
+        "name": "Argüelles",
+        "lines": "L3,L4,L6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.7060329299999353, 40.40405552200008]
+      },
+      "properties": {
+        "id": 519,
+        "name": "Acacias",
+        "lines": "L3,L5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.7059910739999395, 40.42007496100007]
+      },
+      "properties": {
+        "id": 307,
+        "name": "Callao",
+        "lines": "L5,L3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.7022967449999555, 40.40506237000005]
+      },
+      "properties": {
+        "id": 304,
+        "name": "Embajadores",
+        "lines": "L3,L5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.695571640999958, 40.39096916700004]
+      },
+      "properties": {
+        "id": 301,
+        "name": "Legazpi",
+        "lines": "L3,L6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.719553615999928, 40.435021848000076]
+      },
+      "properties": {
+        "id": 311,
+        "name": "Moncloa",
+        "lines": "L3,L6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6678770749999785, 40.44834710900005]
+      },
+      "properties": {
+        "id": 413,
+        "name": "Alfonso XIII",
+        "lines": "L4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6559491299999536, 40.456077047000065]
+      },
+      "properties": {
+        "id": 415,
+        "name": "Arturo Soria",
+        "lines": "L4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.662555999999938, 40.45273468900007]
+      },
+      "properties": {
+        "id": 414,
+        "name": "Avenida de la Paz",
+        "lines": "L4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.635547982999981, 40.46445081200005]
+      },
+      "properties": {
+        "id": 417,
+        "name": "Canillas",
+        "lines": "L4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.691718582999954, 40.42560591700004]
+      },
+      "properties": {
+        "id": 405,
+        "name": "Colón",
+        "lines": "L4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.645842107999954, 40.45905961100004]
+      },
+      "properties": {
+        "id": 416,
+        "name": "Esperanza",
+        "lines": "L4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6754148519999603, 40.42908320500004]
+      },
+      "properties": {
+        "id": 409,
+        "name": "Lista",
+        "lines": "L4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.644549943999948, 40.47701423500007]
+      },
+      "properties": {
+        "id": 420,
+        "name": "Parque de Santa María",
+        "lines": "L4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6744210609999755, 40.44397305200005]
+      },
+      "properties": {
+        "id": 412,
+        "name": "Prosperidad",
+        "lines": "L4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6395172689999526, 40.474375622000025]
+      },
+      "properties": {
+        "id": 419,
+        "name": "San Lorenzo",
+        "lines": "L4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.686570265999933, 40.42529176800008]
+      },
+      "properties": {
+        "id": 406,
+        "name": "Serrano",
+        "lines": "L4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.682767801999944, 40.42510395900007]
+      },
+      "properties": {
+        "id": 407,
+        "name": "Velázquez",
+        "lines": "L4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.697049940999932, 40.42795851000005]
+      },
+      "properties": {
+        "id": 404,
+        "name": "Alonso Martínez",
+        "lines": "L4,L5,L10"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6774698819999685, 40.43748011200006]
+      },
+      "properties": {
+        "id": 411,
+        "name": "Avenida de América",
+        "lines": "L4,L6,L7,L9"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6386019179999494, 40.469878609000034]
+      },
+      "properties": {
+        "id": 418,
+        "name": "Mar de Cristal",
+        "lines": "L4,L8"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.7609581869999715, 40.385868764000065]
+      },
+      "properties": {
+        "id": 527,
+        "name": "Aluche",
+        "lines": "L5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.7681853599999613, 40.39448962000006]
+      },
+      "properties": {
+        "id": 529,
+        "name": "Campamento",
+        "lines": "L5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6090095499999393, 40.44876912700005]
+      },
+      "properties": {
+        "id": 501,
+        "name": "Canillejas",
+        "lines": "L5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.745743624999932, 40.38761814000003]
+      },
+      "properties": {
+        "id": 525,
+        "name": "Carabanchel",
+        "lines": "L5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6975441509999314, 40.422845808000034]
+      },
+      "properties": {
+        "id": 513,
+        "name": "Chueca",
+        "lines": "L5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.637256109999953, 40.43806079900003]
+      },
+      "properties": {
+        "id": 504,
+        "name": "Ciudad Lineal",
+        "lines": "L5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.656255274999978, 40.43196025100008]
+      },
+      "properties": {
+        "id": 507,
+        "name": "El Carmen",
+        "lines": "L5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.765710017999936, 40.39095187700008]
+      },
+      "properties": {
+        "id": 528,
+        "name": "Empalme",
+        "lines": "L5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.7512046889999624, 40.38438064400003]
+      },
+      "properties": {
+        "id": 526,
+        "name": "Eugenia de Montijo",
+        "lines": "L5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.7081306639999525, 40.41167566400003]
+      },
+      "properties": {
+        "id": 517,
+        "name": "La Latina",
+        "lines": "L5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.7171807399999466, 40.39702623900007]
+      },
+      "properties": {
+        "id": 521,
+        "name": "Marqués de Vadillo",
+        "lines": "L5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.7117930159999446, 40.40207175100005]
+      },
+      "properties": {
+        "id": 520,
+        "name": "Pirámides",
+        "lines": "L5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.7110486599999604, 40.40703497800007]
+      },
+      "properties": {
+        "id": 518,
+        "name": "Puerta de Toledo",
+        "lines": "L5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6481049839999287, 40.43316468000006]
+      },
+      "properties": {
+        "id": 506,
+        "name": "Quintana",
+        "lines": "L5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.689938412999936, 40.43300511700005]
+      },
+      "properties": {
+        "id": 511,
+        "name": "Rubén Darío",
+        "lines": "L5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.626691740999945, 40.440933194000024]
+      },
+      "properties": {
+        "id": 503,
+        "name": "Suanzes",
+        "lines": "L5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6180543119999697, 40.443297889000064]
+      },
+      "properties": {
+        "id": 502,
+        "name": "Torre Arias",
+        "lines": "L5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.7245224379999513, 40.392995443000075]
+      },
+      "properties": {
+        "id": 522,
+        "name": "Urgel",
+        "lines": "L5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.7385642439999742, 40.38914098200007]
+      },
+      "properties": {
+        "id": 524,
+        "name": "Vista Alegre",
+        "lines": "L5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.7617289209999285, 40.40296798700007]
+      },
+      "properties": {
+        "id": 530,
+        "name": "Casa de Campo",
+        "lines": "L5,L10"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.731831879999959, 40.38858132300004]
+      },
+      "properties": {
+        "id": 523,
+        "name": "Oporto",
+        "lines": "L5,L6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.644078388999958, 40.43479236600007]
+      },
+      "properties": {
+        "id": 505,
+        "name": "Pueblo Nuevo",
+        "lines": "L5,L7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6795304309999324, 40.43263200900003]
+      },
+      "properties": {
+        "id": 510,
+        "name": "Núñez de Balboa",
+        "lines": "L5,L9"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.7380683329999442, 40.410113858000045]
+      },
+      "properties": {
+        "id": 627,
+        "name": "Alto de Extremadura",
+        "lines": "L6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.7407085049999296, 40.392891220000024]
+      },
+      "properties": {
+        "id": 602,
+        "name": "Carpetana",
+        "lines": "L6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.7260260439999797, 40.44401543300006]
+      },
+      "properties": {
+        "id": 622,
+        "name": "Ciudad Universitaria",
+        "lines": "L6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.670120074999943, 40.40781401100003]
+      },
+      "properties": {
+        "id": 611,
+        "name": "Conde de Casal",
+        "lines": "L6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.7441686779999372, 40.39822400600008]
+      },
+      "properties": {
+        "id": 601,
+        "name": "Laguna",
+        "lines": "L6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.745339488999946, 40.405099792000044]
+      },
+      "properties": {
+        "id": 628,
+        "name": "Lucero",
+        "lines": "L6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.719297292999954, 40.44638760000004]
+      },
+      "properties": {
+        "id": 621,
+        "name": "Vicente Aleixandre",
+        "lines": "L6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.679212123999946, 40.395771452000076]
+      },
+      "properties": {
+        "id": 609,
+        "name": "Méndez Álvaro",
+        "lines": "L6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6689173779999464, 40.42211602300006]
+      },
+      "properties": {
+        "id": 613,
+        "name": "O'Donnell",
+        "lines": "L6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.723541314999977, 40.38704123100007]
+      },
+      "properties": {
+        "id": 604,
+        "name": "Opañel",
+        "lines": "L6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.7269860289999315, 40.413815631000034]
+      },
+      "properties": {
+        "id": 626,
+        "name": "Puerta del Ángel",
+        "lines": "L6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6844110629999705, 40.44412622700003]
+      },
+      "properties": {
+        "id": 617,
+        "name": "República Argentina",
+        "lines": "L6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.705497849999972, 40.38771731500003]
+      },
+      "properties": {
+        "id": 606,
+        "name": "Usera",
+        "lines": "L6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.7186762299999714, 40.42138281600006]
+      },
+      "properties": {
+        "id": 625,
+        "name": "Principe Pío",
+        "lines": "L6,L10,LR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.7174305199999367, 40.38525866600003]
+      },
+      "properties": {
+        "id": 605,
+        "name": "Plaza Elíptica",
+        "lines": "L6,L11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.71379761299994, 40.44592453300004]
+      },
+      "properties": {
+        "id": 620,
+        "name": "Guzmán el Bueno",
+        "lines": "L6,L7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6878165189999663, 40.44609625600003]
+      },
+      "properties": {
+        "id": 618,
+        "name": "Nuevos Ministerios",
+        "lines": "L6,L8,L10"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6695817279999687, 40.414407554000036]
+      },
+      "properties": {
+        "id": 612,
+        "name": "Sainz de Baranda",
+        "lines": "L6,L9"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6992134859999624, 40.43843639100004]
+      },
+      "properties": {
+        "id": 712,
+        "name": "Alonso Cano",
+        "lines": "L7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.7174126719999663, 40.47048108200005]
+      },
+      "properties": {
+        "id": 718,
+        "name": "Antonio Machado",
+        "lines": "L7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6405466309999497, 40.43041234400005]
+      },
+      "properties": {
+        "id": 705,
+        "name": "Ascao",
+        "lines": "L7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.7184064029999604, 40.48010749400004]
+      },
+      "properties": {
+        "id": 720,
+        "name": "Avenida de la Ilustración",
+        "lines": "L7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6530465979999462, 40.43935760000005]
+      },
+      "properties": {
+        "id": 707,
+        "name": "Barrio de la Concepción",
+        "lines": "L7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6712325519999354, 40.43961277400007]
+      },
+      "properties": {
+        "id": 709,
+        "name": "Cartagena",
+        "lines": "L7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.7122471149999683, 40.45643210600008]
+      },
+      "properties": {
+        "id": 716,
+        "name": "Francos Rodríguez",
+        "lines": "L7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6333282619999636, 40.42849636300008]
+      },
+      "properties": {
+        "id": 704,
+        "name": "García Noblejas",
+        "lines": "L7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.7137110439999788, 40.43906296000006]
+      },
+      "properties": {
+        "id": 714,
+        "name": "Islas Filipinas",
+        "lines": "L7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.7230507349999584, 40.48498596200005]
+      },
+      "properties": {
+        "id": 721,
+        "name": "Lacoma",
+        "lines": "L7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.607873776999952, 40.433000555000035]
+      },
+      "properties": {
+        "id": 701,
+        "name": "Las Musas",
+        "lines": "L7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.663248304999968, 40.43903823800008]
+      },
+      "properties": {
+        "id": 708,
+        "name": "Parque de las Avenidas",
+        "lines": "L7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.7158647809999366, 40.47568654100007]
+      },
+      "properties": {
+        "id": 719,
+        "name": "Peñagrande",
+        "lines": "L7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.7251135499999464, 40.495521084000075]
+      },
+      "properties": {
+        "id": 723,
+        "name": "Pitis",
+        "lines": "L7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6153095599999574, 40.42790901300003]
+      },
+      "properties": {
+        "id": 702,
+        "name": "San Blas",
+        "lines": "L7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6244794309999406, 40.427624525000056]
+      },
+      "properties": {
+        "id": 703,
+        "name": "Simancas",
+        "lines": "L7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.7159167929999626, 40.46479110900003]
+      },
+      "properties": {
+        "id": 717,
+        "name": "Valdezarza",
+        "lines": "L7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6912331269999754, 40.43806714300007]
+      },
+      "properties": {
+        "id": 711,
+        "name": "Gregorio Marañón",
+        "lines": "L7,L10"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.571756473999926, 40.467960866000055]
+      },
+      "properties": {
+        "id": 806,
+        "name": "Aeropuerto T1 T2 T3",
+        "lines": "L8"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.583198167999967, 40.47609375900004]
+      },
+      "properties": {
+        "id": 807,
+        "name": "Barajas",
+        "lines": "L8"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6151399959999253, 40.46399260700008]
+      },
+      "properties": {
+        "id": 805,
+        "name": "Feria de Madrid",
+        "lines": "L8"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.676966396999944, 40.45711980300007]
+      },
+      "properties": {
+        "id": 802,
+        "name": "Colombia",
+        "lines": "L8,L9"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6430144669999436, 40.40609354800006]
+      },
+      "properties": {
+        "id": 917,
+        "name": "Artilleros",
+        "lines": "L9"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.7033766599999467, 40.47694801100005]
+      },
+      "properties": {
+        "id": 902,
+        "name": "Barrio del Pilar",
+        "lines": "L9"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.677662613999928, 40.45091251600007]
+      },
+      "properties": {
+        "id": 908,
+        "name": "Concha Espina",
+        "lines": "L9"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6783790269999486, 40.44450260800005]
+      },
+      "properties": {
+        "id": 909,
+        "name": "Cruz del Rayo",
+        "lines": "L9"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6805336339999712, 40.467532995000056]
+      },
+      "properties": {
+        "id": 905,
+        "name": "Duque de Pastrana",
+        "lines": "L9"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6617859519999456, 40.411470714000075]
+      },
+      "properties": {
+        "id": 915,
+        "name": "Estrella",
+        "lines": "L9"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.7078915469999743, 40.484665833000065]
+      },
+      "properties": {
+        "id": 901,
+        "name": "Herrera Oria",
+        "lines": "L9"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.678996179999956, 40.41788612900007]
+      },
+      "properties": {
+        "id": 913,
+        "name": "Ibiza",
+        "lines": "L9"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6351101259999723, 40.40059639100008]
+      },
+      "properties": {
+        "id": 918,
+        "name": "Pavones",
+        "lines": "L9"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.596807637999973, 40.401542859000074]
+      },
+      "properties": {
+        "id": 922,
+        "name": "Puerta de Arganda",
+        "lines": "L9"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.675885677999929, 40.463778525000066]
+      },
+      "properties": {
+        "id": 906,
+        "name": "Pío XII",
+        "lines": "L9"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6034020389999455, 40.40395562800006]
+      },
+      "properties": {
+        "id": 921,
+        "name": "San Cipriano",
+        "lines": "L9"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6215393719999724, 40.40003590100008]
+      },
+      "properties": {
+        "id": 919,
+        "name": "Valdebernardo",
+        "lines": "L9"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.696290761999933, 40.46990393200008]
+      },
+      "properties": {
+        "id": 903,
+        "name": "Ventilla",
+        "lines": "L9"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.60946116599996, 40.404225575000055]
+      },
+      "properties": {
+        "id": 920,
+        "name": "Vicálvaro",
+        "lines": "L9"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.651627176999966, 40.410147617000064]
+      },
+      "properties": {
+        "id": 916,
+        "name": "Vinateros",
+        "lines": "L9"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.873837981999941, 40.31693641800007]
+      },
+      "properties": {
+        "id": 1208,
+        "name": "Hospital de Móstoles",
+        "lines": "L12"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.8640232419999734, 40.309022767000044]
+      },
+      "properties": {
+        "id": 1209,
+        "name": "Manuela Malasaña",
+        "lines": "L12"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.8631043009999644, 40.32799429900007]
+      },
+      "properties": {
+        "id": 1206,
+        "name": "Móstoles Central",
+        "lines": "L12"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.864376077999964, 40.32216877500008]
+      },
+      "properties": {
+        "id": 1207,
+        "name": "Pradillo",
+        "lines": "L12"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.8722156819999327, 40.33564465200004]
+      },
+      "properties": {
+        "id": 1205,
+        "name": "Universidad Rey Juan Carlos",
+        "lines": "L12"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.5472912189999306, 40.366768655000044]
+      },
+      "properties": {
+        "id": 924,
+        "name": "Rivas Urbanizaciones",
+        "lines": "L9"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.5205978089999803, 40.32836961700008]
+      },
+      "properties": {
+        "id": 926,
+        "name": "Rivas Vaciamadrid",
+        "lines": "L9"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6631676149999635, 40.48432046500005]
+      },
+      "properties": {
+        "id": 5112,
+        "name": "Fuente de la Mora",
+        "lines": "ML-1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.660982912999941, 40.48734329200005]
+      },
+      "properties": {
+        "id": 5113,
+        "name": "Virgen del Cortijo",
+        "lines": "ML-1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.653535731999966, 40.48545999500004]
+      },
+      "properties": {
+        "id": 5114,
+        "name": "Antonio Saura",
+        "lines": "ML-1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.651365900999963, 40.48904485400004]
+      },
+      "properties": {
+        "id": 5115,
+        "name": "Álvarez de Villaamil",
+        "lines": "ML-1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6558543529999383, 40.493671154000026]
+      },
+      "properties": {
+        "id": 5116,
+        "name": "Blasco Ibáñez",
+        "lines": "ML-1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6586869169999545, 40.497364591000064]
+      },
+      "properties": {
+        "id": 5117,
+        "name": "María Tudor",
+        "lines": "ML-1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.665067047999969, 40.505435919000035]
+      },
+      "properties": {
+        "id": 5118,
+        "name": "Palas de Rey",
+        "lines": "ML-1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.648207683999942, 40.467950288000054]
+      },
+      "properties": {
+        "id": 803,
+        "name": "Pinar del Rey",
+        "lines": "L8"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.783446445999971, 40.38433821800004]
+      },
+      "properties": {
+        "id": 1018,
+        "name": "Aviación Española",
+        "lines": "L10"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6887252829999397, 40.39319378700003]
+      },
+      "properties": {
+        "id": 608,
+        "name": "Arganzuela - Planetario",
+        "lines": "L6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6835594929999615, 40.47359326000003]
+      },
+      "properties": {
+        "id": 151,
+        "name": "Chamartín",
+        "lines": "L1,L10"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6767460129999563, 40.47556591800003]
+      },
+      "properties": {
+        "id": 152,
+        "name": "Bambú",
+        "lines": "L1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.66177040499997, 40.47622020100005]
+      },
+      "properties": {
+        "id": 422,
+        "name": "Manoteras",
+        "lines": "L4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.651685554999972, 40.47516221800004]
+      },
+      "properties": {
+        "id": 421,
+        "name": "Hortaleza",
+        "lines": "L4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6501150259999804, 40.42714287700005]
+      },
+      "properties": {
+        "id": 251,
+        "name": "La Elipa",
+        "lines": "L2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6981446869999672, 40.38423149300007]
+      },
+      "properties": {
+        "id": 351,
+        "name": "Almendrales",
+        "lines": "L3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6954999769999404, 40.37617483300005]
+      },
+      "properties": {
+        "id": 352,
+        "name": "Hospital 12 de Octubre",
+        "lines": "L3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.69463749199997, 40.37127911600004]
+      },
+      "properties": {
+        "id": 353,
+        "name": "San Fermín - Orcasur",
+        "lines": "L3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6934060469999395, 40.359776906000036]
+      },
+      "properties": {
+        "id": 354,
+        "name": "Ciudad de los Ángeles",
+        "lines": "L3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6930214069999465, 40.351279453000075]
+      },
+      "properties": {
+        "id": 355,
+        "name": "Villaverde Bajo Cruce",
+        "lines": "L3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6926993429999584, 40.34140512100004]
+      },
+      "properties": {
+        "id": 356,
+        "name": "San Cristóbal",
+        "lines": "L3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.7135065669999676, 40.34122490400006]
+      },
+      "properties": {
+        "id": 357,
+        "name": "Villaverde Alto",
+        "lines": "L3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.5932575259999453, 40.45385599000008]
+      },
+      "properties": {
+        "id": 551,
+        "name": "El Capricho",
+        "lines": "L5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.5872603229999527, 40.45805146400005]
+      },
+      "properties": {
+        "id": 552,
+        "name": "Alameda de Osuna",
+        "lines": "L5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.601811169999962, 40.43336854200004]
+      },
+      "properties": {
+        "id": 751,
+        "name": "Estadio Metropolitano",
+        "lines": "L7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.5676106229999505, 40.422417145000054]
+      },
+      "properties": {
+        "id": 754,
+        "name": "Barrio del Puerto",
+        "lines": "L7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.5612450329999774, 40.42360481000003]
+      },
+      "properties": {
+        "id": 755,
+        "name": "Coslada Central",
+        "lines": "L7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.5471450279999317, 40.424755025000024]
+      },
+      "properties": {
+        "id": 756,
+        "name": "La Rambla",
+        "lines": "L7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.535314593999942, 40.42409895900005]
+      },
+      "properties": {
+        "id": 757,
+        "name": "San Fernando",
+        "lines": "L7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.5253478289999407, 40.423208662000036]
+      },
+      "properties": {
+        "id": 758,
+        "name": "Jarama",
+        "lines": "L7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.526956820999942, 40.417673956000044]
+      },
+      "properties": {
+        "id": 759,
+        "name": "Henares",
+        "lines": "L7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.5354068579999307, 40.417719410000075]
+      },
+      "properties": {
+        "id": 760,
+        "name": "Hospital del Henares",
+        "lines": "L7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.739631532999965, 40.37372701000004]
+      },
+      "properties": {
+        "id": 1104,
+        "name": "San Francisco",
+        "lines": "L11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.7521474199999716, 40.37197353800008]
+      },
+      "properties": {
+        "id": 1105,
+        "name": "Carabanchel Alto",
+        "lines": "L11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.7567685289999417, 40.36451702100004]
+      },
+      "properties": {
+        "id": 1106,
+        "name": "La Peseta",
+        "lines": "L11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.695362144999933, 40.50119366800004]
+      },
+      "properties": {
+        "id": 1051,
+        "name": "Tres Olivos",
+        "lines": "L10"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.695267749999971, 40.50575656600006]
+      },
+      "properties": {
+        "id": 1052,
+        "name": "Montecarmelo",
+        "lines": "L10"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6698457339999777, 40.50868079300005]
+      },
+      "properties": {
+        "id": 1053,
+        "name": "Las Tablas",
+        "lines": "L10,ML-1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6623271629999294, 40.51534557100007]
+      },
+      "properties": {
+        "id": 1054,
+        "name": "Ronda de la Comunicación",
+        "lines": "L10"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.658888291999972, 40.52757008300006]
+      },
+      "properties": {
+        "id": 1055,
+        "name": "La Granja",
+        "lines": "L10"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6358207469999684, 40.53178084000007]
+      },
+      "properties": {
+        "id": 1056,
+        "name": "La Moraleja",
+        "lines": "L10"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6377842629999577, 40.54083916600007]
+      },
+      "properties": {
+        "id": 1057,
+        "name": "Marqués de la Valdavia",
+        "lines": "L10"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6472092209999687, 40.55020095700007]
+      },
+      "properties": {
+        "id": 1058,
+        "name": "Manuel de Falla",
+        "lines": "L10"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6351734839999494, 40.554539754000075]
+      },
+      "properties": {
+        "id": 1059,
+        "name": "Baunatal",
+        "lines": "L10"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.62378125999993, 40.55084663100007]
+      },
+      "properties": {
+        "id": 1060,
+        "name": "Reyes Católicos",
+        "lines": "L10"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6114730649999274, 40.55984876900004]
+      },
+      "properties": {
+        "id": 1061,
+        "name": "Hospital Infanta Sofía",
+        "lines": "L10"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6671514899999806, 40.48027102900005]
+      },
+      "properties": {
+        "id": 153,
+        "name": "Pinar de Chamartín",
+        "lines": "L1,L4,ML-1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.613389482999935, 40.37022138800006]
+      },
+      "properties": {
+        "id": 128,
+        "name": "La Gavia",
+        "lines": "L1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.5996590889999425, 40.36378146100003]
+      },
+      "properties": {
+        "id": 129,
+        "name": "Las Suertes",
+        "lines": "L1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.5916281359999402, 40.35984010300007]
+      },
+      "properties": {
+        "id": 130,
+        "name": "Valdecarros",
+        "lines": "L1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.59330450799996, 40.49258685400008]
+      },
+      "properties": {
+        "id": 808,
+        "name": "Aeropuerto T4",
+        "lines": "L8"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.52478085599995, 40.341341853000074]
+      },
+      "properties": {
+        "id": 925,
+        "name": "Rivas Futura",
+        "lines": "L9"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.7778440849999697, 40.35794430300007]
+      },
+      "properties": {
+        "id": 1107,
+        "name": "La Fortuna",
+        "lines": "L11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.639001625999981, 40.423635416000025]
+      },
+      "properties": {
+        "id": 252,
+        "name": "La Almudena",
+        "lines": "L2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6238591909999514, 40.41812166600005]
+      },
+      "properties": {
+        "id": 253,
+        "name": "Alsacia",
+        "lines": "L2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.612169220999931, 40.42242857400004]
+      },
+      "properties": {
+        "id": 254,
+        "name": "Avenida de Guadalajara",
+        "lines": "L2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6011659689999647, 40.422897988000045]
+      },
+      "properties": {
+        "id": 255,
+        "name": "Las Rosas",
+        "lines": "L2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.7163488129999678, 40.49139629300004]
+      },
+      "properties": {
+        "id": 951,
+        "name": "Mirasierra",
+        "lines": "L9"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.710128013999963, 40.499329042000056]
+      },
+      "properties": {
+        "id": 952,
+        "name": "Paco de Lucía",
+        "lines": "L9"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.690717769999935, 40.44605790800006]
+      },
+      "properties": {
+        "id": 618,
+        "name": "Nuevos Ministerios",
+        "lines": "L6,L8,L10"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6914446179999345, 40.44628194400008]
+      },
+      "properties": {
+        "id": 618,
+        "name": "Nuevos Ministerios",
+        "lines": "L6,L8,L10"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6738516629999367, 40.43260320700006]
+      },
+      "properties": {
+        "id": 410,
+        "name": "Diego de León",
+        "lines": "L4,L5,L6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6739784519999716, 40.43424058700003]
+      },
+      "properties": {
+        "id": 410,
+        "name": "Diego de León",
+        "lines": "L4,L5,L6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6725686979999637, 40.43261748000003]
+      },
+      "properties": {
+        "id": 410,
+        "name": "Diego de León",
+        "lines": "L4,L5,L6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.681584210999972, 40.43260141900004]
+      },
+      "properties": {
+        "id": 510,
+        "name": "Núñez de Balboa",
+        "lines": "L5,L9"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.67964606299995, 40.43098834700004]
+      },
+      "properties": {
+        "id": 510,
+        "name": "Núñez de Balboa",
+        "lines": "L5,L9"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.695495515999937, 40.427491717000066]
+      },
+      "properties": {
+        "id": 404,
+        "name": "Alonso Martínez",
+        "lines": "L4,L5,L10"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.717339509999931, 40.43193697700008]
+      },
+      "properties": {
+        "id": 310,
+        "name": "Argüelles",
+        "lines": "L3,L4,L6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.781297707999954, 40.40227903200008]
+      },
+      "properties": {
+        "id": 5212,
+        "name": "Prado de la Vega",
+        "lines": "ML-2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.784478634999971, 40.407195337000076]
+      },
+      "properties": {
+        "id": 5213,
+        "name": "Colonia de los Ángeles",
+        "lines": "ML-2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.787569191999978, 40.410456572000044]
+      },
+      "properties": {
+        "id": 5214,
+        "name": "Prado del Rey",
+        "lines": "ML-2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.792641668999977, 40.415362095000035]
+      },
+      "properties": {
+        "id": 5215,
+        "name": "Somosaguas Sur",
+        "lines": "ML-2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.798777586999961, 40.41931083600008]
+      },
+      "properties": {
+        "id": 5216,
+        "name": "Somosaguas Centro",
+        "lines": "ML-2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.8045575289999647, 40.42304601300003]
+      },
+      "properties": {
+        "id": 5217,
+        "name": "Pozuelo Oeste",
+        "lines": "ML-2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.8075442889999636, 40.43057917700003]
+      },
+      "properties": {
+        "id": 5219,
+        "name": "Bélgica",
+        "lines": "ML-2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.801612835999947, 40.432525904000045]
+      },
+      "properties": {
+        "id": 5220,
+        "name": "Dos Castillas",
+        "lines": "ML-2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.7952441189999604, 40.43337766700006]
+      },
+      "properties": {
+        "id": 5221,
+        "name": "Campus de Somosaguas",
+        "lines": "ML-2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.793051827999932, 40.43930515200003]
+      },
+      "properties": {
+        "id": 5222,
+        "name": "Avenida de Europa",
+        "lines": "ML-2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.7911548479999624, 40.44486465500006]
+      },
+      "properties": {
+        "id": 5223,
+        "name": "Berna",
+        "lines": "ML-2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.7862139459999753, 40.448328708000076]
+      },
+      "properties": {
+        "id": 5224,
+        "name": "Estación de Aravaca",
+        "lines": "ML-2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.7839910269999564, 40.39708644800004]
+      },
+      "properties": {
+        "id": 5312,
+        "name": "Ciudad de la Imagen",
+        "lines": "ML-3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.789935127999968, 40.39525881800006]
+      },
+      "properties": {
+        "id": 5313,
+        "name": "José Isbert",
+        "lines": "ML-3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.795569124999929, 40.394549288000064]
+      },
+      "properties": {
+        "id": 5314,
+        "name": "Ciudad del Cine",
+        "lines": "ML-3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.816747171999964, 40.39872040100005]
+      },
+      "properties": {
+        "id": 5316,
+        "name": "Retamares",
+        "lines": "ML-3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.8357943139999406, 40.39792049000005]
+      },
+      "properties": {
+        "id": 5318,
+        "name": "Montepríncipe",
+        "lines": "ML-3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.8381120749999695, 40.39420682400004]
+      },
+      "properties": {
+        "id": 5319,
+        "name": "Ventorro del Cano",
+        "lines": "ML-3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.847737911999957, 40.39501808000006]
+      },
+      "properties": {
+        "id": 5320,
+        "name": "Prado del Espino",
+        "lines": "ML-3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.8643902349999735, 40.39529098300005]
+      },
+      "properties": {
+        "id": 5322,
+        "name": "Cantabria",
+        "lines": "ML-3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.879386659999966, 40.40196169800004]
+      },
+      "properties": {
+        "id": 5324,
+        "name": "Ferial de Boadilla",
+        "lines": "ML-3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.885758818999932, 40.40564467300004]
+      },
+      "properties": {
+        "id": 5326,
+        "name": "Nuevo Mundo",
+        "lines": "ML-3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.892634892999979, 40.405128140000045]
+      },
+      "properties": {
+        "id": 5327,
+        "name": "Siglo XXI",
+        "lines": "ML-3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.897414484999956, 40.40594026000008]
+      },
+      "properties": {
+        "id": 5328,
+        "name": "Infante Don Luis",
+        "lines": "ML-3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.9037835629999336, 40.40777040000006]
+      },
+      "properties": {
+        "id": 5329,
+        "name": "Puerta de Boadilla",
+        "lines": "ML-3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.8038547209999365, 40.396879229000035]
+      },
+      "properties": {
+        "id": 5315,
+        "name": "Cocheras",
+        "lines": "ML-3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.8800384959999406, 40.40713621500004]
+      },
+      "properties": {
+        "id": 5325,
+        "name": "Boadilla Centro",
+        "lines": "ML-3"
+      }
+    }
+  ]
+}
