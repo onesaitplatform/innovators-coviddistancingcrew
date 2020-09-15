@@ -1,6 +1,8 @@
 # innovators-coviddistancingcrew
 Control de distanciamiento social en estaciones de Metro
 
+Para acceder a la demo utilice el usuario **coviddistancingcrew** y la contraseña **Innovators2020!** para logarse en el siguiente enlace: 	https://lab.onesaitplatform.com/web/CDC_frontend/index.html
+
 # 1	Contexto
 En este documento se va a definir el funcional de la idea “Control distanciamiento social en estaciones de Metro” para la iniciativa de Innovators realizada sobre la Onesait Platform.
 Para esta demo vamos a centrarnos en el Metro de la ciudad de Madrid.
@@ -84,8 +86,6 @@ Cada una de estas pantallas o visualizaciones están encapsuladas en dashboards,
 ### 3.4.2	Librerías JavaScript y CSS
 En el proyecto además de las librerías de estilos básicas y de las librerías de JavaScript básicas que se usan en los dashboards para sus gadgets genéricos, es necesario para algunas de las funcionalidades desarrolladas una serie de librerías open-source adicionales, a continuación, se describen todas ellas.
 Las vamos a dividir en archivos de aplicación “app” y archivos de terceros, “vendors” que son plugins o librerías open-source que se utilizan para generar gadgets livehtml o funcionalidades específicas en algunos de ellos.
-Vemos a continuación la estructura y contenido de las carpetas:
-
 
 ## 3.5	Simulador 
 Se ha creado un proyecto maven para simular los datos de las alertas y el visor GIS, para ello se ha utilizado la librería iotclient4springboot proporcionada por Onesait Platform para poder interactuar con las Ontologías desde el propio proyecto.
