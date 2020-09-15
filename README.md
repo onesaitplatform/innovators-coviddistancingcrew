@@ -3,6 +3,21 @@ Control de distanciamiento social en estaciones de Metro
 
 Para acceder a la demo utilice el usuario **coviddistancingcrew** y la contraseña **Innovators2020!** para logarse en el siguiente enlace: 	https://lab.onesaitplatform.com/web/CDC_frontend/index.html
 
+El Dashboard puede encontrarse en el siguiente enlace: https://lab.onesaitplatform.com/controlpanel/dashboards/view/2f20e58c-f75d-45ee-aee7-bed8119ec2a3
+
+Puede visualizar una demo de la Aplicación en el siguiente video:https://youtu.be/7aMVP_0Ak4c
+
+A continuación se muestra la pantalla de login y la página principal:
+
+**Pantalla de Login**
+
+![alt text](https://github.com/onesaitplatform/innovators-coviddistancingcrew/blob/master/Login.PNG)
+
+**Pantalla Principal**
+
+![alt text](https://github.com/onesaitplatform/innovators-coviddistancingcrew/blob/master/Index.PNG)
+
+
 # 1	Contexto
 En este documento se va a definir el funcional de la idea “Control distanciamiento social en estaciones de Metro” para la iniciativa de Innovators realizada sobre la Onesait Platform.
 Para esta demo vamos a centrarnos en el Metro de la ciudad de Madrid.
@@ -48,33 +63,33 @@ Cuando se seleccione una estación en el visor GIS:
 A esta pantalla se podrá acceder tanto desde el menú de la aplicación cómo desde el botón de detalle de cada estación.
 ### 2.2.1	Interacción ente elementos
 Aparecerá el mapa de la estación seleccionada y sobre el mapa se representarán los siguientes elementos:
-*	Cámaras de seguridad: seleccionando una cámara de seguridad aparecerán las imágenes de dicha cámara y mediante un algoritmo de reconocimiento de imágenes aparecerán marcadas las personas que no estén guardando la distancia de seguridad o que no llevén mascarilla.
-*	Tornos: seleccionando un torno se podrá activar o desactivar, a través de un botón, dicho torno para poder controlar el aforo de la estación.
+*	**Cámaras de seguridad**: seleccionando una cámara de seguridad aparecerán las imágenes de dicha cámara y mediante un algoritmo de reconocimiento de imágenes aparecerán marcadas las personas que no estén guardando la distancia de seguridad o que no llevén mascarilla.
+*	**Tornos**: seleccionando un torno se podrá activar o desactivar, a través de un botón, dicho torno para poder controlar el aforo de la estación.
 Aparecerán los indicadores definidos en la pantalla principal pero filtrados para la estación seleccionada. Además, aparecerá un listado de alertas y avisos de la estación.
 Las alertas seguirán el mismo código de colores que el visor GIS de la pantalla principal y podrá haber los siguientes tipos de alertas:
-*	Distanciamiento social: Cuando no se respeta el distanciamiento social entre los usuarios del metro.
-*	Ausencia de mascarilla: cuando un usuario no lleva mascarilla
-*	Vigilancia de tornos: cuando un usuario se salta un torno, ya sea porque está bloqueado para controlar el aforo o para no pagar el billete.
-*	Aforo: cuando se sobrepase el aforo permitido para poder respetar la distancia de seguridad.
+*	**Distanciamiento social**: Cuando no se respeta el distanciamiento social entre los usuarios del metro.
+*	**Ausencia de mascarilla**: cuando un usuario no lleva mascarilla
+*	**Vigilancia de tornos**: cuando un usuario se salta un torno, ya sea porque está bloqueado para controlar el aforo o para no pagar el billete.
+*	**Aforo**: cuando se sobrepase el aforo permitido para poder respetar la distancia de seguridad.
 ## 2.3	Pantalla control de megafonía
 Sobre el visor GIS se podrán seleccionar una o varias estaciones y a continuación se elegirá qué tipo de mensaje se quiere reproducir:
-*	Audio en vivo: se podrá reproducir un mensaje en tiempo real en las estaciones seleccionadas
-*	Mensaje pregrabado: se seleccionará de una lista el audio pregrabado que se quiere reproducir.
+*	**Audio en vivo**: se podrá reproducir un mensaje en tiempo real en las estaciones seleccionadas
+*	**Mensaje pregrabado**: se seleccionará de una lista el audio pregrabado que se quiere reproducir.
 # 3	Elementos desarrollados sobre Onesait Platform
 En este apartado se van a identificar todos los elementos desarrollados sobre la Onesait Platform, así como el análisis del código externo proporcionado en Github.
 Los elementos se han creado en el entorno CloudLab ( https://lab.onesaitplatform.com/controlpanel ) con el usuario coviddistancingcrew/Innovators2020!
 ## 3.1	Ontologías
 Se han creado las siguientes ontologías:
-*	CDC_alarm: en esta ontología se almacenan las alarmas
-*	CDC_Metro_Elevators: en esta ontología se almacena la información de georreferenciación de los ascensores de cada estación de Metro.
-*	CDC_Metro_Platforms: dónde se almacena la información de georreferenciación de los andenes de cada estación de Metro.
-*	CDC_Metro_Stations: dónde se almacena la información de las estaciones de Metro.
+*	**CDC_alarm**: en esta ontología se almacenan las alarmas
+*	**CDC_Metro_Elevators**: en esta ontología se almacena la información de georreferenciación de los ascensores de cada estación de Metro.
+*	**CDC_Metro_Platforms**: dónde se almacena la información de georreferenciación de los andenes de cada estación de Metro.
+*	**CDC_Metro_Stations**: dónde se almacena la información de las estaciones de Metro.
 ## 3.2	Datasources
 Se han creado los siguiente datasources que luego serán utilizados en los dashboards:
-*	CDC_Alarms: obtiene todas las alarmas (severity=HIGH) y que estén abiertas.
-*	CDC_Alarms_Table: obtiene todas las alarmas para la representación en formato tabla.
-*	CDC_Avisos: obtiene todas las alarmas (severity=MEDIUM) y que estén abiertas.
-*	CDC_Stations: obtiene el número de estaciones de Metro.
+*	**CDC_Alarms**: obtiene todas las alarmas (severity=HIGH) y que estén abiertas.
+*	**CDC_Alarms_Table**: obtiene todas las alarmas para la representación en formato tabla.
+*	**CDC_Avisos**: obtiene todas las alarmas (severity=MEDIUM) y que estén abiertas.
+*	**CDC_Stations**: obtiene el número de estaciones de Metro.
 ## 3.3	Dashboard
 Se ha creado el dashboard CDC_Main dónde se representa el Visor GIS con el estado de cada estación de Metro, así como el listado de marcadores y la tabla de alertas.
 ## 3.4	Proyecto Web
