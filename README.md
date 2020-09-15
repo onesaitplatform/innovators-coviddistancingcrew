@@ -171,7 +171,7 @@ Se ha creado el dashboard CDC_Main dónde se representa el Visor GIS con el esta
 
 ## 3.4	Proyecto Web
 
-Este proyecto se despliega en la Onesait Platform como Proyecto Web. Podemos distinguir 3 partes en la parte de frontend: Plantillas HTML, Mapas GIS (cesiumMap) y sección de librerías javascript y de estilo CSS de la aplicación (assets).
+Este proyecto se despliega en la Onesait Platform como Proyecto Web. Podemos distinguir 3 partes en la parte de frontend: Plantillas HTML, Mapas GIS y sección de librerías javascript y de estilo CSS de la aplicación (assets).
 
 ![alt text](https://github.com/onesaitplatform/innovators-coviddistancingcrew/blob/master/images/WebProject.PNG)
 
